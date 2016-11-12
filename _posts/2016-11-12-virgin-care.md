@@ -63,15 +63,20 @@ them are either dangerously naive or manifestly underestimating the intelligence
 public. Or, more likely, they simply don’t care that the promises are worthless.
 
 The largest opposition group on BaNES council is the Liberal Democrats. Recently they
-have been vocal in opposing the Virgin Care bid, but this position must be on the
-technicality of the bidding process rather than an objection in principle. After all, the
-Liberal Democrats voted for the Health and Social Care Act when part of the coalition
+have been vocal in opposing the Virgin Care bid, but this position must presumably be on a
+technicality in the bidding process rather than an objection in principle. After all, the
+Liberal Democrats voted for the Health and Social Care Act while part of the coalition
 government, despite it being in no manifesto and against the wishes of both the public and
-the medical profession. Many of us warned them that it would lead to the fragmentation and
-forced privatisation of the NHS, and for them to object to that now doesn’t seem very
+the medical profession. Many of us warned at the time that it would lead to the fragmentation and
+forced privatisation of the NHS, and for them to object to this now doesn’t seem very
 convincing.
 
 One must take both a long term forward view and a consideration of the past to separate
-convenient political opposition from genuine concern over the future of our NHS. It is
+convenient political opposition from genuine concern over the future of our NHS. When I
+ran for Parliament last year I was the only candidate warning of the dangers of allowing
+profit-making companies access to vital services. The profit motive leads to procurement
+processes like this where those assessing bids seem blinded by slick marketing and
+meaningless promises. Once these services are in the hands of people who profit from them
+it will be very difficult to get them back. It is
 immensely frustrating when the very events some of us predicted back in 2010, when we were
-dismissed as alarmist, are now coming to pass. 
+dismissed as alarmist, are now coming to pass.

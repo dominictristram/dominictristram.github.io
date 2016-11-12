@@ -73,7 +73,7 @@ convincing.
 
 One must take both a long term forward view and a consideration of the past to separate
 convenient political opposition from genuine concern over the future of our NHS. When I
-ran for Parliament last year I was the only candidate warning of the dangers of allowing
+ran for Parliament in Bath last year I was the only candidate warning of the dangers of allowing
 profit-making companies access to vital services. The profit motive leads to procurement
 processes like this where those assessing bids seem blinded by slick marketing and
 meaningless promises. Once these services are in the hands of people who profit from them

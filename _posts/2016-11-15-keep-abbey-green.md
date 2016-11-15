@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-<img src="https://c5.staticflickr.com/6/5515/30526597132_ba4665b4c2.jpg" width="500" height="310" alt="Abbey Result 2015"></img>
+<img src="https://c5.staticflickr.com/6/5515/30526597132_ba4665b4c2.jpg" width="500" height="310" alt="Abbey Result 2015">
 
 There is an important by-election coming up in Bath on Thursday.
 
@@ -20,6 +20,6 @@ Only the Greens can beat the Tories in Abbey Ward. Only the Greens will take rea
 Please vote for our candidate, Vipul Patel. Even better, help the campaign, put up a poster and let your friends know how important it is to get another Green councillor.
 
 Catch the latest news on the <a href="https://www.facebook.com/BathGreens/">
-Bath and NES Somerset Green Party Facebook page</a>.
+Bath and NE Somerset Green Party Facebook page</a>.
 
 

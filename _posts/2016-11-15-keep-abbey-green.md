@@ -9,8 +9,6 @@ comments: true
 share: true
 ---
 
-<img src="https://farm2.staticflickr.com/6/5515/30526597132_ba4665b4c2_m.jpg" width="500" height="375" alt="Abbery result 2015">
-
 <img src="https://c5.staticflickr.com/6/5515/30526597132_ba4665b4c2.jpg" width="500" height="310" alt="Abbey Result 2015"></img>
 
 There is an important by-election coming up in Bath on Thursday.

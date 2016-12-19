@@ -11,4 +11,4 @@ share: true
 My nomination has been accepted for Green Party candidate for the west's 'metro mayor'. Green Party members, I would
 appreciate your support!
 
-You can read more on my special Web site - dom4mayor.com
+You can read more on my special Web site - <a href="http://dom4mayor.com">dom4mayor.com</a>

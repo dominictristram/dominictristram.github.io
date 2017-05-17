@@ -25,7 +25,17 @@ appropriate link for details.
                  I appeared with Tessa Munt (Lib Dem), Jacob Rees-Mogg (Con), Thangam
                  Debbonaire (Labour) and Steve Stanbury (UKIP)</li>
   <li><a href="http://dominictristram.com/2015/04/27/bath-spa-uni-hustings.html">
-    27/04/2015 - Bath Spa University hustings</li>
+  27/04/2015 - Bath Spa University hustings</a></li>
+  <li><a href="https://youtu.be/jgOXDeicmk4">
+  23/04/2015 - Churches Together Hustings</a></li>
   <li><a href="http://dominictristram.com/2015/04/22/hayesfield-hustings.html">
-    22/04/2015 - Hayesfield School Hustings</a> with the other Bath PPCs</li>
+  22/04/2015 - Hayesfield School Hustings</a> with the other Bath PPCs</li>
+  <li><a href="https://youtu.be/2b5pCDOUZGw">
+  23/03/2015 - Transition Bath Hustings</a></li>
+  <li><a href="https://youtu.be/Pn1RF_gxd4Q">
+    24/03/2015 - Federation of Small Business Hustings</a></li>
+  <li><a href="https://youtu.be/U3kEPbh6aps">
+    05/03/2015 - Bath University Green Hustings</a></li>
+  <li><a href="https://youtu.be/sw2sEjL6ZXk">
+    25/02/2015 - National Security Hustings</a></li>
 </ul>

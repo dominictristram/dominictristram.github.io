@@ -23,7 +23,7 @@ unseen questions too.
 The Facebook event page <a href="https://www.facebook.com/events/393118064204220/">is
 here</a>.
 
-You can see <a href="https://goo.gl/rew4l6">video footage of the event here</a>.
+You can see <a href="https://youtu.be/tHXsIe_LJYk">video footage of the event here</a>.
 
 
 

@@ -12,14 +12,14 @@ appropriate link for details.
 <ul>
   <li><a href="https://www.facebook.com/events/983582751711711/">
     08/02/2016 - Dispelling the Myths of Europe</a> - Public meeting at Bath University
-                 with me and Molly Scott Cato, Green MP for the South West</li>
+                 with me and Molly Scott Cato, Green MEP for the South West</li>
   <li><a href="http://dominictristram.com/2016/01/15/kier-dispute.html">
     15/01/2016 - Kier Recyclers Picket</a></li>
   <li><a href="http://dominictristram.com/2015/12/09/hayesfield-politics.html">09/12/2015 - Hayesfield A-level Politics talk</a></li>
   <li><a href="http://dominictristram.com/2015/04/30/somer-valley-hustings.html">
-    30/04/2015 - Somer Valley FM Hustings</a>Hustings for Somer Valley FM radio where I
-                 appeared with Jacob Rees-Mogg, Todd Foreman, Wera Hobhouse and Ernie
-                 Blaber</li>
+    30/04/2015 - Somer Valley FM Hustings</a> Hustings for Somer Valley FM radio where I
+                 appeared with Jacob Rees-Mogg (Con), Todd Foreman (Labour), Wera Hobhouse (Lib Dem) and Ernie
+                 Blaber (UKIP)</li>
   <li><a href="http://dominictristram.com/2015/04/29/bbc-points-west-debate.html">
     29/04/2015 - BBC Points West Debate</a> - 'Question Time-style TV debate on BBC1.
                  I appeared with Tessa Munt (Lib Dem), Jacob Rees-Mogg (Con), Thangam
@@ -27,15 +27,15 @@ appropriate link for details.
   <li><a href="http://dominictristram.com/2015/04/27/bath-spa-uni-hustings.html">
   27/04/2015 - Bath Spa University hustings</a></li>
   <li><a href="https://youtu.be/jgOXDeicmk4">
-  23/04/2015 - Churches Together Hustings</a></li>
+  23/04/2015 - Churches Together Hustings</a> with the other Bath PPCs</li>
   <li><a href="http://dominictristram.com/2015/04/22/hayesfield-hustings.html">
   22/04/2015 - Hayesfield School Hustings</a> with the other Bath PPCs</li>
   <li><a href="https://youtu.be/2b5pCDOUZGw">
-  23/03/2015 - Transition Bath Hustings</a></li>
+  23/03/2015 - Transition Bath Hustings</a> with the other Bath PPCs</li>
   <li><a href="https://youtu.be/Pn1RF_gxd4Q">
-    24/03/2015 - Federation of Small Business Hustings</a></li>
+    24/03/2015 - Federation of Small Business Hustings</a> with the other Bath PPCs</li>
   <li><a href="https://youtu.be/U3kEPbh6aps">
     05/03/2015 - Bath University Green Hustings</a></li>
   <li><a href="https://youtu.be/sw2sEjL6ZXk">
-    25/02/2015 - National Security Hustings</a></li>
+    25/02/2015 - National Security Hustings</a> with the other Bath PPCs</li>
 </ul>

@@ -17,11 +17,11 @@ appropriate link for details.
     15/01/2016 - Kier Recyclers Picket</a></li>
   <li><a href="http://dominictristram.com/2015/12/09/hayesfield-politics.html">09/12/2015 - Hayesfield A-level Politics talk</a></li>
   <li><a href="http://dominictristram.com/2015/04/30/somer-valley-hustings.html">
-    30/04/2015 - Somer Valley FM Hustings</a> Hustings for Somer Valley FM radio where I
+    30/04/2015 - Somer Valley FM Hustings</a> broadcast by Somer Valley FM radio where I
                  appeared with Jacob Rees-Mogg (Con), Todd Foreman (Labour), Wera Hobhouse (Lib Dem) and Ernie
                  Blaber (UKIP)</li>
   <li><a href="http://dominictristram.com/2015/04/29/bbc-points-west-debate.html">
-    29/04/2015 - BBC Points West Debate</a> - 'Question Time-style TV debate on BBC1.
+    29/04/2015 - BBC Points West Debate</a> - 'Question Time'-style TV debate on BBC1.
                  I appeared with Tessa Munt (Lib Dem), Jacob Rees-Mogg (Con), Thangam
                  Debbonaire (Labour) and Steve Stanbury (UKIP)</li>
   <li><a href="http://dominictristram.com/2015/04/27/bath-spa-uni-hustings.html">

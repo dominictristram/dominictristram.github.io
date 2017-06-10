@@ -37,4 +37,10 @@ This page lists publicly available third-party media I feature in.
   05/03/2015 - Bath University Green Hustings</a> [video]</li>
   <li><a href="https://youtu.be/sw2sEjL6ZXk">
   25/02/2015 - National Security Hustings</a> [video]</li>
+  <li><a href="https://youtu.be/3iUoHTuMbn0">
+  05/02/2015 - Assisted Dying Hustings</a> [video]</li>
+  <li><a href="https://youtu.be/lmdrxqjYnUg">
+  05/02/2015 - NHS and Social Care Hustings</a> [audio only]</li>
+  <li><a href="https://youtu.be/zy-5MbpOHYE">
+  19/05/2014 - The Big Debate (Bath Studio School)</a> [video]</li>
 </ul>

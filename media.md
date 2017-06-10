@@ -10,7 +10,7 @@ This page lists publicly available third-party media I feature in.
 
 <ul>
   <li><a href="https://youtu.be/ExL-_S6o82I">
-  12/03/2017 - BBC Sunday Politics West</a>[video]</li>
+  12/03/2017 - BBC Sunday Politics West</a> [video]</li>
   <li><a href="http://www.bathecho.co.uk/opinions/letters/dominic-tristram-ben-howlett-votes-to-cut-vital-esa-payments-to-the-disabled-65885/">
   26/06/2016 - ESA Cuts</a> [article]</li>
   <li><a href="http://www.bathecho.co.uk/opinions/letters/dominic-tristram-syria-air-strikes-65067/">

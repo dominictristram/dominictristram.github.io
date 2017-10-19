@@ -18,6 +18,9 @@ appropriate link for details.
   <li><a href="http://www.glastonburyfestivals.co.uk/line-up/line-up-2017/?stage#speakersforum">
     24/06/2017 - Automation and the basic income scheme</a> - Speakers Forum at the Glastonbury Festival
                  with me (replacing John McDonnell) and Molly Scott Cato, Green MEP for the South West</li>
+  <li>
+    23/07/2016 - March Against Virgin's NHS Takeover</a> - I was one of the speakers at this rally, along with
+                 film director Ken Loach and Molly Scott Cato MEP.</li>
   <li><a href="https://www.facebook.com/events/983582751711711/">
     08/02/2016 - Dispelling the Myths of Europe</a> - Public meeting at Bath University
                  with me and Molly Scott Cato, Green MEP for the South West</li>

@@ -10,6 +10,14 @@ This page lists any public events I am going to or have taken part in. Please cl
 appropriate link for details.
 
 <ul>
+  <li><a href="https://www.eventbrite.co.uk/e/proportional-representation-tickets-38581443135">
+    18/11/2017 - Proportional Representation</a> - Speaking at the SEED event on PR in Bath with Darren Hughes of
+                 the Electoral Reform Society, Wera Hobhouse MP, and others</li>
+  <li><a href="https://www.edgearts.org/whats-on/talks/liveable-cities/">
+    19/10/2017 - Liveable Cities</a> - Speaking at the launch event for the Fesitval of the Future City, Bath</li>
+  <li><a href="http://www.glastonburyfestivals.co.uk/line-up/line-up-2017/?stage#speakersforum">
+    24/06/2017 - Automation and the basic income scheme</a> - Speakers Forum at the Glastonbury Festival
+                 with me (replacing John McDonnell) and Molly Scott Cato, Green MEP for the South West</li>
   <li><a href="https://www.facebook.com/events/983582751711711/">
     08/02/2016 - Dispelling the Myths of Europe</a> - Public meeting at Bath University
                  with me and Molly Scott Cato, Green MEP for the South West</li>

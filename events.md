@@ -21,6 +21,9 @@ appropriate link for details.
   <li><a href="https://www.evensi.uk/march-to-stop-virgin-taking-over-baths-health-services/189757548">
     23/07/2016 - March Against Virgin's NHS Takeover</a> - I was one of the speakers at this rally, along with
                  film director Ken Loach and Molly Scott Cato MEP.</li>
+  <li>
+    20/06/2016 - Bath Stronger IN rally</a> - I was on the panel at a public meeting for remaining in the EU with
+                 Ben Howlett MP, Sir Graham Watson, Joe Rayment, Julie Cantalou and Jay Risbridger.</li>
   <li><a href="https://www.facebook.com/events/983582751711711/">
     08/02/2016 - Dispelling the Myths of Europe</a> - Public meeting at Bath University
                  with me and Molly Scott Cato, Green MEP for the South West</li>

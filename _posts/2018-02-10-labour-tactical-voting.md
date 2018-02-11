@@ -1,15 +1,13 @@
 ---
 layout: post
-title: Spin and Denial From Labour
-description: "Spin and Denial From Labour"
+title: Spin and Deception From Labour
+description: "Spin and Deception From Labour"
 modified: 2018-02-10
 category: articles
 tags: [bath, politics, labour]
 comments: true
 share: true
 ---
-
-# Spin and Denial From Labour
 
 On Friday I was optimistic to see this Tweet from Labour's only councillor in Bath:
 

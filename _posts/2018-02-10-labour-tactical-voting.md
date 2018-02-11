@@ -35,9 +35,9 @@ hard to say, but clearly the press release from Labour and the Chronicle story a
 
 I pointed this out to the local Labour party and their councillor. Their attitude was 'So what?'.
 
-'Such is politis!', you probalby say, shrugging your shoulders. 'Just let it go!'. Well, I would, but I feel that it's
+'Such is politics!', you probably say, shrugging your shoulders. 'Just let it go!'. Well, I would, but I feel that it's
 important to shine a light on this spin and dishonesty. Labour, and Jeremy Corbyn in particular, like to talk about a
-'new kind of politics' based on honesty where voters decide how to vote on policy and issues, rather than dodgy
+'new kind of politics' based on honesty where voters decide how to vote based on policy and issues, rather than dodgy
 leaflets, half-truths and deceptive statistics. They have not changed. They are guilty of doing the exact thing
 they criticise others for.
 
@@ -46,7 +46,7 @@ the source of statements like this one by Labour to be public so we can make up 
 public to make an informed choice.
 
 Most of all I want a fairer electoral system where tactical voting isn't an incentive for anyone. Ironically, even
-though this is something the local Labour Party complain about, they are a party that opposes electoral reform. I
+though this is something the local Labour Party complain about in this stunt, they are a party that opposes electoral reform. I
 despise the hypocrisy and the alienation and apathy it creates in the electorate.
 
 You can read the <a href="https://bath.greenparty.org.uk/news/2018/02/10/bath-green-party-responds-to-labour-tactical-voting-claims/">

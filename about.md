@@ -76,7 +76,8 @@ not the few, and would not risk the planet’s future with environmental destruc
 unsustainable consumption.
 
 In 2015 I stood as an MP for the Green Party in Bath. For more information on this please
-go to my [**General Election page**](http://dominictristram.com/bath2015).
+go to my [**General Election page**](http://dominictristram.com/bath2015). At the end of 2017 I was
+selected again to fight any snap election.
 
 I am an officer for the [**Green Party**](http://bath.greenparty.org.uk)
 in Bath and North East Somerset. You can follow us on Twitter at [**@BathNESGreens**](http://twitter.com/BathNESGreens) and find us on [**Facebook**](https://www.facebook.com/BathGreens).

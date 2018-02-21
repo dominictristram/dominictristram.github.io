@@ -18,25 +18,25 @@ the wider conversation I had with the Conservatives was largely ignored. It dese
 lot about the attitude of the party when it comes not only to child poverty but the role of the state in protecting
 vulnerable children and the evidence that making sure they are fed improves education. So, here we go:
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/dominic_tristram/40355391102/in/dateposted/" title="Untitled"><img src="https://farm5.staticflickr.com/4759/40355391102_6e33625332_n.jpg" alt="Untitled"></a>
+<img src="https://farm5.staticflickr.com/4759/40355391102_6e33625332_n.jpg" alt="Untitled">
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/dominic_tristram/40355391032/in/photostream/" title="Untitled 2"><img src="https://farm5.staticflickr.com/4624/40355391032_97a3fb5d02_n.jpg" alt="Untitled 2"></a>
+<img src="https://farm5.staticflickr.com/4624/40355391032_97a3fb5d02_n.jpg" alt="Untitled 2">
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/dominic_tristram/38589335950/in/photostream/" title="Untitled 3"><img src="https://farm5.staticflickr.com/4655/38589335950_ce1edc74a3_n.jpg" alt="Untitled 3"></a>
+<img src="https://farm5.staticflickr.com/4655/38589335950_ce1edc74a3_n.jpg" alt="Untitled 3">
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/dominic_tristram/40399896791/in/photostream/" title="Untitled 4"><img src="https://farm5.staticflickr.com/4622/40399896791_a5997109c6_n.jpg" alt="Untitled 4"></a>
+<img src="https://farm5.staticflickr.com/4622/40399896791_a5997109c6_n.jpg" alt="Untitled 4">
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/dominic_tristram/40399896381/in/photostream/" title="Untitled 5"><img src="https://farm5.staticflickr.com/4622/40399896381_d29915c74c_n.jpg" alt="Untitled 5"></a>
+<img src="https://farm5.staticflickr.com/4622/40399896381_d29915c74c_n.jpg" alt="Untitled 5">
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/dominic_tristram/40355390932/in/photostream/" title="Untitled 6"><img src="https://farm5.staticflickr.com/4748/40355390932_ea7fe8d9c3_n.jpg" alt="Untitled 6"></a>
+<img src="https://farm5.staticflickr.com/4748/40355390932_ea7fe8d9c3_n.jpg" alt="Untitled 6">
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/dominic_tristram/25528083947/in/photostream/" title="Untitled 7"><img src="https://farm5.staticflickr.com/4653/25528083947_9ba1ab6a57_n.jpg" alt="Untitled 7"></a>
+<img src="https://farm5.staticflickr.com/4653/25528083947_9ba1ab6a57_n.jpg" alt="Untitled 7">
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/dominic_tristram/40399896211/in/photostream/" title="Untitled 8"><img src="https://farm5.staticflickr.com/4713/40399896211_7c7000a74b_n.jpg" alt="Untitled 8"></a>
+<img src="https://farm5.staticflickr.com/4713/40399896211_7c7000a74b_n.jpg" alt="Untitled 8">

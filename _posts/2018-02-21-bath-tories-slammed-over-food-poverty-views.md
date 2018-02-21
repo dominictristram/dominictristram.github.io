@@ -13,7 +13,7 @@ You may have seen the fallout from a conversation I had with the local Conservat
 national press. <a href="https://bath.greenparty.org.uk/news/2018/02/20/bath-green-party-candidate-reveals-shocking-attitude-of-local-conservatives-to-food-poverty/">
 You can read a summary here</a>.
 
-It's quite right that Jack Monroe was angry and her response got a lot of coverage. What is a shame, however, is that
+It's quite right that <a href="https://www.bathchronicle.co.uk/news/bath-news/bath-conservatives-under-fire-shocking-1230233">Jack Monroe was angry and her response got a lot of coverage</a>. What is a shame, however, is that
 the wider conversation I had with the Conservatives was largely ignored. It deserves more attention as it reveals a
 lot about the attitude of the party when it comes not only to child poverty but the role of the state in protecting
 vulnerable children and the evidence that making sure they are fed improves education. So, here we go:

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Spin and Deception From Labour
-description: "Spin and Deception From Labour"
+title: Disappointing Spin From Labour
+description: "Disappointing Spin From Labour"
 modified: 2018-02-10
 category: articles
 tags: [bath, politics, labour]

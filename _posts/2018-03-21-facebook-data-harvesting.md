@@ -14,7 +14,7 @@ didn't know about. Its not surprising, and while the current news is about an ex
 a lot of other stuff that even though it doesn't, many people would probably still be upset about (and which they actually
 agreed to at some point).
 
-I've worked on applications that use the Internet and data analysis of data gathered from Internet use and social media
+I've worked on applications that use the Internet and analysis of data gathered from Internet use and social media
 for over 25 years, in the private sector, the public sector and just for fun. It has always been about capturing user
 data, to a greater or lesser extent. Don't think this will go away or change, and don't think it's all necessarily bad.
 Just be aware of it.

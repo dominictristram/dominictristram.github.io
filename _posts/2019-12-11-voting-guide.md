@@ -9,8 +9,6 @@ comments: true
 share: true
 ---
 
-Impartial Voting Guide, 2019 Edition
-
 As you may have noticed, there is an election tomorrow. Now more than ever there is a large amount of conflicting advice offered to people who are wondering who to vote for. I wanted to write a brief guide to help them to think this through.
 
 This guide is entirely impartial. I’m not going to suggest who you vote for or encourage you to vote one way or the other. My goal here is simply to try and increase engagement and encourage people to think in a structured way about their vote. The more confident you are that you have voted in the best way you could, the better you will feel. Believe me, it’s true!

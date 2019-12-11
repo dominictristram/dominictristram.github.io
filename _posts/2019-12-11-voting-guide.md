@@ -19,7 +19,7 @@ OK, let’s go.
 
 
 
-## Step 1 - What do you believe
+## Step 1 - What do you really believe?
 
 The first thing to do is clear your mind of anything to do with political parties. Try to ignore any preconceptions. Forget
 about your MP, the leaders of the parties, how you have voted before, or anything else. Why? Because we need to identify
@@ -68,7 +68,7 @@ which party represents your views most closely.
 So, who should you vote for? Let’s see.
 
 
-## Step 3 - Finding out who you can vote for
+## Step 3 - Who can you actually vote for?
 
 Now that you know who you agree with most you must find out if they standing in your constituency. If you are not sure
 simply go to [Who Can I Vote For?](whocanivotefor.co.uk) and type in your postcode.
@@ -85,7 +85,7 @@ party that next most closely aligned to your views in step 2.
 
 
 
-## Step 4 - Decide who to vote for
+## Step 4 - Who should you vote for?
 
 For some people this is the tricky part, and it’s all down to our unfair electoral system. ‘first past the post’. This
 means that the makeup of parliament does not reflect the number of votes cast nationally. The result of this is

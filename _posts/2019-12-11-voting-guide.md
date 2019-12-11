@@ -143,8 +143,8 @@ there is no such thing as a tactical vote, and that’s more true the safer the 
 
 There is also no such thing as tactical voting in a constituency where it’s not clear who the two largest parties will be.
 
-As an illustration, take a look at this list of Conservative-held seats. These are in order of the swing needed to beat
-the sitting Conservative: http://www.electionpolling.co.uk/battleground/defence/conservative#UKParliament.  As you can
+As an illustration, take a [look at this list of Conservative-held seats](http://www.electionpolling.co.uk/battleground/defence/conservative#UKParliament). These are in order of the swing needed to beat
+the sitting Conservative.  As you can
 see, where the seat is a marginal it can be won from the Conservatives with a swing of 4% or less. The swing needed then
 goes up a lot as the majority increases.
 
@@ -152,8 +152,8 @@ The national swing is nearly always lower than people think. The largest ever sw
 and the largest ever from Labour to Conservative was 5.3%. These are all-time records - national swings are usually much
 lower.
 
-You can see the current predicted swings here. At the time of writing, the day before the election, the Conservatives
-are down 0.3% and Labour are down nearly 8%. http://www.electionpolling.co.uk/polls/general-election
+You can see the [current predicted swings here](http://www.electionpolling.co.uk/polls/general-election). At the time of writing, the day before the election, the Conservatives
+are down 0.3% and Labour are down nearly 8%. 
 
 So now you have as good an idea as anyone else how likely your constituency is to vote for an MP for a different party
 this time. You will be in one of two categories, one of which is much more clear cut than the other.

@@ -14,7 +14,7 @@ This page lists publicly available third-party media I feature in.
   <li>24/09/2019 - <a href="https://www.somersetlive.co.uk/news/somerset-news/horrified-parent-says-bad-parking-3354037">Dangerous zebra crossing, Bath Chronicle</a> [article]</li>
   <li>28/02/2019 - <a href="https://www.pressreader.com/uk/bath-chronicle/20190228/281569472020800">Local vandalism, Bath Chronicle</a> [article]</li>
   <li>02/11/2017 - <a href="https://stridetreglown.com/can-we-make-bath-the-uks-most-liveable-city/">Festival of the Future City</a> [article]</li>
-  <li>30/08/2017 - <https://www.bathchronicle.co.uk/news/bath-news/walking-cycling-should-number-one-398901">Walking and cycling should be number one priority, Bath Chronicle</a> [article]</li>
+  <li>30/08/2017 - <a href="https://www.bathchronicle.co.uk/news/bath-news/walking-cycling-should-number-one-398901">Walking and cycling should be number one priority, Bath Chronicle</a> [article]</li>
   <li><a href="https://youtu.be/ExL-_S6o82I">
   12/03/2017 - Tourist Tax, BBC Sunday Politics West</a> [video]</li>
   <li><a href="http://www.bathecho.co.uk/opinions/letters/dominic-tristram-ben-howlett-votes-to-cut-vital-esa-payments-to-the-disabled-65885/">

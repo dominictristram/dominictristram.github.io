@@ -11,8 +11,10 @@ This page lists publicly available third-party media I feature in.
 <ul>
   <li>08/11/2019 - <a href="https://www.somersetlive.co.uk/news/somerset-news/bath-green-lib-dem-tactical-3515018">Standing aside in Bath, Bath Chronicle</a> [article]</li>
   <li>08/11/2019 - <a href="https://www.bathecho.co.uk/news/politics/bath-green-party-candidate-steps-aside-unify-votes-87121/">Standing aside in Bath, Bath Echo</a> [article]</li>
+  <li>06/11/2019 - <a href="https://www.theguardian.com/politics/blog/live/2019/nov/06/general-election-news-latest-boris-johnson-corbyn-dismisses-boris-johnsons-stalin-slur-as-nonsense-live-news?page=with:block-5dc2d7fb8f0867dcebfcfc6c">Green Party campaign launch coverage, The Guardian</a> [article]</a>
   <li>24/09/2019 - <a href="https://www.somersetlive.co.uk/news/somerset-news/horrified-parent-says-bad-parking-3354037">Dangerous zebra crossing, Bath Chronicle</a> [article]</li>
   <li>28/02/2019 - <a href="https://www.pressreader.com/uk/bath-chronicle/20190228/281569472020800">Local vandalism, Bath Chronicle</a> [article]</li>
+  <li>14/11/2017 - <a href="https://www.bathchronicle.co.uk/news/bath-news/dominic-tristram-diesel-debate-modern-771260">Diesel, buses and cars, Bath Chronicle</a> [article]</li>
   <li>02/11/2017 - <a href="https://stridetreglown.com/can-we-make-bath-the-uks-most-liveable-city/">Festival of the Future City</a> [article]</li>
   <li>30/08/2017 - <a href="https://www.bathchronicle.co.uk/news/bath-news/walking-cycling-should-number-one-398901">Walking and cycling should be number one priority, Bath Chronicle</a> [article]</li>
   <li><a href="https://youtu.be/ExL-_S6o82I">
@@ -51,6 +53,7 @@ This page lists publicly available third-party media I feature in.
   05/02/2015 - Assisted Dying Hustings</a> [video]</li>
   <li><a href="https://youtu.be/lmdrxqjYnUg">
   05/02/2015 - NHS and Social Care Hustings</a> [audio only]</li>
+  <li>06/12/2014 - <a href="https://standingstonesblog.blogspot.com/2014/12/bath-students-against-fees-and-cuts.html?m=1">Bath Students Against Fees and Cuts march</a> [article]</li>
   <li><a href="https://youtu.be/zy-5MbpOHYE">
   19/05/2014 - The Big Debate (Bath Studio School)</a> [video]</li>
   <li>??/??/2015 - <a href="https://www.banescarerscentre.org.uk/news/baths-parliamentary-candidates-t/">Carers Hustings</a> [article]</li>

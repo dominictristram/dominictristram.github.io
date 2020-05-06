@@ -25,8 +25,10 @@ This page lists publicly available third-party media I feature in.
   26/06/2016 - ESA Cuts</a> [article]</li>
   <li><a href="http://www.bathecho.co.uk/opinions/letters/dominic-tristram-syria-air-strikes-65067/">
   05/12/2015 - Syrian Air Strikes</a> [article]</li>
+  <li><a href="https://www.bbc.co.uk/news/live/uk-england-32521350">
+  29/04/2015 - BBC West Debate</a> [report]</li>
   <li><a href="https://www.youtube.com/watch?v=tHXsIe_LJYk">
-  27/04/2015 - Bath Spa University Hustingsr</a> [video]</li>
+  27/04/2015 - Bath Spa University Hustings</a> [video]</li>
   <li>24/04/2015 - <a href="https://preview.hayesfield.com/index.php/news-events/page/24/">Hayesfield School hustings</a> [article]</li>
   <li><a href="https://youtu.be/jgOXDeicmk4">
   23/04/2015 - Churches Together Hustings</a> [video]</li>

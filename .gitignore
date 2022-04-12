@@ -1,5 +1,22 @@
+<<<<<<< HEAD
 _site/
 .sass-cache/
 .jekyll-metadata
 .DS_Store
 
+=======
+_asset_bundler_cache
+_site
+.bundle
+.DS_Store
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+*.gem
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+Gemfile.lock
+node_modules
+npm-debug.log*
+>>>>>>> 7c881becad9ced654320a46c464a2fe77b093622

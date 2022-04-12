@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
@@ -42,3 +43,22 @@
 		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
 	</div>
 </header><!-- /.masthead -->{% endif %}
+=======
+{% if site.data.navigation %}
+  <div class="navigation-wrapper">
+    <a href="#menu-toggle" id="menu-toggle">{{ site.data.text[site.locale].menu_label | default: 'Menu' }}</a>
+    <nav id="primary-nav" class="site-nav animated drop">
+      <ul>
+        {%- for link in site.data.navigation -%}
+          {%- if link.url contains '://' -%}
+            {%- assign url = link.url -%}
+          {%- else -%}
+            {%- assign url = link.url | relative_url -%}
+          {%- endif -%}
+          <li><a href="{{ url }}">{{ link.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+{% endif %}
+>>>>>>> 7c881becad9ced654320a46c464a2fe77b093622

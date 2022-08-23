@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about.html
-title: About Dominic Tristram
+title: About My Politics
 tags: [about]
 modified: 2015-05-18
 ---

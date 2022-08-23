@@ -1,67 +1,82 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include head.html %}
-</head>
+---
+layout: base
+---
 
-<body id="post">
+{% include header.html type="post" %}
 
-{% include navigation.html %}
+<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
 
-<div id="main" role="main">
-  <article class="hentry">
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
-    <div class="entry-wrapper">
-      <header class="entry-header">
-        <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
-        {% if page.link %}
-          <h1 class="entry-title"><a href="{{ page.link }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %} <span class="link-arrow">&rarr;</span></a></h1>
-        {% else %}
-          <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-        {% endif %}
-      </header>
-      <footer class="entry-meta">
-        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
-        <span class="author vcard">By <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
-        <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="icon-calendar-empty"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
-        {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="icon-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
-        {% if site.disqus_shortname and page.comments %}<span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}
-        <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}"><i class="icon-link"></i> Permalink</a></span>
-        {% if page.share %}
-        <span class="social-share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
-        <span class="social-share-twitter">
-            <a href="https://twitter.com/intent/tweet?hashtags={{ page.categories | join: ',' }}&text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{site.owner.twitter}}" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
-        <span class="social-share-googleplus">
-            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
-            <!-- /.social-share -->{% endif %}
-      </footer>
-      <div class="entry-content">
+      {% if page.gh-repo %}
+        {% assign gh_split =  page.gh-repo | split:'/'  %}
+        {% assign gh_user =  gh_split[0]  %}
+        {% assign gh_repo =  gh_split[1]  %}
+
+        <div id="header-gh-btns">
+          {% if page.gh-badge.size > 0 %}
+            {% for badge in page.gh-badge %}
+              {% case badge %}
+                {% when 'star'%}
+                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                {% when 'watch'%}
+                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=watch&v=2&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                {% when 'fork'%}
+                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+                {% when 'follow'%}
+                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
+              {% endcase %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if page.before-content %}
+        <div class="before-content">
+          {% for file in page.before-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <article role="main" class="blog-post">
         {{ content }}
-        {% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
-      </div><!-- /.entry-content -->
-    </div><!-- /.entry-wrapper -->
-    <nav class="pagination" role="navigation">
-      {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+      </article>
+
+      {% if page.tags.size > 0 %}
+        <div class="blog-tags">
+          <span>Tags:</span>
+          {% for tag in page.tags %}
+            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+        </div>
       {% endif %}
-      {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
       {% endif %}
-    </nav><!-- /.pagination -->
-  </article>
-</div><!-- /#main -->
 
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
+      {% if page.social-share %}
+        {% include social-share.html %}
+      {% endif %}
 
-{% include scripts.html %}	        
-
-</body>
-</html>
+      <ul class="pagination blog-pager">
+        {% if page.previous.url %}
+        <li class="page-item previous">
+          <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | strip_html | xml_escape}}">&larr; Previous Post</a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="page-item next">
+          <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title | strip_html | xml_escape}}">Next Post &rarr;</a>
+        </li>
+        {% endif %}
+      </ul>
+      {% include comments.html %}
+    </div>
+  </div>
+</div>

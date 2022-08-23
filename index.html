@@ -1,33 +1,5 @@
 ---
-layout: page
+layout: home
 title: Dom Tristram
-description: "Bath's grass-roots campaigner"
-tags: [Jekyll, theme, themes, responsive, blog, minimalism]
-image:
-  feature: crescent.jpg
-  credit: dodvan
-  creditlink: https://www.flickr.com/photos/dodvan/
 ---
-
-<h2>Latest Articles</h2>
-
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
-
-<h2>Latest Tweets</h2>
-<a class="twitter-timeline" href="https://twitter.com/DominicTristram" data-widget-id="517047408077721600">Tweets by @DominicTristram</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-<h2>'Like' <a href="http://facebook.com/DomTristram">My Facebook Page</a></h2>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="https://facebook.com/DomTristram" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 

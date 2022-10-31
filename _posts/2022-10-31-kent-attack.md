@@ -7,11 +7,11 @@ comments: true
 share: true
 ---
 
-Nicola Sturgeon is in trouble for saying she despises what Tories stand for. But that
-viewpoint is entirely valid.
+An asylum detention centre has been attacked by right-wing terrorists. Where is the
+outrage?
 
 <ul>
-<li><a href="hhttps://podcasts.apple.com/gb/podcast/dom-tristrams-soapbox/">[Listen on Apple Podcasts]</a></li>
+<li><a href="https://podcasts.apple.com/gb/podcast/dom-tristrams-soapbox/id1377617516?i=1000584485062">[Listen on Apple Podcasts]</a></li>
 <li><a href="https://open.spotify.com/episode/5UWPA3BbxxvDJsxVriptOe?si=0def1b85a2194740">[Watch/listen on Spotify]</a></li>
 <li><a href="https://www.tiktok.com/@dominictristram/video/7160605728820989190?is_from_webapp=1&sender_device=pc&web_id=7145121764765419013">[Watch on TikTok]</a></li>
 <li><a href="https://www.instagram.com/tv/CkX4RYgM-_o/?utm_source=ig_web_copy_link">[Watch in Instagram]</a></li>

@@ -9,6 +9,7 @@ modified: 2017-05-16
 This page lists publicly available third-party media I feature in.
 
 <ul>
+  <li>21/22/2022 - <a href=".././2022/11/21/cop27-bath-time.html">COP27 Interview, 'Bath Time' Magazine</a> [article]</li>
   <li>08/11/2019 - <a href="https://www.somersetlive.co.uk/news/somerset-news/bath-green-lib-dem-tactical-3515018">Standing aside in Bath, Bath Chronicle</a> [article]</li>
   <li>08/11/2019 - <a href="https://www.bathecho.co.uk/news/politics/bath-green-party-candidate-steps-aside-unify-votes-87121/">Standing aside in Bath, Bath Echo</a> [article]</li>
   <li>06/11/2019 - <a href="https://www.theguardian.com/politics/blog/live/2019/nov/06/general-election-news-latest-boris-johnson-corbyn-dismisses-boris-johnsons-stalin-slur-as-nonsense-live-news?page=with:block-5dc2d7fb8f0867dcebfcfc6c">Green Party campaign launch coverage, The Guardian</a> [article]</li>

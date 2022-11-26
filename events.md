@@ -10,6 +10,9 @@ This page lists any public events I am going to or have taken part in. Please cl
 appropriate link for details.
 
 <ul>
+  <li><a href="https://www.picturehouses.com/movie-details/000/HO00012407/the-oil-machine-panel">
+    14/12/2022 - The Oil Machine and post-film panel</a> - I'll be on the panel to discuss the film
+                 after it is shown at the Little Theatre, Bath</li>
   <li><a href="https://www.eventbrite.co.uk/e/proportional-representation-tickets-38581443135">
     18/11/2017 - Proportional Representation</a> - Speaking at the SEED event on PR in Bath with Darren Hughes of
                  the Electoral Reform Society, Wera Hobhouse MP, and others</li>

@@ -82,4 +82,4 @@ selected again to fight any snap election.
 I am an officer for the [**Green Party**](http://bath.greenparty.org.uk)
 in Bath and North East Somerset. You can follow us on Twitter at [**@BathNESGreens**](http://twitter.com/BathNESGreens) and find us on [**Facebook**](https://www.facebook.com/BathGreens).
 
-My imprint for all Green Party campain related content, on here and on all social media, is: Promoted for Dominic Tristram by Michael Coffey, Ravenscroft, Sydney Road, Bath BA2 6NT
+My imprint for all Green Party campaign related content, on here and on all social media, is: Promoted for Dominic Tristram by Michael Coffey, Ravenscroft, Sydney Road, Bath BA2 6NT

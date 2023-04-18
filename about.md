@@ -12,8 +12,8 @@ was lucky enough to be offered a number of jobs in different cities and chose Ba
 because I immediately loved it. I've changed jobs and homes a few times since but
 remain based in Bath.
 
-My young daughter who was born at home in Odd Down in September 2012 and my son
-who was also born at there in September 2014.
+My daughter was born at home in Odd Down in September 2012 and my son
+who was also born at there in September 2014. Both go to school locally. My partner works in the NHS.
 
 I work in the technology sector. I studied computer science at university and came
 to Bath to work for a rapidly growing start-up. Since then I've worked in everything from Bath's

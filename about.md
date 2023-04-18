@@ -7,14 +7,13 @@ modified: 2015-05-18
 ---
 
 I have lived and
-worked in Bath for fifteen years since arriving here for work after university. I
+worked in Bath and NE Somerset for over twenty years since arriving here for work after university. I
 was lucky enough to be offered a number of jobs in different cities and chose Bath
 because I immediately loved it. I've changed jobs and homes a few times since but
 remain based in Bath.
 
-I live in Odd Down, which is on the southern edge of Bath, with my partner, who works for
-the NHS, my young daughter who was born at home in Odd Down in September 2012 and my son
-who was also born at home in September 2014.
+My young daughter who was born at home in Odd Down in September 2012 and my son
+who was also born at there in September 2014.
 
 I work in the technology sector. I studied computer science at university and came
 to Bath to work for a rapidly growing start-up. Since then I've worked in everything from Bath's

@@ -15,6 +15,7 @@ Many (including me) have local elections today. You should always vote because t
 <li><a href="https://youtu.be/vLhfwag5nq4">[Watch on YouTube]</a></li>
 <li><a href="https://fb.watch/kjz7zMfqXF/">[Watch on Facebook]</a></li>
 <li><a href="https://www.instagram.com/reel/Cr03iaLuh0f/">[Watch on Instagram]</a></li>
+<li><a href="https://podcasts.apple.com/gb/podcast/dom-tristrams-soapbox/id1377617516?i=1000611752973">[Get the Podcast]</a></li>
 </ul>
 
 

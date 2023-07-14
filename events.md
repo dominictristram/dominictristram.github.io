@@ -3,13 +3,22 @@ layout: page
 permalink: /events/
 title: Events
 tags: [events]
-modified: 2016-01-29
+modified: 2023-06-14
 ---
 
 This page lists any public events I am going to or have taken part in. Please click the
-appropriate link for details.
+appropriate links for details.
 
 <ul>
+
+  <li><a href="https://newsroom.bathnes.gov.uk/news/new-radstock-footbridge-officially-open">
+    13/06/2023 - Footbridge opening</a> - I was at the opening of the new footbridge to St
+                 Nicholas Church School in Radstock</li>
+  <li>
+    01/05/2023 - Bath TUC May Day March - I made a speech about how it's important to support the rights
+    of all workers at this event organised by Bath Trades Union Council</li>
+  <li><a href="https://www.bathtuc.org/2023/01/23/defend-the-right-to-strike-1-february/">
+    01/02/2022 - Defend the Right To Strike</a> - I was one of the speakers at thie event.</li>
   <li><a href="https://www.picturehouses.com/movie-details/000/HO00012407/the-oil-machine-panel">
     14/12/2022 - The Oil Machine and post-film panel</a> - I'll be on the panel to discuss the film
                  after it is shown at the Little Theatre, Bath</li>

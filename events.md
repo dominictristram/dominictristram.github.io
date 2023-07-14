@@ -18,7 +18,7 @@ appropriate links for details.
     01/05/2023 - Bath TUC May Day March - I made a speech about how it's important to support the rights
     of all workers at this event organised by Bath Trades Union Council</li>
   <li><a href="https://www.bathtuc.org/2023/01/23/defend-the-right-to-strike-1-february/">
-    01/02/2022 - Defend the Right To Strike</a> - I was one of the speakers at thie event.</li>
+    01/02/2023 - Defend the Right To Strike</a> - I was one of the speakers at thie event.</li>
   <li><a href="https://www.picturehouses.com/movie-details/000/HO00012407/the-oil-machine-panel">
     14/12/2022 - The Oil Machine and post-film panel</a> - I'll be on the panel to discuss the film
                  after it is shown at the Little Theatre, Bath</li>

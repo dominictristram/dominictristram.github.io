@@ -21,16 +21,20 @@ author: Dom Tristram
 
 navbar-links:
   Politics and Elections:
-     - About: "about"
+     # - About: "about"
 
      - Dom Tristrams Soapbox Podcast: "soapbox"
      #- Dom Tristrams Soapbox Podcast: "https://podcasts.apple.com/gb/podcast/dom-tristrams-soapbox/id1377617516"
      - Media: "media"
      - Events: "events"
-     - Bath 2015 GE: "bath2015"
+     #- Bath 2015 GE: "bath2015"
+     - General Election: "bath2024"
+  #   - BaNES Election: "banes_election"
+     - Town Council: "town_council"
   Music: "music"
   Other roles:
      - Hospital Governor: "ruhgovernor"
+     
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"

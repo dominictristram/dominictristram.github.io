@@ -5,21 +5,15 @@ title: Music
 tags: []
 ---
 
-I have written and played music for some time. It's fun.
+I have written and played music for some time. I try to do something new with every song - it might not be the best way to get better at what I
+already play, but it makes it fun to do!
 
-I release music under the name 'The Goodness Guild'. Check it out on:
+I currently have two musical projects you can listen to:
 
-<h2>Spotify</h2>
+<ul>
+  <li><a href="https://goodnessguild.com/">The Goodness Guild</a> - a fusion of folk, rock and electronica with lyrics</li> 
+  <li><a href="https://open.spotify.com/artist/1ZOACWYcOBquIuEIezMHP9?si=GM3hCHB3Qp-6QF2UR5VlCg">Radstock</a> - electronica, cyberpunk and ambient
+  instrumentals</li>
+</ul>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2hKLLWvX1ijQHvJf7reGwD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<h2>Apple Music</h2>
-
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/love-is-what-you-want/1667648985"></iframe>
-
-<h2>Bandcamp</h2>
-
-<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3459104154/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://goodnessguild.bandcamp.com/album/love-is-what-you-want">Love Is What You Want by The Goodness Guild</a></iframe>
-
-
-
+I hope you'll give it a listen!

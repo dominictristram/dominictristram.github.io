@@ -16,4 +16,4 @@ I currently have two musical projects you can listen to:
   instrumentals</li>
 </ul>
 
-I hope you'll give it a listen!
+I hope you'll give them a listen! I'm writing and recording more as time allows - if you 'follow' my artists on Spotify etc you'll be notified of new stuff.

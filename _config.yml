@@ -28,7 +28,7 @@ navbar-links:
      - Media: "media"
      - Events: "events"
      #- Bath 2015 GE: "bath2015"
-     - General Election: "bath2024"
+     - General Election: "https://dom4bath.org/"
   #   - BaNES Election: "banes_election"
      - Town Council: "town_council"
   Music: "music"

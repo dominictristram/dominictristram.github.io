@@ -23,7 +23,7 @@ Over the coming weeks I will discuss why this is. I’ll also talk about nationa
 
 In the meantime I’d like to finish by saying that I very much look forward to giving the people of Bath the choice of a fairer, greener country and the chance to vote for real change. The campaign might feel long but it will feel short for us candidates!
 
-Subscribe to my <a href="https://domtristram.substack.com/">newsletter on Substack</a>, have a look at my Web site, follow me on social media (I’m on pretty much all of it - you can find the links on my Web site). Even better, help in my campaign! I won’t lie to you - the Greens have much, much less money than the other parties. Every volunteer is very much appreciated.
+Subscribe to my <a href="https://domtristram.substack.com/">newsletter on Substack</a>, have a look at my <a href="http://dom4bath.org">campaign Web site</a>, follow me on social media (I’m on pretty much all of it - you can find the links on my Web site). Even better, help in my campaign! I won’t lie to you - the Greens have much, much less money than the other parties. Every volunteer is very much appreciated.
 
 I look forward to making the Green case in hustings and events. Let me know if you want me to come to yours! I hope to see many of you who are in and around Bath.
 

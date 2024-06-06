@@ -7,12 +7,12 @@ comments: true
 share: true
 ---
 
-<img src="../../../assets/img/2024/edmund_dom.jpg">
-
 Even those with little interest in politics couldn’t help but notice the general election 
 campaign since the date was announced. The relatively short amount of time all of the
 parties have (although it might not feel that way to those on the receiving end) means
 that a lot of ‘stuff’ has to fit into six weeks.
+
+<img src="../../../assets/img/2024/edmund_dom.jpeg">
 
 This has pros and cons as a candidate. My immediate advantage over some of the others is
 that I was selected absolutely ages ago, back in 2022 I think, so my local party hasn’t

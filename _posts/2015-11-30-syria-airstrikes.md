@@ -4,7 +4,7 @@ title: Syria Air Strikes Vote
 description: "Syria Air Strikes Vote"
 modified: 2015-11-30
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

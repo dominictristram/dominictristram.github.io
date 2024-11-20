@@ -4,7 +4,7 @@ title: Disappointing Spin From Labour
 description: "Disappointing Spin From Labour"
 modified: 2018-02-10
 category: articles
-tags: [bath, politics, labour]
+tags: [politics, bath, politics, labour]
 comments: true
 share: true
 ---

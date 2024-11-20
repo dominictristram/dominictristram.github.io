@@ -2,7 +2,7 @@
 layout: post
 title: Coronation Protest Arrests
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

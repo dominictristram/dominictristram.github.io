@@ -4,7 +4,7 @@ title: Festival of the Future City
 description: "Festival of the Future City"
 modified: 2017-10-19
 category: articles
-tags: [talks, events, bath]
+tags: [politics, talks, events, bath]
 comments: true
 share: true
 ---

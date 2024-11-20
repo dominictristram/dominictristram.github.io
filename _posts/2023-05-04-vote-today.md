@@ -2,7 +2,7 @@
 layout: post
 title: Local Elections - Vote Today!
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

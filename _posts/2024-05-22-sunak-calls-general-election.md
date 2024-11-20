@@ -2,7 +2,7 @@
 layout: post
 title: Sunak Calls General Election
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

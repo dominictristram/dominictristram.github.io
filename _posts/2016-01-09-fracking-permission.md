@@ -4,7 +4,7 @@ title: Fracking Planning Permission Relaxation
 description: "Fracking Planning Permission Relaxation"
 modified: 2016-01-09
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

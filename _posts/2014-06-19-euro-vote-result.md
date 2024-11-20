@@ -4,7 +4,7 @@ title: Thoughts On The European Election and What It Means For Bath
 description: "Thoughts On The European Election and What It Means For Bath"
 modified: 2014-06-19
 category: articles
-tags: [europe, election]
+tags: [politics,europe, election]
 comments: true
 share: true
 ---

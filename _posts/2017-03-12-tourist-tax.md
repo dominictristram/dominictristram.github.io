@@ -4,7 +4,7 @@ title: Bath Tourist Tax
 description: "Bath Tourist Tax"
 modified: 2017-03-12
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

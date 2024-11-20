@@ -4,7 +4,7 @@ title: Bath and Beyond at Bath University
 description: "Bath and Beyond at Bath University"
 modified: 2015-03-28
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

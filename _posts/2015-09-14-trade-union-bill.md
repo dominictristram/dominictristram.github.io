@@ -4,7 +4,7 @@ title: Trade Union Bill
 description: "Trade Union Bill"
 modified: 2015-09-14
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

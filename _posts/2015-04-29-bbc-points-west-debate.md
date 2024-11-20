@@ -4,7 +4,7 @@ title: BBC Points West Debate
 description: "BBC Points West Debate"
 modified: 2015-04-29
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

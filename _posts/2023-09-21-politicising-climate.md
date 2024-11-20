@@ -2,7 +2,7 @@
 layout: post
 title: Politicising Climate - Part of the 'Populist Playbook'
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

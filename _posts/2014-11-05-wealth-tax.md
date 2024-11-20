@@ -4,7 +4,7 @@ title: Letter - Wealth Tax
 description: "Letter - Wealth Tax"
 modified: 2014-11-05
 category: articles
-tags: [letter,tax]
+tags: [politics, letter,tax]
 comments: true
 share: true
 ---

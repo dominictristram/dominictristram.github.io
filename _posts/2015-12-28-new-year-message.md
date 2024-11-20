@@ -4,7 +4,7 @@ title: New Year Message
 description: "New Year Message"
 modified: 2015-12-28
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

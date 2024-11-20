@@ -4,7 +4,7 @@ title: Kier Recycling Dispute
 description: "Kier Recycling Dispute"
 modified: 2016-01-15
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: Dangerous School Crossing - Bath Chronicle
 description: "Dangerous School Crossing - Bath Chronicle"
 modified: 2019-09-24
 category: articles
-tags: [traffic, transport, Odd Down]
+tags: [politics, traffic, transport, Odd Down]
 comments: true
 share: true
 ---

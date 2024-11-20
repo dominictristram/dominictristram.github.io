@@ -2,7 +2,7 @@
 layout: post
 title: Dangerous Dogs
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

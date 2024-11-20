@@ -2,7 +2,7 @@
 layout: post
 title: Local Elections - The Votes Are In!
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

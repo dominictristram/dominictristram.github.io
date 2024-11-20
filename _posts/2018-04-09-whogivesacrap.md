@@ -4,7 +4,7 @@ title: Ethical Toilet Paper... or not?
 description: "Ethical Toilet Paper... or not?"
 modified: 2018-04-09
 category: articles
-tags: [shopping, environment]
+tags: [politics, shopping, environment]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: Somer Valley FM hustings
 description: "Somer Valley FM hustings"
 modified: 2015-04-30
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: Money Buys UK Elections
 description: "Money Buys UK Elections"
 modified: 2017-05-10
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

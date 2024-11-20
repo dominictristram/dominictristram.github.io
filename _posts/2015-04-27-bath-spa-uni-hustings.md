@@ -4,7 +4,7 @@ title: Bath Spa University hustings
 description: "Bath Spa University hustings"
 modified: 2015-04-27
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

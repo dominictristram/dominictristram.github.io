@@ -4,7 +4,7 @@ title: A Note on Copyright
 description: "A Note on Copyright"
 modified: 2015-04-24
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

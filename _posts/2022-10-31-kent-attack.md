@@ -2,7 +2,7 @@
 layout: post
 title: Far Right Terrorist Attack on Kent Refugee Detention Centre
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

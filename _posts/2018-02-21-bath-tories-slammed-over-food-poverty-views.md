@@ -4,7 +4,7 @@ title: Bath Tories Slammed Over Food Poverty Views
 description: "Bath Tories Slammed Over Food Poverty Views"
 modified: 2018-02-21
 category: articles
-tags: [bath, politics, conservatives, twitter]
+tags: [politics, bath, politics, conservatives, twitter]
 comments: true
 share: true
 ---

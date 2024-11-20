@@ -4,7 +4,7 @@ title: Bath College Hustings
 description: "Bath College Hustings"
 modified: 2015-03-24
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: European Election
 description: "European Election"
 modified: 2014-05-21
 category: articles
-tags: [europe]
+tags: [politics,europe]
 comments: true
 share: true
 ---

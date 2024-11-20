@@ -4,7 +4,7 @@ title: Letter - Child Poverty in Bath
 description: "Letter - Child Poverty in Bath"
 modified: 2014-11-01
 category: articles
-tags: [letter,poverty,bath]
+tags: [politics, letter,poverty,bath]
 comments: true
 share: true
 ---

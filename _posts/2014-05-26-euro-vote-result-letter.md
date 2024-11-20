@@ -4,7 +4,7 @@ title: Letter on Election of First Green MEP in the SW, Molly Scott Cato
 description: "A letter to the Bath Chronicle on the election of first SW Green MEP, Molly Scott Cato"
 modified: 2014-05-26
 category: articles
-tags: [europe, election]
+tags: [politics,europe, election]
 comments: true
 share: true
 ---

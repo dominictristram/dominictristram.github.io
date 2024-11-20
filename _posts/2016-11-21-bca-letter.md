@@ -4,7 +4,7 @@ title: Letter - Bath Community Academy Closure
 description: "Letter - Bath Community Academy Closure"
 modified: 2016-11-21
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

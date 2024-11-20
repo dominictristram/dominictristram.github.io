@@ -2,7 +2,7 @@
 layout: post
 title: NHS Privatisation in Bath and NE Somerset
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

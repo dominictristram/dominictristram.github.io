@@ -4,7 +4,7 @@ title: Why You Should Vote in The PCC Election
 description: "Why You Should Vote in The PCC Election"
 modified: 2016-05-04
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

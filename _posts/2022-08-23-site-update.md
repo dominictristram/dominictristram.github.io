@@ -2,7 +2,7 @@
 layout: post
 title: Web site update
 category: articles
-tags: [admin]
+tags: [politics, admin]
 comments: true
 share: true
 ---

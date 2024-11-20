@@ -4,7 +4,7 @@ title: Cameron in Bath
 description: "Cameron in Bath"
 modified: 2015-05-04
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

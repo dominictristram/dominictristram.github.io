@@ -4,7 +4,7 @@ title: Election Result and Analysis
 description: "Election Result and Analysis"
 modified: 2015-05-10
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

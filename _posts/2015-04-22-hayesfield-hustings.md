@@ -4,7 +4,7 @@ title: Hayesfield School hustings
 description: "Hayesfield School hustings"
 modified: 2015-04-22
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: UCU Picket - University of Bath
 description: "UCU Picket - University of Bath"
 modified: 2018-02-22-ucu-picket
 category: articles
-tags: [video, unions, strike, education]
+tags: [politics. video, unions, strike, education]
 comments: true
 share: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Interview With 'Bath Time' Magazine on COP27
 category: soapbox
-tags: [media]
+tags: [politics, media]
 comments: true
 share: true
 ---

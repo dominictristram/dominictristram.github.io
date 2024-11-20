@@ -4,7 +4,7 @@ title: Iraq Bombing Vote letter
 description: "Iraq Bombing Vote letter"
 modified: 2014-09-28
 category: articles
-tags: [iraq]
+tags: [politics, iraq]
 comments: true
 share: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: By The End of Tomorrow You Will Know Who You Can Vote For. In Bath, One Of Them Will Definitely Be Me
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

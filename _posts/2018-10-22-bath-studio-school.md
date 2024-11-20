@@ -4,7 +4,7 @@ title: Bath Studio School Closure Announced
 description: "Bath Studio School Closure Announced"
 modified: 2018-10-22
 category: articles
-tags: [education, Odd Down]
+tags: [politics, education, Odd Down]
 comments: true
 share: true
 ---

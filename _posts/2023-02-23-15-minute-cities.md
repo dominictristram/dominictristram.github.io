@@ -2,7 +2,7 @@
 layout: post
 title: 15 Minute Cities and Conspiracy Theories
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

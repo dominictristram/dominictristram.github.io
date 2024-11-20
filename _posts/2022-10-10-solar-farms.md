@@ -2,7 +2,7 @@
 layout: post
 title: Ban On Solar On Agricultural Land
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

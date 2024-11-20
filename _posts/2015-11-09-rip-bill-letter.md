@@ -4,7 +4,7 @@ title: Letter - Regulation of Investigatory Powers Bill
 description: "Letter - Regulation of Investigatory Powers Bill"
 modified: 2015-11-09
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: NHS Reinstatement Bill
 description: "NHS Reinstatement Bill"
 modified: 2016-03-11
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

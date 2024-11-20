@@ -4,7 +4,7 @@ title: Vote for hope on Thursday
 description: "Vote for hope on Thursday"
 modified: 2015-05-05
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

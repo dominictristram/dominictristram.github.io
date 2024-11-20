@@ -4,7 +4,7 @@ title: St Andrew's Primary School Mock Election
 description: "St Andrew's Primary School Mock Election"
 modified: 2015-03-27
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

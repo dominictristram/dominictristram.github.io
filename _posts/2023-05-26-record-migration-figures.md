@@ -2,7 +2,7 @@
 layout: post
 title: Record Migration Figures
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

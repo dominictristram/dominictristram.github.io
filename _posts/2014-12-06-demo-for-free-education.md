@@ -4,7 +4,7 @@ title: Free Education Demo
 description: "Free Education Demo"
 modified: 2014-12-06
 category: articles
-tags: [education]
+tags: [politics, education]
 comments: true
 share: true
 ---

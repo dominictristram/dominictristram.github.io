@@ -4,7 +4,7 @@ title: Metro Mayor Nomination
 description: "Metro Mayor Nomination"
 modified: 2016-12-16
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

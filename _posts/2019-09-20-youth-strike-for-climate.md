@@ -4,7 +4,7 @@ title: Youth Strike For Climate
 description: "Youth Strike For Climate"
 modified: 2019-09-20
 category: articles
-tags: [video, environment, climate]
+tags: [politics, video, environment, climate]
 comments: true
 share: true
 ---

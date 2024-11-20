@@ -4,7 +4,7 @@ title: Open Letter to Ben Howlett MP - Support the Representation of the People 
 description: "Open Letter to Ben Howlett MP - Support the Representation of the People Bill"
 modified: 2016-07-18
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

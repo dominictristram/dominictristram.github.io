@@ -4,7 +4,7 @@ title: Clean Air in BaNES - Working Together to solve the problem (BBC TV)
 description: "Clean Air in BaNES - Working Together to solve the problem (BBC TV)"
 modified: 2018-06-04
 category: articles
-tags: [video, environment, climate]
+tags: [politics, video, environment, climate]
 comments: true
 share: true
 ---

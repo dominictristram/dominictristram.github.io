@@ -4,7 +4,7 @@ title: Small Business Saturday
 description: "Small Business Saturday"
 modified: 2014-12-05
 category: articles
-tags: [business]
+tags: [politics, business]
 comments: true
 share: true
 ---

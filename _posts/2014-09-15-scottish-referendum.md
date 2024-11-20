@@ -4,7 +4,7 @@ title: Scottish Referendum
 description: "Why we should all be hoping for a yes vote in the Scottish Referendum"
 modified: 2014-09-15
 category: articles
-tags: [scotland,referendum,election]
+tags: [politics,scotland,referendum,election]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: Facebook Data Harvesting
 description: "Facebook Data Harvesting"
 modified: 2018-03-21
 category: articles
-tags: [facebook, internet, privacy]
+tags: [tech, facebook, internet, privacy]
 comments: true
 share: true
 ---
@@ -22,7 +22,8 @@ Just be aware of it.
 There is a simple rule on the Internet - if something is free to you but someone is making money out of it, you (or more
 accurately data about you) are the product. If you always remember that then you can't go too wrong.
 
-It's not just basic Facebook functions that gather data - in fact they aren't the thing people have got upset about here - it's the apps and games people choose to play and which ask for additional permissions ('The application blah wants to
+It's not just basic Facebook functions that gather data - in fact they aren't the thing people have got upset about here -
+it's the apps and games people choose to play and which ask for additional permissions ('The application blah wants to
 access your data - is this ok?'). It costs time and/or money for people to write those 'personality type' quizzes. What
 do they get out of it? Your data. What do they want to do with it? Who knows? And you might never know - they could be
 anywhere in the world, so they could well be somewhere where your data isn't protected by law or what you agree to anyway.

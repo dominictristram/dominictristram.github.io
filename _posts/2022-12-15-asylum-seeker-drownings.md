@@ -2,7 +2,7 @@
 layout: post
 title: Asylum Seeker Drownings And Who Is To Blame
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

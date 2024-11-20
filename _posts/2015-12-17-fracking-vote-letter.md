@@ -4,7 +4,7 @@ title: Letter - Fracking vote
 description: "Letter - Fracking vote"
 modified: 2015-12-17
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: PPC Selection
 description: "Bath PPC Selection  - Press Release"
 modified: 2017-12-06
 category: articles
-tags: [bath, elections]
+tags: [politics, bath, elections]
 comments: true
 share: true
 ---

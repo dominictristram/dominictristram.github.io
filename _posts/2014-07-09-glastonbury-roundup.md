@@ -4,7 +4,7 @@ title: Glastonbury 2014 Roundup
 description: "Glastonbury 2014 Roundup"
 modified: 2014-07-09
 category: articles
-tags: [glastonbury, festivals]
+tags: [music,glastonbury, festivals]
 comments: true
 share: true
 ---

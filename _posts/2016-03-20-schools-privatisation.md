@@ -4,7 +4,7 @@ title: Forced School Privatisation
 description: "Forced School Privatisation"
 modified: 2016-03-20
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

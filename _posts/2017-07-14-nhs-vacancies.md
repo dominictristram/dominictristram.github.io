@@ -4,7 +4,7 @@ title: NHS Vacancies
 description: "NHS Vacancies"
 modified: 2017-07-14
 category: articles
-tags: [nhs]
+tags: [politics, nhs]
 comments: true
 share: true
 ---
@@ -26,7 +26,8 @@ idea of the internal market, where hospitals are forced to compete, forces these
 hospitals require a number of different services and specialists to support things like an ED, and if those services
 are lost then there can be knock-on effects.
 
-Of course, on top of this generally problematic structure of enforced competition has come years of pay caps, cuts and destructive policies have brought the NHS to a cliff edge, but Brexit has been the final
+Of course, on top of this generally problematic structure of enforced competition has come
+years of pay caps, cuts and destructive policies have brought the NHS to a cliff edge, but Brexit has been the final
 straw that has pushed it over the edge. Hospitals around the country now regularly cannot staff to safe levels. We've seen
 <a href="http://www.bbc.co.uk/news/health-40476867">more nurses and midwives leaving the NHS than joining</a>, with the
 main reason given by them being staffing levels and workload. Again, this is a vicious circle - as numbers fall, other

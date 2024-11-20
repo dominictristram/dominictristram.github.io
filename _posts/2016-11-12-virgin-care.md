@@ -4,7 +4,7 @@ title: Virgin Care Awarded BaNES Community Health Contract
 description: "Virgin Care Awarded BaNES Community Health Contract"
 modified: 2016-11-12
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

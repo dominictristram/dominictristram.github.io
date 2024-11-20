@@ -4,7 +4,7 @@ title: NHS Strikes
 description: "NHS Strikes"
 modified: 2014-10-13
 category: articles
-tags: [nhs,strikes]
+tags: [politics, nhs,strikes]
 comments: true
 share: true
 ---

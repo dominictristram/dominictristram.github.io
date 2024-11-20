@@ -2,7 +2,7 @@
 layout: post
 title: £18bn Spending Cut Announced
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

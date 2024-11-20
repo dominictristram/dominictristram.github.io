@@ -4,7 +4,7 @@ title: Manifesto Launch
 description: "Manifesto Launch"
 modified: 2015-04-14
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

@@ -4,7 +4,7 @@ title: Labour And The Single Market
 description: "Labour And The Single Market"
 modified: 2017-12-13
 category: video
-tags: [video, europe, labour]
+tags: [politics, video, europe, labour]
 comments: true
 share: true
 ---

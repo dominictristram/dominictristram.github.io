@@ -4,7 +4,7 @@ title: Impartial Voting Guide, 2019 Edition
 description: "Impartial Voting Guide, 2019 Edition"
 modified: 2019-12-11
 category: articles
-tags: [elections, voting]
+tags: [politics, elections, voting]
 comments: true
 share: true
 ---

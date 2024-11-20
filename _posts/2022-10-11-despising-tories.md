@@ -2,7 +2,7 @@
 layout: post
 title: On Despising What Tories Stand For
 category: soapbox
-tags: [soapbox]
+tags: [politics]
 comments: true
 share: true
 ---

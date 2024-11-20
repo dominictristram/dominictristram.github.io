@@ -4,7 +4,7 @@ title: NHS Reinstatement Bill Letter
 description: "NHS Reinstatement Bill Letter"
 modified: 2015-06-01
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

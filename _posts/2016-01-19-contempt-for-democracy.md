@@ -4,7 +4,7 @@ title: Tory Contempt for Democracy
 description: "Tory Contempt for Democracy"
 modified: 2016-01-19
 category: articles
-tags: []
+tags: [politics]
 comments: true
 share: true
 ---

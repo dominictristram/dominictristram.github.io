@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Tragic Consequences of Profit in Healthcare: More Lessons from the U.S.
+title: The Tragic Consequences of Profit in Healthcare - More Lessons from the U.S.
 category: soapbox
 tags: [politics]
 comments: true

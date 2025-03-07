@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /political_socials_/
+permalink: /political_socials/
 title: Dom's Politics Links
 tags: [social media]
 modified: 2025-03-06

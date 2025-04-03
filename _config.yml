@@ -31,8 +31,8 @@ pagination:
 
 # Navigation for landing page
 landing-navbar-links:
-  About: "about"
-  Blog: "politics"
+  Politics: "politics"
+  Music: "https://domtristrammusic.com"
 
 # Navigation for all other pages
 navbar-links:

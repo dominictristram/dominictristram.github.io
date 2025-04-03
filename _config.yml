@@ -29,6 +29,12 @@ pagination:
 # --- List of links in the navigation bar --- #
 ###############################################
 
+# Navigation for landing page
+landing-navbar-links:
+  About: "about"
+  Blog: "politics"
+
+# Navigation for all other pages
 navbar-links:
   Politics and Elections:
      # - About: "about"
@@ -42,7 +48,6 @@ navbar-links:
   #   - BaNES Election: "banes_election"
      - Social Media Links: "political_socials"
      - Town Council: "town_council"
-  Music: "music_index"
   Other roles:
      - Hospital Governor: "ruhgovernor"
 

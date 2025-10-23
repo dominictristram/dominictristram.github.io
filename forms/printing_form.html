@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BaNES Green Party – Printed Material Request</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { font: 16px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    body { margin: 0; background: #f7f7f7; }
+    .wrap { max-width: 860px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 18px rgba(0,0,0,.06); }
+    h1 { margin-top: 0; font-size: 1.6rem; }
+    fieldset { border: 1px solid #e5e5e5; padding: 1.25rem; border-radius: 10px; margin-bottom: 1.25rem; }
+    legend { padding: 0 .5rem; font-weight: 700; }
+    label { display: block; margin: .5rem 0 .25rem; font-weight: 600; }
+    .hint { color: #555; font-size: .9rem; margin-top: .15rem; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    input[type="text"], input[type="email"], input[type="date"], input[type="number"], textarea, select {
+      width: 100%; padding: .65rem .75rem; border: 1px solid #cfcfcf; border-radius: 8px; font: inherit; background: #fff;
+    }
+    textarea { min-height: 110px; resize: vertical; }
+    .inline-options { display: grid; grid-template-columns: repeat(auto-fit,minmax(130px,1fr)); gap: .5rem 1rem; margin-top: .5rem; }
+    .inline-options label { font-weight: 500; display: flex; gap: .5rem; align-items: center; }
+    .other-wrap { margin-top: .5rem; }
+    .visually-hidden { position: absolute !important; height: 1px; width: 1px; overflow: hidden; clip: rect(1px,1px,1px,1px); white-space: nowrap; }
+    .actions { display: flex; gap: .75rem; margin-top: 1rem; align-items: center; }
+    button { appearance: none; border: 0; background: #0a7d2a; color: #fff; padding: .75rem 1.1rem; border-radius: 10px; font-weight: 700; cursor: pointer; }
+    button:hover { filter: brightness(1.05); }
+    .small { font-size: .9rem; color: #444; }
+    .error { color: #b00020; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>BaNES Green Party – Printed Material Request Form</h1>
+    <p class="small">All fields below reflect the paper form used for proofreading/printing requests. Please complete in full so we can approve and schedule print in time.</p>
+
+    <!-- Replace FORM_ACTION_URL and hidden auth fields using your Form-To-Email configuration -->
+    <form id="leafletForm" method="post" action="https://formsubmit.co/contact@bathnesgreens.org.uk">
+      <!-- Example hidden fields often provided by form-to-email.com -->
+      <!-- <input type="hidden" name="access_key" value="YOUR_KEY"> -->
+      <input type="hidden" name="subject" value="Printed Material Request – Web Submission">
+      <!-- Optional thank-you redirect: -->
+      <!-- <input type="hidden" name="redirect" value="https://yourdomain/thanks.html"> -->
+
+      <fieldset>
+        <legend>Basics</legend>
+        <label for="uniqueTitle">Unique leaflet title/name/reference</label>
+        <input id="uniqueTitle" name="Unique leaflet title/name/reference" type="text" required>
+
+        <label for="exactFilename">Exact filename to review and send to print</label>
+        <input id="exactFilename" name="Exact filename to review and send to print" type="text" required>
+        <p class="hint">Use the exact filename you’ll email for proofreading/print.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Paper Size</legend>
+        <div class="inline-options" role="group" aria-labelledby="sizeLegend">
+          <label><input type="radio" name="Paper Size" value="A3" required> A3</label>
+          <label><input type="radio" name="Paper Size" value="A4"> A4</label>
+          <label><input type="radio" name="Paper Size" value="A5"> A5</label>
+          <label><input type="radio" name="Paper Size" value="A6"> A6</label>
+          <label>
+            <input type="radio" name="Paper Size" value="Other"> Other
+          </label>
+        </div>
+        <div class="other-wrap" id="sizeOtherWrap" hidden>
+          <label for="sizeOther" class="visually-hidden">Other size (specify)</label>
+          <input id="sizeOther" name="Paper Size – Other (specify)" type="text" placeholder="Other size (specify)">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Folding</legend>
+        <div class="inline-options">
+          <label><input type="radio" name="Folding" value="None" required> None</label>
+          <label><input type="radio" name="Folding" value="Half fold"> Half fold</label>
+          <label><input type="radio" name="Folding" value="Z-fold"> Z-fold</label>
+          <label><input type="radio" name="Folding" value="Roll fold"> Roll fold</label>
+          <label><input type="radio" name="Folding" value="Tri-fold"> Tri-fold</label>
+          <label><input type="radio" name="Folding" value="Other"> Other</label>
+        </div>
+        <div class="other-wrap" id="foldOtherWrap" hidden>
+          <label for="foldOther" class="visually-hidden">Other folding (specify)</label>
+          <input id="foldOther" name="Folding – Other (specify)" type="text" placeholder="Other folding (specify)">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Paper Specification</legend>
+        <div class="inline-options">
+          <label><input type="radio" name="Paper Specification" value="130gsm (standard)" required> 130gsm (standard)</label>
+          <label><input type="radio" name="Paper Specification" value="300gsm (postcard)"> 300gsm (postcard)</label>
+          <label><input type="radio" name="Paper Specification" value="Other"> Other</label>
+        </div>
+        <div class="other-wrap" id="specOtherWrap" hidden>
+          <label for="specOther" class="visually-hidden">Other paper spec (specify)</label>
+          <input id="specOther" name="Paper Specification – Other (specify)" type="text" placeholder="Other paper spec (specify)">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Quantity</legend>
+        <div class="inline-options">
+          <label><input type="radio" name="Quantity" value="100" required> 100</label>
+          <label><input type="radio" name="Quantity" value="250"> 250</label>
+          <label><input type="radio" name="Quantity" value="500"> 500</label>
+          <label><input type="radio" name="Quantity" value="1000"> 1000</label>
+          <label><input type="radio" name="Quantity" value="2000"> 2000</label>
+          <label><input type="radio" name="Quantity" value="2500"> 2500</label>
+          <label><input type="radio" name="Quantity" value="5000"> 5000</label>
+          <label><input type="radio" name="Quantity" value="7500"> 7500</label>
+          <label><input type="radio" name="Quantity" value="Other"> Other</label>
+        </div>
+        <div class="other-wrap" id="qtyOtherWrap" hidden>
+          <label for="qtyOther" class="visually-hidden">Other quantity (specify)</label>
+          <input id="qtyOther" name="Quantity – Other (specify)" type="number" min="1" step="1" placeholder="Other quantity (number)">
+          <p class="hint">Note: custom print quantities usually substantially increase cost.</p>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Authorisation</legend>
+        <label for="reason">Reason for leaflet</label>
+        <textarea id="reason" name="Reason for leaflet" required></textarea>
+
+        <div class="row">
+          <div>
+            <label for="budget">Ward/campaign budget</label>
+            <input id="budget" name="Ward/campaign budget" type="text" required>
+          </div>
+          <div>
+            <label for="minutes">Meeting minutes agreeing budget</label>
+            <input id="minutes" name="Meeting minutes agreeing budget (URL or reference)" type="text" placeholder="URL or reference">
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label for="requestedBy">Requested by (name)</label>
+            <input id="requestedBy" name="Requested by (name)" type="text" required>
+          </div>
+          <div>
+            <label for="dateSubmitted">Date submitted for review</label>
+            <input id="dateSubmitted" name="Date submitted for review" type="date" required>
+            <p class="hint">e.g. the date you emailed the file for proofreading.</p>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Delivery</legend>
+        <div class="row">
+          <div>
+            <label for="dateRequired">Date required</label>
+            <input id="dateRequired" name="Date required" type="date" required>
+          </div>
+        </div>
+
+        <label for="deliveryAddress">Delivery Address</label>
+        <textarea id="deliveryAddress" name="Delivery Address" required></textarea>
+      </fieldset>
+
+      <!-- Simple bot trap (leave empty) -->
+      <label class="visually-hidden" for="website">Leave this empty</label>
+      <input id="website" name="website" type="text" class="visually-hidden" tabindex="-1" autocomplete="off">
+
+      <div class="actions">
+        <button type="submit">Submit request</button>
+        <span id="status" class="small" role="status" aria-live="polite"></span>
+      </div>
+
+      <p class="small">Your leaflet will nearly always require an imprint. It should be
+      very similar to this: "Promoted by Michael Coffey for [candidate name or 'Bath and NE Somerset Green Party'], c/o Ravenscroft, Sydney Road, Bath, BA2 6NT. Printed by Solopress, 9 Stock Road, SS2 5QF."</p>
+
+      <p class="small">All leaflets will be printed on FSC-certified stock with carbon offsetting (carbon-neutral). Consider stating this on your literature if space allows, eg in small next near/with the imprint.</p>
+    </form>
+  </main>
+
+  <script>
+    // Reveal “Other (specify)” inputs when corresponding radio is chosen
+    function toggleOther(radioName, wrapId, inputId) {
+      const wrap = document.getElementById(wrapId);
+      const input = document.getElementById(inputId);
+      const checked = [...document.querySelectorAll(`input[name="${radioName}"]`)]
+        .find(r => r.checked)?.value;
+      const isOther = checked === 'Other';
+      wrap.hidden = !isOther;
+      input.required = isOther;
+      if (!isOther) { input.value = ''; }
+    }
+
+    // Attach listeners
+    ['Paper Size','Folding','Paper Specification','Quantity'].forEach(name => {
+      document.addEventListener('change', (e) => {
+        if (e.target.name === name) {
+          if (name === 'Paper Size') toggleOther(name, 'sizeOtherWrap', 'sizeOther');
+          if (name === 'Folding') toggleOther(name, 'foldOtherWrap', 'foldOther');
+          if (name === 'Paper Specification') toggleOther(name, 'specOtherWrap', 'specOther');
+          if (name === 'Quantity') toggleOther(name, 'qtyOtherWrap', 'qtyOther');
+        }
+      });
+    });
+
+    // Initialise on load (in case of back/forward cache)
+    window.addEventListener('DOMContentLoaded', () => {
+      toggleOther('Paper Size', 'sizeOtherWrap', 'sizeOther');
+      toggleOther('Folding', 'foldOtherWrap', 'foldOther');
+      toggleOther('Paper Specification', 'specOtherWrap', 'specOther');
+      toggleOther('Quantity', 'qtyOtherWrap', 'qtyOther');
+    });
+
+    // Optional: front-end “thanks” without leaving the page (works with most Form-To-Email setups returning 200 OK)
+    const form = document.getElementById('leafletForm');
+    const statusEl = document.getElementById('status');
+    form.addEventListener('submit', (e) => {
+      // If your Form-To-Email account requires a classic POST/redirect,
+      // delete this listener. Otherwise, uncomment to use fetch:
+      // e.preventDefault();
+      // statusEl.textContent = 'Sending…';
+      // fetch(form.action, { method: 'POST', body: new FormData(form) })
+      //   .then(r => r.ok ? 'Thanks — submitted.' : 'Sorry, that failed.')
+      //   .then(msg => statusEl.textContent = msg)
+      //   .catch(() => statusEl.textContent = 'Sorry, that failed.');
+    });
+  </script>
+</body>
+</html>
+

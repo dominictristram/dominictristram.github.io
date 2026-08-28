@@ -1,36 +1,1338 @@
----
-layout: none
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">{{ site.title }}</title>
+<title type="text">Dom Tristram</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
-<link rel="alternate" type="text/html" href="{{ site.url }}" />
-<updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ site.url }}/</id>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2026-08-28T10:34:15+01:00</updated>
+<id>/</id>
 <author>
-  <name>{{ site.owner.name }}</name>
-  <uri>{{ site.url }}/</uri>
-  <email>{{ site.owner.email }}</email>
+  <name></name>
+  <uri>/</uri>
+  <email></email>
 </author>
-{% for post in site.posts limit:20 %}
+
 
 <entry>
-  <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-  <link rel="alternate" type="text/html" href="{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"/>
-  <id>{{ site.url }}{{ post.id }}</id>
-  {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
-  <published>{{ post.date | date_to_xmlschema }}</published>
-  {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
-  <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
+  <title type="html"><![CDATA[Britain’s Nature Targets Are Slipping]]></title>
+  <link rel="alternate" type="text/html" href="/2026/01/13/nature.html"/>
+  <id>/2026/01/13/nature</id>
+  <published>2026-01-13T00:00:00+00:00</published>
+  <updated>2026-01-13T00:00:00+00:00</updated>
   <author>
-    <name>{{ site.owner.name }}</name>
-    <uri>{{ site.url }}</uri>
-    <email>{{ site.owner.email }}</email>
+    <name></name>
+    <uri></uri>
+    <email></email>
   </author>
-  <content type="html">{{ post.content | xml_escape }}
-  &lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2026/pexels-ana-tinca-264849644-35578174.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.legislation.gov.uk/ukpga/2021/30/contents&quot;&gt;Environment Act 2021&lt;/a&gt;
+set out a number of legally binding targets to halt species decline, restore degraded
+habitats, rejuvenate rivers and improve biodiversity by 2030. However, according to
+&lt;a href=&quot;https://www.theoep.org.uk/report/progress-improving-natural-environment-england-20242025&quot;&gt;
+a new assessment from the Office for Environmental Protection (OEP)&lt;/a&gt;, the UK is now on
+course to miss the majority of those commitments. &lt;a href=&quot;https://www.theguardian.com/environment/2026/jan/13/wildlife-targets-missed-england-northern-ireland-watchdog&quot;&gt;
+Seven out of ten are unlikely to be met unless urgent action is taken&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These targets were written into law as a response to decades of nature loss, climate
+breakdown, and public demand for action. If they are missed we risk losing more species,
+allowing ecosystems to degrade further, and placing additional strain on our communities,
+especially those already facing environmental injustice.&lt;/p&gt;
+
+&lt;p&gt;The OEP’s analysis showed that while some areas like clean air and reductions in
+certain hazards are partially on course, crucial goals such as biodiversity net gain,
+habitat restoration and water quality improvements are falling short. The reasons for this
+include delayed implementation, insufficient funding, and conflicting policy priorities
+that still favour development and short‑term economic gains over ecological resilience. At
+the same time, other government proposals, such as planning reforms that risk opening up
+protected sites to new development pressures, could further undermine nature at the very
+time when ecosystems need strengthening.&lt;/p&gt;
+
+&lt;p&gt;Strong laws and regulations protecting nature are a foundation for public wellbeing,
+climate resilience and a fair economy. We need to use them to combine a number of
+different approaches. Firstly we need dedicated, ring‑fenced funding for habitat
+restoration. We also need to give people a sense of ownership and this can be done using a
+number of methods, including rewilding and community conservation projects via community
+trusts and councils. Further community ‘buy in’ can be encouraged by the creation of
+‘green jobs’,  investing in nature protection to create employment in regions hit by
+industrial decline, while improving air, water and green spaces for marginalised
+communities.&lt;/p&gt;
+
+&lt;p&gt;Years of underfunding, lax enforcement and prioritising short‑term economic activity
+over ecological health are catching up with both the government and the nation. While
+markets can drive growth, they don’t protect hedgehogs, rivers and ancient woodlands
+unless the state backs them up with proper regulation and investment. Free‑market
+approaches have too often treated environmental rules as inconvenient constraints rather
+than essential public goods, leaving nature struggling while economic priorities dominate.&lt;/p&gt;
+
+&lt;p&gt;Legally binding targets were meant to be a turning point for nature in the UK, but
+without the resources, enforcement and political will to match, they risk becoming empty
+promises. Protecting nature is about real policies that deliver measurable outcomes for 
+ecosystems and the people who depend on them. The next few years are critical: either we
+take robust action, or Britain’s natural heritage will continue to slip away.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Britain’s Nature Targets Are Slipping by Dom Tristram&lt;/p&gt;&lt;p&gt;Britain once led the world with ambitious environmental law but is now on course to miss the majority of its commitments&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/britains-nature-targets-are-slipping&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2026/01/13/nature.html&quot;&gt;Britain’s Nature Targets Are Slipping&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on January 13, 2026.&lt;/p&gt;</content>
 </entry>
-{% endfor %}
+
+
+<entry>
+  <title type="html"><![CDATA[The Problem of Britain’s Shrinking Social Housing Stock]]></title>
+  <link rel="alternate" type="text/html" href="/2026/01/06/social-housing.html"/>
+  <id>/2026/01/06/social-housing</id>
+  <published>2026-01-06T00:00:00+00:00</published>
+  <updated>2026-01-06T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2026/pexels-altaf-shah-3143825-8314416.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UK’s housing crisis has been growing for many years. Many people looking for
+somewhere to live have been facing soaring rents, long waiting lists, and too few secure
+homes. It is no surprise that the latest figures reveal that England’s social‑housing
+sector is declining sharply even as demand swells. &lt;a href=&quot;https://www.bloomberg.com/opinion/articles/2026-01-05/the-uk-housing-crisis-is-hitting-new-depths&quot;&gt;
+According to a Bloomberg analysis&lt;/a&gt; of
+official data the country has lost more than 180,000 socially rented homes in recent
+years, leaving a growing number of families and individuals without access to genuinely
+affordable housing.&lt;/p&gt;
+
+&lt;p&gt;Social housing (comprising of homes owned and managed by councils and housing
+associations) has traditionally provided security for low‑income households, older people
+on fixed incomes, disabled tenants and key workers unable to afford market rents. As these
+homes vanish due to redevelopment or ‘right to buy’ more people are forced into an increasingly expensive private rental sector or face the grim prospect of homelessness. The consequence is serious - lives destabilised by policy failures.&lt;/p&gt;
+
+&lt;p&gt;The current situation stems from decades of housing policy that leaned too heavily on market mechanisms instead of addressing shortages head‑on. For decades all governments have championed ‘Right to Buy’ and other policies that reduced council stock, often without reliably replacing the homes sold. Meanwhile, central funding for new social housing has been inconsistent, leaving local authorities and housing associations scrambling to balance budgets while facing rising building costs. Relying on private developers to include “affordable” units often results in homes no one on modest incomes can realistically afford.&lt;/p&gt;
+
+&lt;p&gt;The solution must be structural and based on the key value that housing is a human right. This will require substantial public investment to build new social homes directly, ensuring supply meets demand and people on low incomes have access to safe, secure housing. It will also require the introduction of rent caps or controls to keep private rents within reach of ordinary households, and strengthening security of tenure to prevent arbitrary evictions. We also need proper, defined and guaranteed support of housing co‑ops and community land trusts so that local people have a stake in and control over their homes, reducing reliance on speculative investors.&lt;/p&gt;
+
+&lt;p&gt;These policies are the foundation of stable lives, healthy communities and economic opportunity. They also happen to be Green policies.&lt;/p&gt;
+
+&lt;p&gt;The social housing approaches of the past few decades have tended to prioritise property investment over people. “Let the market decide” rhetoric has dominated housing policy for years, which means homes are built where profits are greatest rather than where need is most acute. Funding models have favoured private developers to provide “affordable” homes, but without strict affordability guarantees or enforcement mechanisms, these often remain out of reach for many.&lt;/p&gt;
+
+&lt;p&gt;Cuts to local authority budgets have left councils with limited capacity to build or even maintain existing stock. Meanwhile, housing benefits frozen in real terms have left renters increasingly vulnerable as private rents rise faster than incomes. The result is a housing landscape where supply is constrained, rents are high, and the most disadvantaged are left out in the cold… sometimes without a home at all.&lt;/p&gt;
+
+&lt;p&gt;The shrinking social housing sector is the product of policy choices over decades.
+Without a decisive shift towards genuine affordability, rights‑based housing and community
+empowerment, the crisis will deepen. If Britain is serious about a fairer society it must
+treat housing not as a speculative asset, but as a basic human need deserving of public
+support and political priority. That shift would benefit renters, communities and the
+social fabric of the nation alike.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;The Problem of Britain’s Shrinking Social Housing Stock by Dom Tristram&lt;/p&gt;&lt;p&gt;The latest figures reveal that England’s social‑housing sector is declining sharply even as demand surges&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/the-problem-of-britains-shrinking&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2026/01/06/social-housing.html&quot;&gt;The Problem of Britain’s Shrinking Social Housing Stock&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on January 06, 2026.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[What 2025’s Loss of Local Pubs Tells Us About Policy, Community and a Shifting Economy]]></title>
+  <link rel="alternate" type="text/html" href="/2026/01/02/pubs.html"/>
+  <id>/2026/01/02/pubs</id>
+  <published>2026-01-02T00:00:00+00:00</published>
+  <updated>2026-01-02T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2025/pub.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Last year a symbolic story emerged from English and Welsh high streets -
+&lt;a href=&quot;https://www.theguardian.com/business/2025/dec/31/one-pub-a-day-closed-permanently-in-england-and-wales-in-2025&quot;&gt;
+in 2025, an average of one pub per day closed permanently&lt;/a&gt;. According to analyses of
+government statistics 366 pubs were either demolished or repurposed, reducing the total
+from 38,989 to 38,623 over the year. This trend points to underlying pressures on small
+businesses, changing social patterns and policy choices that have failed to protect
+community assets and third spaces.&lt;/p&gt;
+
+&lt;p&gt;Pubs aren’t just places to drink, they are venues for our social lives, cultural
+expression, employment and local identity. For many towns and villages the local pub is a
+place of community meetings, quiz nights, gigs, charity fundraisers, romantic encounters
+and spontaneous friendships. When these spaces vanish so too does a piece of the social
+fabric that knits our neighbourhoods together.&lt;/p&gt;
+
+&lt;p&gt;Worryingly the data shows that pubs aren’t just shutting temporarily. Nearly all of
+them are being demolished or converted to uses far removed from their original purpose,
+such as offices or housing, making their return unlikely. Industry specialists warn that
+without pub‑specific tax support and structural relief the downward trend could continue.&lt;/p&gt;
+
+&lt;p&gt;These pub closures illustrate the limitations of market‑first profit-driven thinking
+in preserving everyday life. To preserve them we need to champion a number of different
+approaches.&lt;/p&gt;
+
+&lt;p&gt;Firstly we need targeted tax relief and business support, mainly around reducing
+business rates and property tax burdens specifically for pubs and similar
+community‑focused small enterprises, rather than across‑the‑board cuts that
+disproportionately benefit large multinational chains.&lt;/p&gt;
+
+&lt;p&gt;We also need more use of local and cooperative ownership models to encourage community
+ownership where locals hold shares or trusts take over at‑risk pubs. The community itself
+can keep these spaces alive and accountable to their needs even if they aren’t
+‘profitable’ enough for corporate investors. I have some experience of this model as I
+have been one of the community owners of The Bell in Bath since 2013, one of the most
+significant and successful community pub buy-outs in the UK. It’s a model that has been
+proven to work and keeps these vital spaces open.&lt;/p&gt;
+
+&lt;p&gt;Finally we need to strengthen social infrastructure and see pubs as part of the public
+sphere, much like libraries, parks and community centres. They perform a vital cohesive
+role that merits protection and investment, not just profit. We need to make it normal
+for councils and planners to hold a belief that this contribution to the health of
+communities is an economic priority, not a cultural luxury.&lt;/p&gt;
+
+&lt;p&gt;The persistent decline of pubs didn’t happen in a vacuum. Under our previous
+governments going back at least twenty years, pubs have faced a number of challenges
+including rising business rates and energy costs without sufficient targeted relief,
+property tax recalculations slated for 2026, expected to raise costs further for pub
+landlords, and ‘austerity’ in local authority funding reducing councils’ capacity to
+offer bespoke support. While the government has touted a £4.3bn support package aimed at
+easing pressures on pubs and hospitality it is arguably too blunt and too small to
+reverse closures at today’s scale.&lt;/p&gt;
+
+&lt;p&gt;The significant and continuing losses of pubs in 2025 should be a wake‑up call invites
+reflection on what we value as a society, how we should shape economic policy and whether
+communities should be left to the mercy of broad market trends based on property values
+and short term profits. Pubs represent belonging, connection, cohesion and our shared
+lives across everyone in a community regardless of age, race, background and political
+views. As we see division being stoked for political gain it is more important than ever
+that we maintain these shared spaces where people can socialise and meet others outside
+their own online ‘bubbles’. Protecting them means choosing policies that put people and
+place before profit.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;What 2025’s Loss of Local Pubs Tells Us About Policy, Community and a Shifting Economy by Dom Tristram&lt;/p&gt;&lt;p&gt;On average during 2025 one pub a day closed in England and Wales&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/what-2025s-loss-of-local-pubs-tells&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2026/01/02/pubs.html&quot;&gt;What 2025’s Loss of Local Pubs Tells Us About Policy, Community and a Shifting Economy&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on January 02, 2026.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Capping Political Donations Matters for UK Democracy]]></title>
+  <link rel="alternate" type="text/html" href="/2025/12/26/donations-cap.html"/>
+  <id>/2025/12/26/donations-cap</id>
+  <published>2025-12-26T00:00:00+00:00</published>
+  <updated>2025-12-26T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2025/pexels-pavel-danilyuk-5520322.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Today (26 December 2025) nineteen campaign groups including the Electoral Reform
+Society and Transparency International UK &lt;a href=&quot;https://www.theguardian.com/politics/2025/dec/26/uk-ministers-urged-to-cap-political-donations-to-rebuild-voter-confidence&quot;&gt;
+published a robust call for the UK government to introduce caps on political donations&lt;/a&gt;
+as part of a forthcoming Elections Bill. This is a move aimed at restoring public
+confidence in a democratic system perceived to be tilted towards big money interests.&lt;/p&gt;
+
+&lt;p&gt;In recent years political finance in the UK has seen unprecedented large contributions,
+including &lt;a href=&quot;https://www.bbc.co.uk/news/articles/c30j8r034y8o&quot;&gt;a record £9 million
+cryptocurrency donation to Reform&lt;/a&gt;. Such sums can dwarf
+grassroots fundraising and give disproportionate influence to wealthy individuals or
+opaque funding streams. These dynamics distort policy priorities, favouring donor
+interests over public needs, especially on issues like economic inequality, public
+services, housing and climate action, where deep‑pocketed benefactors often have
+entrenched stances.&lt;/p&gt;
+
+&lt;p&gt;In a democracy politicians should be accountable to voters, not ultra-wealthy donors,
+whether individuals, corporations or foreign states. When political parties rely on
+massive contributions from a tiny slice of the population policies shift to accommodate
+those donors’ preferences. For example, energy policy that favours fossil fuel interests
+over renewables, more involvement of private health companies in the NHS, or welfare
+reforms that prioritise budget cuts over social support. These reflect donor priorities
+more than public welfare and are often completely opposed to majority public opinion.
+Historical resistance by Tory administrations to donation caps, including &lt;a href=&quot;https://www.theguardian.com/politics/2011/nov/09/conservatives-oppose-party-funding-cap&quot;&gt;
+dropping
+previous proposals for a ceiling&lt;/a&gt;, has left a gap where wealthy benefactors wield undue
+influence.&lt;/p&gt;
+
+&lt;p&gt;Cryptocurrency donations such as the £9m one to Reform, often poorly regulated and
+potentially anonymous, make this even murkier, as they can come with less transparency
+than traditional funding streams.&lt;/p&gt;
+
+&lt;p&gt;Democratic health is inseparable from transparency and fairness in political financing.
+Greens advocate for strict caps on political donations across the board, preventing any
+individual or entity from dominating party finances. We also propose a ban on opaque 
+funding sources, including cryptocurrencies, shell companies, and foreign money, to ensure
+public clarity over who’s backing political actors. Finally we support reinforcing the
+Independence of the Electoral Commission, with the power and resources to enforce rules,
+levy meaningful penalties and publish timely disclosures - even more urgent since the
+Conservatives &lt;a href=&quot;https://electoral-reform.org.uk/these-government-plans-represent-a-takeover-of-our-independent-election-watchdog/&quot;&gt;
+gutted it and removed its independence&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These measures would help realign political incentives towards the interests of
+ordinary citizens, tackling long‑standing inequalities and enabling bolder action on
+climate, housing, health and poverty. This is the opposite of decades of Government
+policies that have broadly leaned toward deregulation and market logic, favouring minimal
+constraints on political finance under the banner of “freedom” and administrative ease
+The ability for parties to accept large crypto donations (such as Reform’s) overlooks
+how such mechanisms can subvert democratic accountability and enable hidden influence.
+This laissez‑faire stance reinforces a political economy where money talks louder than
+community voices. It is very telling that Reform, if they take power, have promised to
+make such donations even less transparent.&lt;/p&gt;
+
+&lt;p&gt;Capping political donations is about ensuring equitable participation. Trust in
+democratic institutions has been strained by perceptions that wealthy donors, not voters,
+shape outcomes. Strong, transparent donation rules not only rebuild confidence but ensure
+that vital public policies on climate justice, healthcare, social security and beyond
+reflect the needs of everyone, not just the richest few.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Capping Political Donations Matters for UK Democracy by Dom Tristram&lt;/p&gt;&lt;p&gt;Large donations can dwarf grassroots fundraising and give disproportionate influence to wealthy individuals or opaque funding streams&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/capping-political-donations-matters&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2025/12/26/donations-cap.html&quot;&gt;Capping Political Donations Matters for UK Democracy&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on December 26, 2025.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Why Leaving the ECHR Would Hurt Us All]]></title>
+  <link rel="alternate" type="text/html" href="/2025/12/24/echr.html"/>
+  <id>/2025/12/24/echr</id>
+  <published>2025-12-24T00:00:00+00:00</published>
+  <updated>2025-12-24T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2025/pexels-kindelmedia-7773260.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.theguardian.com/uk-news/2025/dec/22/uk-leaving-european-convention-on-human-rights-would-be-a-mistake-equalities-chief-warns&quot;&gt;
+significant warning from the chair of the Equality and Human Rights Commission&lt;/a&gt; on
+Monday (22nd December 2025) couldn’t be more timely - leaving the European Convention on
+Human Rights (ECHR) would be a mistake with real consequences for millions of people.&lt;/p&gt;
+
+&lt;p&gt;For decades the ECHR has underpinned basic safeguards such as freedom from torture and
+inhuman treatment, the right to a fair trial, family life, and protection against
+discrimination. These are legal tools used by individuals every day to challenge
+injustices, whether it’s unlawful detention, police errors, or decisions that tear
+families apart. The ECHR is a cornerstone of legal protections in the UK.&lt;/p&gt;
+
+&lt;p&gt;Right‑wing voices in British politics, particularly from the Tories and Reform, have
+increasingly cast the ECHR as an obstacle to sovereign control of immigration and
+deportation policy. From the viewpoint of the Right and the millionaires funding them,
+international human rights law is seen as a brake on rapid removal of people whose claims
+the state disputes. But this framing is massively over-simplistic and dishonest. The
+ECHR’s protections extend far beyond migration law and are fundamental to the rule of
+law and citizens’ everyday rights.&lt;/p&gt;
+
+&lt;p&gt;Britain’s own ‘Bill of Rights’ proposals floated by some on the Right have emphasised
+removing or narrowing rights rather than expanding them, particularly when it comes to
+social and economic entitlements. Reform’s platform, focused on border controls,
+demonising migrants and reducing regulations for corporations, often sidelines basic
+human rights protections in favour of tough‑on‑immigration rhetoric and division.&lt;/p&gt;
+
+&lt;p&gt;A withdrawal from the ECHR would weaken independent checks on UK executive power,
+making it harder for individuals, especially the poorest and most marginalised, to
+challenge government decisions that harm them. This would be a shift toward a more
+discretionary and politicised rights environment, where protections vary depending on
+political priorities rather than being anchored in a stable, widely recognised legal
+framework. This is clearly the wrong approach for ordinary people and is driven by those
+who don’t want any limits or rights to push back against their plans for authoritarian
+laws and actions.&lt;/p&gt;
+
+&lt;p&gt;What we really need to do is embed rights more deeply and more broadly. Greens
+advocate for an updated set of shared rights that not only retains core civil and
+political rights but also enshrines economic, social, and environmental rights, such as
+access to housing, healthcare, clean air, and protection from poverty. These are
+protections that align with a vision of a just society where dignity isn’t conditional.
+Rather than weakening rights to facilitate state power, a Green approach uses rights as
+a shield for everyone - from discrimination, exploitation, and environmental harm.&lt;/p&gt;
+
+&lt;p&gt;Embracing human rights law can support more equitable outcomes across society, from
+challenging discriminatory employment practices to holding local authorities accountable
+for homelessness and ensuring community voices are heard in environmental planning.&lt;/p&gt;
+
+&lt;p&gt;The debate over the ECHR is really a debate about the kind of society the UK wants
+to be. Do we want this country to be one where rights are weakened for political
+convenience, or one where rights are strengthened to protect the most vulnerable and
+ensure fairness for all? I am certain about one thing - any politician who tells you that
+your rights must be eroded and can&apos;t tell you why (eg exactly which ECHR court cases have
+resulted in obvious injustice) is not on your side.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Why Leaving the ECHR Would Hurt Us All by Dom Tristram&lt;/p&gt;&lt;p&gt;For decades the ECHR has underpinned basic safeguards used by individuals every day to challenge injustices&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/why-leaving-the-echr-would-hurt-us&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2025/12/24/echr.html&quot;&gt;Why Leaving the ECHR Would Hurt Us All&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on December 24, 2025.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Warm Spaces - A Symptom of Deep Social Inequality]]></title>
+  <link rel="alternate" type="text/html" href="/2025/12/23/warm-spaces.html"/>
+  <id>/2025/12/23/warm-spaces</id>
+  <published>2025-12-23T00:00:00+00:00</published>
+  <updated>2025-12-23T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2025/hand-3666963_1280.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Community ‘Warm Spaces’, as described in &lt;a href=&quot;https://www.theguardian.com/business/2025/dec/21/community-warm-spaces-rise-uk-walworth-living-room&quot;&gt;
+this article in The Guardian&lt;/a&gt;, have ballooned
+in number from roughly 4,000 in the winter of 2022–23 to nearly 6,000 in 2025–26 as people
+grapple with the cost of heating their homes and basic living costs.&lt;/p&gt;
+
+&lt;p&gt;Warm spaces offer far more than a seat by a radiator. There’s the important warmth itself
+of course, but they have also become crucial social infrastructure. For people living on 
+ow incomes, on benefits, the elderly or those with chronic illnesses, spiralling energy
+bills force cruel choices: heat or eat? Stay home and risk freezing, or seek refuge
+elsewhere? These community hubs provide a place to stay warm, access a meal or a cup of
+tea, and connect with others, reducing not only physical discomfort but social isolation.&lt;/p&gt;
+
+&lt;p&gt;As well as a general decline in the number of ‘third spaces’ available to many communities,
+the need for these spaces highlights a gap left by a mix of under‑investment in energy
+efficiency, a benefits system that struggles to keep pace with living costs, and a broader
+political landscape that has prioritised market solutions over social security. We Greens
+think that warm spaces should be a temporary stop‑gap until the underlying issues
+requiring them are addressed, not something (like food banks) that becomes normal.&lt;/p&gt;
+
+&lt;p&gt;We need to cap energy prices and strengthen social energy tariffs so households are not
+pushed into fuel poverty. We also need to invest in massive home insulation and retrofit
+programmes, particularly targeting low‑income housing, making homes warmer and cheaper to
+heat year‑round. Finally, we need to reform welfare support so that Universal Credit,
+disability benefits, and pensions genuinely reflect real costs of living. Structural
+fixes like these tackle the root causes of heat loss, fuel cost exposure, and inadequate
+income, rather than merely treating the symptom.&lt;/p&gt;
+
+&lt;p&gt;Over the past decade, market‑oriented energy pricing regimes and cuts to energy
+efficiency schemes have left many homes &apos;leaky&apos; and/or damp, and expensive to run. Fuel
+poverty has remained high, with financial support lagging behind the actual cost of 
+living. However, far from being some sort of alternative to what we currently have,
+Reform UK’s policy positions have emphasised spending cuts and tightening welfare as a
+matter of principle, rather than boosting support where it’s needed most. This reinforces
+pressure on already vulnerable households and underfunds the very support services that
+can help in times of crisis. It is desperately sad that the core of Reform’s support
+comes from the poorer and elderly- the people who their policies will hurt the most.&lt;/p&gt;
+
+&lt;p&gt;I don’t want to suggest that the people behind the organisation and creation of warm
+spaces are anything but heroes. They are providing a vital support for the vulnerable and
+should be praised. However, the need for them to do so is one of the clearest indications
+of how deep structural inequalities play out in everyday life. Community warmth should
+never be a stand‑in for policy that properly supports people. Unfortunately, until homes
+are efficient, energy is affordable, and incomes are adequate, warm spaces will remain
+vital.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Warm Spaces - A Symptom of Deep Social Inequality by Dom Tristram&lt;/p&gt;&lt;p&gt;As winter deepens and nights draw long, a telling sign of the UK’s ongoing cost‑of‑living crisis is emerging: the rapid rise of community “warm spaces”&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/warm-spaces-a-symptom-of-deep-social&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2025/12/23/warm-spaces.html&quot;&gt;Warm Spaces - A Symptom of Deep Social Inequality&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on December 23, 2025.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Why the two‑child benefit cap is a policy fault‑line in the UK’s fight against child poverty]]></title>
+  <link rel="alternate" type="text/html" href="/2025/11/03/why-the-two-child-benefit-cap.html"/>
+  <id>/2025/11/03/why-the-two‑child-benefit-cap</id>
+  <published>2025-11-03T00:00:00+00:00</published>
+  <updated>2025-11-03T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2025/42717990461_6000b669ba_o.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite decades of the Right claiming that work is the route out of poverty, a significant
+number of families on low incomes, even those with a parent in work, are trapped in a cycle
+of hardship.&lt;/p&gt;
+
+&lt;p&gt;The cap on means‑tested support for a third or subsequent child (the two‑child cap) is
+a vivid example of this. Introduced in 2017 by the Tories, it has been continued by Labour
+in government.&lt;/p&gt;
+
+&lt;p&gt;The cap prevents households on certain benefits from claiming the full ‘child element’
+of Universal Credit (or equivalent) for any child after the second one. Research has shown
+that this is increasing child poverty: &lt;a href=&quot;https://www.resolutionfoundation.org/publications/no-half-measures/&quot;&gt;the Resolution Foundation forecasts&lt;/a&gt;
+child poverty after housing costs rising from about 31 % in 2024‑25 to 34 % by 2029‑30 due
+to the policy, and that by scrapping the cap 330,000 children could be lifted out of poverty.&lt;/p&gt;
+
+&lt;p&gt;A policy that reduced the ‘welfare bill’ by cutting support for children undermines the
+principle of social security and helping those most in need. It adds to the inequality for
+parents are in part time work or have ‘zero hour’ contracts, or those with caring
+responsibilities.&lt;/p&gt;
+
+&lt;p&gt;Cutting support for children in poorer families also has an impact on those children
+for their whole lives as it can reduce social mobility - poorer childhoods often translate
+into worse health, education and employment outcomes.&lt;/p&gt;
+
+&lt;p&gt;In the Green Party &lt;a href=&quot;https://greenparty.org.uk/2024/06/17/scrap-to-the-two-child-benefit-cap-urge-greens/&quot;&gt;we want to remove this punitive cap&lt;/a&gt;
+and ensure benefit systems treat all children with dignity: guarantee a living wage for
+parents (and everyone else) and support vital public services, often most used by those
+raising children on lower incomes. Welfare should be stabilising, not restrictive. Coupled
+with investment in affordable housing, insulation and social infrastructure these policies
+create an environment where families, on all incomes, can thrive.&lt;/p&gt;
+
+&lt;p&gt;By contrast, the approach from the Right and, unfortunately, Labour, tends to emphasise
+employment and the ‘free market’ while keeping welfare safety nets tightly restrictive and
+hard to claim. The two‑child cap is a clear example of this: it expects work or market
+income to compensate for the benefit loss, but fails to account for other cost pressures
+or insecure employment. As a result it has disproportionately impacted larger families on
+low incomes (many of whom are working) and increased poverty.&lt;/p&gt;
+
+&lt;p&gt;This is a fundamental problem when any policy, and any government, prioritises reducing
+spending over reversing inequality. Greens reject this. Governments should exist for the
+wellbeing of the people and the protection of the poorest and most vulnerable.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Why the two‑child benefit cap is a policy fault‑line in the UK’s fight against child poverty by Dom Tristram&lt;/p&gt;&lt;p&gt;Despite decades of the Right claiming that work is the route out of poverty, a significant number of families on low incomes, even those with a parent in work, are trapped in a cycle of hardship.&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/why-the-twochild-benefit-cap-is-a&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2025/11/03/why-the-two-child-benefit-cap.html&quot;&gt;Why the two‑child benefit cap is a policy fault‑line in the UK’s fight against child poverty&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on November 03, 2025.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Energy Bills And Net Zero]]></title>
+  <link rel="alternate" type="text/html" href="/2025/07/17/energy-bills-and-net-zero.html"/>
+  <id>/2025/07/17/energy-bills-and-net-zero</id>
+  <published>2025-07-17T00:00:00+01:00</published>
+  <updated>2025-07-17T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2025/wind_farm.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Today I saw a post by Martin Lewis on Facebook about how the October Energy Price Cap is now predicted to rise. The post has led a number of people to comment that ‘net zero’ is to blame. &lt;a href=&quot;https://news.sky.com/story/green-levies-why-scrapping-them-wouldnt-lower-your-bills-as-much-as-claimed-12619655&quot;&gt;It isn’t&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This isn’t entirely unpredictable given that the Right seems to have made ‘net zero’ and climate action more generally their number one enemy, and regularly lying about how much it costs is just one tool in their arsenal. Of course, they don’t like to talk about the fact that fossil-fuel companies and people who have a huge financial interest in them &lt;a href=&quot;https://www.opendemocracy.net/en/dark-money-investigations/reform-uk-funders-nigel-farage-5-million-donations-fossil-fuels-tax-havens/&quot;&gt;donate hundreds of thousands of pounds to Reform&lt;/a&gt;. Obviously any organisation that relies heavily on fossil fuel money should have their opinions on net zero taken with a huge pinch of salt - between 2019 and 2024, Reform received more than 90% of its funding, £2.3 million, from individuals and companies linked to polluting industries and climate science denial.&lt;/p&gt;
+
+&lt;p&gt;In any case, what of these ‘green’ levies? On average they account for 11% of a household’s energy bill. This is not an insignificant amount of money, but the misconception is that they are going into the pockets of wind farm owners and the like. This is not the case. As well as the promotion of renewables they pay for social policies such as help to install energy efficiency measures in low-income and vulnerable households, giving the elderly discounts on winter heating, and so on. This is a form of wealth redistribution which, while not perfect, helps the most vulnerable.&lt;/p&gt;
+
+&lt;p&gt;Investing these funds into energy saving measures and insulation in the homes of the old and vulnerable literally saves lives - people can afford to heat homes rather than not heating them. Not only that, but once these measures are installed the amount paid for energy is much reduced, with the reduction far in excess of any environmental levies applied. In an ideal world everyone would adopt these energy saving measures immediately, but this is difficult for those on low incomes. The levies make it possible.&lt;/p&gt;
+
+&lt;p&gt;The proportion of the levies that goes to investment in renewable capacity has been an excellent investment, with the cost of renewable energy decreasing significantly over a short period of time. With this increase in renewable capacity also comes a reduction in the reliance on foreign gas. In an increasingly unstable world energy security is ever more important, and it is impossible for us to be self-sufficient in energy using fossil fuels. North Sea gas, much trumpeted as a solution by the Right, is in decline and what is produced is sold on the open market.&lt;/p&gt;
+
+&lt;p&gt;Nuclear, also much touted as a solution, also does not provide energy security - it seems unlikely that we will find UK uranium deposits to mine. Not only that, but we are now reliant on foreign corporations and governments to build any new nuclear generation capacity, as we have seen at &lt;a href=&quot;https://www.theb1m.com/video/hinkley-point-c&quot;&gt;Hinkley Point C&lt;/a&gt;. The Hinkley project has massive overruns in both construction time and budget - it is now projected to cost £46bn and will reach full generation capacity more than six years late. When it is finished it will be generating the most expensive electricity in the world, and we’ll be obliged to pay inflated rates for decades, even if we roll out massive amounts of renewables generating far cheaper power. There’s little reason to believe that other nuclear generation projects in the UK will fare any better other than wishful thinking.&lt;/p&gt;
+
+&lt;p&gt;Generation from fossil fuels is not a cost saving, and nor is nuclear. But it’s even worse than that, because the massive subsidies both of these receive from the taxpayer are not included in any sort of ‘levies’ on our bills. Yet these subsidies exist, and come in the form of higher taxes we pay for everything.&lt;/p&gt;
+
+&lt;p&gt;And when fossil fuel or nuclear plants reach end of life it’s the taxpayer that ends up footing the bill. It is estimated that UK nuclear reactor decommissioning &lt;a href=&quot;https://www.gov.uk/government/publications/nuclear-provision-explaining-the-cost-of-cleaning-up-britains-nuclear-legacy/nuclear-provision-explaining-the-cost-of-cleaning-up-britains-nuclear-legacy#:~:text=The%202019%20forecast%20is%20that,on%20the%20previous%20year%27s%20estimate.&quot;&gt;costs the public at least £3bn annually for as long as we have nuclear reactors&lt;/a&gt;, plus 40 years beyond that. But it’s not just nuclear decommissioning that costs the UK taxpayer. The UK government provides substantial subsidies to the North Sea oil and gas industry, despite commitments to phasing out fossil fuel subsidies. These subsidies, primarily in the form of tax breaks for exploration, production, and decommissioning, &lt;a href=&quot;https://www.iisd.org/system/files/2020-11/g20-scorecard-united-kingdom.pdf&quot;&gt;are estimated to be £13.6 billion a year&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Despite this, domestically produced fossil fuels like North Sea gas bring little into the Treasury. The UK has one of the lowest effective tax rates on offshore oil and gas profits in the world, with the Treasury &lt;a href=&quot;https://oilchange.org/blogs/uk-needs-to-act-on-oil-and-gas/&quot;&gt;receiving less than $2 a barrel&lt;/a&gt; in 2019 compared to the nearly $22 for every barrel in Norway. Profits are largely kept by the multinational oil companies with little revenue going to support our vital public services.&lt;/p&gt;
+
+&lt;p&gt;So what do we do to reduce bills? The answer is obvious: changing the way we work out prices. In the UK, electricity prices are primarily set using &lt;a href=&quot;https://www.sustainabilitybynumbers.com/p/electricity-pricing&quot;&gt;a system called &quot;marginal pricing&quot;&lt;/a&gt;. This means the price of electricity is determined by the cost of the most expensive power plant needed to meet demand at any given time. In practice, this often means that the price of gas-fired power plants, which are frequently used to meet peak demand, sets the price for all electricity, even if a significant portion of the electricity is generated from cheaper sources like renewables.&lt;/p&gt;
+
+&lt;p&gt;The government &lt;a href=&quot;https://www.gov.uk/government/news/government-sets-out-reforms-to-create-a-fair-secure-affordable-and-efficient-electricity-system&quot;&gt;has just announced&lt;/a&gt; a review of energy policy, but the plans are not very ambitious. For instance, we need far more action on renewables. Why not mandate that all new buildings must have enough solar PV to generate what the building needs, plus battery storage? This would make the grid more resilient and reduce demand peaks, and the cost is minimal as a percentage of the build price. The government is reluctant to make demands on developers thanks to, presumably, significant lobbying, but such action must be taken. What we do know is that we can’t continue to rely on market pressure as long as the costs of carbon emissions are externalised.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Energy Bills And Net Zero by Dom Tristram&lt;/p&gt;&lt;p&gt;The Right like to blame &apos;net zero&apos; for high energy bills, but the truth behind high bills is almost the opposite&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/energy-bills-and-net-zero&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2025/07/17/energy-bills-and-net-zero.html&quot;&gt;Energy Bills And Net Zero&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on July 17, 2025.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Labour Government Paves the Way for Large Scale NHS Privatisation]]></title>
+  <link rel="alternate" type="text/html" href="/2025/01/07/labour-nhs-privatisation.html"/>
+  <id>/2025/01/07/labour-nhs-privatisation</id>
+  <published>2025-01-07T00:00:00+00:00</published>
+  <updated>2025-01-07T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Labour Government Paves the Way for Large Scale NHS Privatisation: A Critical Look at Increased Private Healthcare Use by Dom Tristram&lt;/p&gt;&lt;p&gt;Government&apos;s 6th January announcement reignites concerns about the creeping privatisation of the NHS&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/labour-government-paves-the-way-for&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Yesterday (6th January 2025) the Labour government announced of a significant increase in
+the use of private healthcare providers to address NHS waiting lists. While some may argue
+this is a pragmatic response to backlogs, the implications of this policy confirm a
+deeper, more troubling shift.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;A Pattern of Privatisation&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;I have long pointed to the Labour Party’s pro-privatisation stance, but this warning has
+all too often fallen on deaf ears, both of Labour activists and some voters. I can’t tell
+you how many times I have been at hustings or meetings about the NHS where people simply
+don’t believe that Labour, the self-styled ‘party of the NHS’ has anything but the best of
+intentions for it and keeping it public.&lt;/p&gt;
+
+&lt;p&gt;However, this is not the case. Even under Corbyn (who supported the Bill as a back
+bencher) the Labour Party was whipped to abstain on the NHS Reinstatement Bill, which
+would have put removing profits from NHS service into law.&lt;/p&gt;
+
+&lt;p&gt;Wes Streeting, the Shadow Health Secretary, has consistently shown sympathy towards
+private healthcare, and the Labour Party has received sizeable donations from private
+health companies. Yesterday’s announcement underscores a fundamental issue: the NHS is
+being incrementally handed over to private firms, under the guise of efficiency and
+backlog reduction.&lt;/p&gt;
+
+&lt;p&gt;This is not a short-term solution. Once private providers become even more entrenched in
+NHS operations, they are unlikely to leave. NHS money—already stretched to its limit—is
+being funnelled into private pockets, with no new funding in sight. For those who argue
+that private providers will simply vanish once waiting lists are cleared, the reality is
+far from it. Their presence will likely expand, creating a system where profit motives
+increasingly dictate healthcare provision.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;The Staff Shortage Problem&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the key flaws in this approach is the misconception that private hospitals can
+offer additional capacity. Private healthcare providers do not conjure up new staff; they
+largely rely on NHS-trained consultants, many of whom divide their time between public and
+private work. As private workloads increase, NHS capacity inevitably suffers. The problem
+isn’t a lack of facilities but a chronic shortage of staff—a situation exacerbated by
+diverting personnel to more lucrative private roles.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Skimming Profits from Routine Procedures&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Even if we were to assume that private healthcare provides genuine extra capacity, this
+policy creates another financial burden for the NHS. Private providers typically focus on
+straightforward, high-volume procedures like hip and knee replacements—the very services
+where NHS hospitals can generate a modest surplus to offset the losses from more complex
+and costly treatments, such as emergency care or cancer therapies.&lt;/p&gt;
+
+&lt;p&gt;By outsourcing routine operations, the NHS loses this vital revenue stream, making it even
+harder to sustain essential but less ‘profitable’ services. The result? NHS hospitals will
+struggle even more, while private firms profit.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Shiny Private Facilities vs. Crumbling NHS Infrastructure&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s easy to see why patients might prefer private hospitals, with their modern
+facilities. But this shouldn’t be a choice forced upon them due to the government’s
+neglect of NHS infrastructure.&lt;/p&gt;
+
+&lt;p&gt;My partner works in a typical, tired and crumbling NHS hospital where wards are sometimes
+closed because of plumbing disasters—a problem that could easily be resolved with proper
+investment in capital projects. Yet, funding for such improvements is sorely lacking.&lt;/p&gt;
+
+&lt;p&gt;Instead of funnelling money into private hospitals, the government should be investing in
+NHS facilities, expanding capacity, and addressing the maintenance backlog. Shiny private
+hospitals might appear appealing in the short term, but they represent a long-term erosion
+of the NHS’s ability to provide universal, equitable care.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;A Solution: Nationalise Private Hospitals&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The Labour government claims there is no alternative to private sector involvement, but
+history tells us otherwise. When the NHS was founded, private hospitals were brought into
+public ownership to ensure universal healthcare. If we truly want to expand NHS capacity,
+the solution is simple: nationalise private hospitals and integrate them into the public
+healthcare system.&lt;/p&gt;
+
+&lt;p&gt;This approach would immediately bolster NHS capacity without diverting funds to
+profit-driven providers. Anything less is a tacit admission that the government
+prioritises private profit over public health.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;What Can You Do?&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;To combat this privatisation agenda, take action now. Write to your Labour MP or local
+Labour Party and express your opposition to private sector outsourcing. Make it clear that
+their stance on this issue will influence your vote. Even if you’ve never voted Labour,
+they won’t know—what matters is the pressure from constituents.&lt;/p&gt;
+
+&lt;p&gt;Additionally, consider supporting a party that unequivocally opposes NHS privatisation. As
+a former Green Party candidate, I believe the Greens are the only party in England
+committed to removing private firms from the NHS and restoring it as a public service.&lt;/p&gt;
+
+&lt;p&gt;Your vote is your voice—use it to demand a healthcare system that prioritises people over
+profit.&lt;/p&gt;
+
+&lt;p&gt;The future of the NHS depends on our collective action. If we fail to stand against these
+policies now, privatisation will continue, and the core principles of our healthcare
+system will be eroded beyond recognition.&lt;/p&gt;
+
+&lt;p&gt;Vote for what you believe in, and fight for a truly public NHS.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2025/01/07/labour-nhs-privatisation.html&quot;&gt;Labour Government Paves the Way for Large Scale NHS Privatisation&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on January 07, 2025.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Tragic Consequences of Profit in Healthcare - More Lessons from the U.S.]]></title>
+  <link rel="alternate" type="text/html" href="/2024/12/11/health-ceo.html"/>
+  <id>/2024/12/11/health-ceo</id>
+  <published>2024-12-11T00:00:00+00:00</published>
+  <updated>2024-12-11T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;img src=&quot;../../../assets/img/2024/brian_thompson.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;US healthcare results in inequality and bankruptcy, but when limited to everyday
+people it doesn’t often make the news. The death of a wealthy CEO might finally get the
+attention of those in power.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;On the 4th of December news emerged of the assassination of healthcare CEO Brian Thompson
+in the United States. While details are still unfolding (the current leading suspect Luigi
+Mangione claims to be innocent), the incident raises broader issues about the role of
+profit-driven healthcare systems and the dangers they pose.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Disparities in Attention&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The first striking observation is the disproportionate media attention given to this case.
+Murders occur daily in America, often involving firearms, yet the killing of a wealthy
+individual garners significantly more coverage than the countless lives lost among
+ordinary citizens. This disparity reflects a broader societal tendency to prioritise the
+wealthy and influential, but it also serves as a stark reminder of the systemic
+inequalities at play.&lt;/p&gt;
+
+&lt;p&gt;I want to make it clear that I celebrate no deaths, including this one. I hate the way the
+US healthcare system is, and I think it’s immoral for people to become as rich as this man
+was on the back of it, but I will not condone those celebrating this as some sort of
+‘payback’.&lt;/p&gt;
+
+&lt;p&gt;What is true is that the murder of someone very wealthy has reminded everyone of the
+obvious truth behind the industry that made him wealthy, and indeed the whole concept of
+private healthcare: the incentive to profit by spending as little money as possible on
+treatment while charging as much as you can get away with.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;The Suspect and His Motives&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;What makes this case unusual is the profile of the suspect. By all accounts, he is
+wealthy, well-educated, and had no prior criminal record or history of violence. He
+attended the University of Pennsylvania, an Ivy League university, earning both a degree
+and a master’s in computer science—hardly the typical background of someone who would
+commit such an act.&lt;/p&gt;
+
+&lt;p&gt;Friends of Mangione suggest he suffered a debilitating back injury from a surfing accident
+and endured chronic pain despite undergoing multiple treatments. Despite his wealth and
+insurance coverage, he allegedly faced repeated denials of certain treatments by his
+insurer, who deemed them unnecessary. These frustrations may have led him to target the
+CEO of the insurance company, an individual who had profited significantly from a system
+that, to the suspect, denied him care.&lt;/p&gt;
+
+&lt;p&gt;It’s critical to state unequivocally that I believe that violence is never a solution to a
+non-violent problem. However, understanding the conditions that drive someone to such
+desperation is essential. The suspect appears to have meticulously planned the attack,
+isolating himself for months before targeting the CEO—a calculated act rooted in personal
+grievance rather than random violence.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;The Inevitable Outcome of Profit-Driven Healthcare&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;This case highlights the perils of introducing profit motives into healthcare. In systems
+where financial gain becomes a priority, insurers and providers often save money by
+denying treatments, regardless of the impact on patients. For every pound saved, an
+additional pound is pocketed by executives and shareholders. This dynamic breeds
+resentment, particularly when patients feel abandoned by a system that prioritises profit
+over care.&lt;/p&gt;
+
+&lt;p&gt;And yet, we are told by this Labour government, and many UK governments before it, that
+involving private healthcare in the NHS is somehow necessary because the NHS is ‘broken’
+or ‘not fit for purpose’. This is a lie and must be called out.&lt;/p&gt;
+
+&lt;p&gt;The UK’s NHS, while far from perfect, historically stood as a model of efficiency and
+equity. Until 2011, it was widely recognised as one of the most efficient healthcare
+systems in the world, delivering strong outcomes for relatively low expenditure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../assets/img/2024/nhs_ranking_2011.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, the introduction of private sector involvement under successive Conservative and
+Liberal Democrat governments has fundamentally altered its landscape. Waiting lists have
+soared, A&amp;amp;E targets are missed, and patients struggle to see GPs—all symptoms of a system
+weakened by reforms that prioritise cost-cutting over care.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;The Danger of Following America’s Lead&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Disturbingly, Labour’s current health proposals seem poised to deepen this trend. Figures
+such as Health secretary Wes Streeting advocate for increased private sector involvement
+in the NHS, bringing in consultants and advisors to implement “efficiency” measures. But
+let’s be clear: the private sector’s primary goal is not to improve healthcare—it is to
+make money. Every pound saved by denying care or cutting corners flows into the pockets of
+CEOs and shareholders.&lt;/p&gt;
+
+&lt;p&gt;This profit-driven model inevitably creates winners and losers. The winners are the
+corporations and the ultra-wealthy, who profit from extracting money from healthcare
+systems. The losers are patients denied timely, effective care. The U.S. offers a grim
+warning: a system where wealth dictates access to healthcare creates desperation, and
+desperation breeds violence.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;A Crossroads for the NHS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The UK now faces a choice. Do we continue down the road of increasing private sector
+involvement, accepting that this will likely exacerbate inequality and reduce access to
+care? Or do we return to a model that prioritises public investment in the NHS, ensuring
+healthcare remains a right, not a privilege?&lt;/p&gt;
+
+&lt;p&gt;Desperate people will resort to desperate measures. While the violence seen in the U.S. is
+extreme, it serves as a cautionary tale. By allowing profit motives to dictate healthcare
+policy, we risk creating a society where people are pushed to their limits—financially,
+emotionally, and physically. The solution is not more private sector involvement but less.&lt;/p&gt;
+
+&lt;p&gt;We must resist efforts to privatise further and instead invest in a truly public NHS. This
+is not just about preserving healthcare; it’s about preventing a future where desperation
+turns into tragedy.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://weownit.org.uk/act-now/tell-wes-streeting-no-new-pfi-our-nhs&quot;&gt;There
+happens to be a petition by We Own It running right now&lt;/a&gt; asking Wes Streeting not to
+make new PFI deals. This is just a part of his agenda to siphon more NHS money, our money,
+off to the private health sector. I urge you to sign it and share it.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;The Tragic Consequences of Profit in Healthcare: More Lessons from the U.S. by Dom Tristram&lt;/p&gt;&lt;p&gt;US healthcare results in inequality and bankruptcy, but when limited to everyday people it doesn&apos;t often make the news. The death of a wealthy CEO might finally get the attention of those in power.&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/the-tragic-consequences-of-profit&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/2024/12/11/health-ceo.html&quot;&gt;The Tragic Consequences of Profit in Healthcare - More Lessons from the U.S.&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on December 11, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Spotify Wrapped]]></title>
+  <link rel="alternate" type="text/html" href="/2024/12/10/spotify-wrapped.html"/>
+  <id>/2024/12/10/spotify-wrapped</id>
+  <published>2024-12-10T00:00:00+00:00</published>
+  <updated>2024-12-10T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;b&gt;Why I wont be sharing my ‘Spotify Wrapped’&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Every year, around this time, countless artists eagerly share their Spotify Wrapped stats
+with the world. Let me be clear from the start: I don’t begrudge anyone doing so. If an
+artist is proud of what they’ve achieved, more power to them. This isn’t an article
+criticising their choice to celebrate their milestones. Rather, it’s about why I’ve chosen
+not to participate.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;It’s Not About Hiding Anything&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m not shying away because I’ve got something to hide. I’m perfectly open about the fact
+that my music reaches a modest audience. In fact, this year, I’ve gained more listeners
+than ever, and I’m pleased with that. But I’m still operating on a small scale. My
+reluctance to share my stats doesn’t stem from embarrassment or a desire to obscure my
+standing. Instead, it’s about something deeper: the toxic culture that surrounds these
+numbers.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;The Problem With Spotify’s Numbers&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve always had a problem with Spotify prominently displaying an artist’s monthly listener
+count on their profile. This feature fosters an unhealthy obsession with numbers. It
+drives behaviours like playlist botting and paid promotions to artificially inflate stats
+because, like it or not, those figures influence how listeners perceive music.&lt;/p&gt;
+
+&lt;p&gt;The logic is flawed, but it exists nonetheless: low numbers equate to low quality in the
+eyes of some. This system discourages genuine discovery of lesser-known artists. On other
+streaming platforms, where such statistics aren’t front and centre, listeners are arguably
+more inclined to give unfamiliar music a chance. That’s real discovery—finding artists who
+are talented but not yet well-known.&lt;/p&gt;
+
+&lt;p&gt;Spotify, however, perpetuates a cycle of promoting the already popular. Even the
+platform’s much-touted discovery features, like its recommendations, often lead to artists
+who are already well-established. After one of my songs finishes playing, the next
+recommendation is almost always someone with hundreds of thousands of listeners—artists I
+already know. That’s not discovery; it’s recycling. What about the smaller, independent
+artists who deserve a shot?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;The Broader Implications for Artists&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;This obsession with numbers has practical consequences too. Venues and promoters
+increasingly use Spotify stats to determine whether an artist is worth booking. They’ll
+often check monthly listener counts as part of their decision-making process. For many
+smaller musicians, this makes Spotify an inescapable part of their career, even if they’d
+rather direct listeners to platforms like Bandcamp or Tidal, which pay far better
+royalties.&lt;/p&gt;
+
+&lt;p&gt;Spotify has us hooked, and they know it. Their dominance ensures that artists feel
+compelled to drive traffic to the platform, even if it’s not in their best interest. I’m
+guilty of it myself. When I release a song, I post a Spotify link because I want those
+numbers to climb. I resent doing it, but the ecosystem leaves me little choice.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Why I’m Opting Out of Spotify Wrapped&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;This brings me to Spotify Wrapped, the culmination of this numbers-driven culture. Every
+year, artists and listeners alike are encouraged to share their stats as a badge of
+honour. It’s become a normalised ritual, but it’s ultimately just another way Spotify
+reinforces the importance of these numbers.&lt;/p&gt;
+
+&lt;p&gt;As an artist, I can see my stats anytime. They’re useful for marketing, understanding my
+audience, and planning my next moves. But making these numbers public doesn’t benefit
+me—or most artists. Unless you’re a massive name, your numbers will always pale in
+comparison to someone else’s. It’s a game that smaller artists can’t win.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;A Call for Change&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of feeding this toxic system, I propose we do better. Let’s stop amplifying
+Spotify’s advertising under the guise of Wrapped. Let’s question why we’re promoting a
+platform that pays Joe Rogan hundreds of millions while underpaying independent artists.
+Let’s push for platforms that treat musicians more fairly and genuinely support discovery
+of new talent.&lt;/p&gt;
+
+&lt;p&gt;I’m not suggesting that Spotify has no place in the music industry, but its current model
+doesn’t serve smaller artists. Wrapped is a celebration of numbers, not music. So this
+year, I’m choosing to step back. My voice may be small, but it’s one I’ll use to advocate
+for something better—something that values artistry over algorithms.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Spotify Wrapped by Dom Tristram&lt;/p&gt;&lt;p&gt;Why I wont be sharing my &apos;Spotify Wrapped&apos;&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristrammusic.substack.com/p/spotify-wrapped&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;To receive my new politics posts directly by email or in the Substack app,
+please &lt;a href=&quot;https://domtristrammusic.substack.com/&quot;&gt;subscribe&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2024/12/10/spotify-wrapped.html&quot;&gt;Spotify Wrapped&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on December 10, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Trump]]></title>
+  <link rel="alternate" type="text/html" href="/2024/11/06/trump.html"/>
+  <id>/2024/11/06/trump</id>
+  <published>2024-11-06T00:00:00+00:00</published>
+  <updated>2024-11-06T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;I set out today to discuss the Conservative Party leadership election here in the UK and
+the implications of our new Tory leader. However, as events have unfolded across the
+Atlantic, my initial plan feels a bit trivial in light of the bigger picture. Like many,
+I presumed—perhaps naively—that the American election would head in a different direction.
+Yet, here we are: Donald Trump has won.&lt;/p&gt;
+
+&lt;p&gt;While the outcome of the Conservative leadership contest certainly holds significance
+within British politics, it pales in comparison to the potential ramifications of Trump’s
+return to power. The issues we face with certain Tory figures, however controversial or
+disagreeable they may be, cannot compare to the scale of dismay surrounding Trump. Unlike
+Conservative leaders, Trump openly denies climate change, has a history of convictions and
+accusations of sexual assault, and is embroiled in controversies ranging from mishandling 
+state secrets to even more shocking accusations. Despite any criticism one might level at
+Kamala Harris or the American Democrats, the contrast in leadership styles and values
+between the two parties is stark.&lt;/p&gt;
+
+&lt;p&gt;Certainly, I have my qualms with the American Democrats. They aren’t truly left-leaning,
+and their pro-Israel stance, particularly regarding the ongoing Gaza conflict, is far
+from something I align with. Nonetheless, whoever they put forward—whether it’s Biden, who
+many argue is too old, or Harris, with her policy positions that I can’t support—is
+fundamentally better for democracy than someone with Trump’s record. Here is a man who
+openly admits to behaviour many would find repulsive, has mused about using military force
+against his political opponents, and has even chosen a running mate who has questioned
+the voting rights of childless women. It’s a surreal scenario, almost like something out
+of a dark political satire.&lt;/p&gt;
+
+&lt;p&gt;When Trump lost the last election, he didn’t just concede quietly; he attempted a coup.
+The images of him hoarding classified documents in his bathroom, allegedly sharing secrets
+with foreign powers, paint an astonishingly grim picture. Meanwhile, figures like Elon
+Musk and other so-called ‘crypto bros’ are aligning themselves with Trump, seeing in him
+an easily manipulable figure who could serve their interests. It brings to mind the
+oligarchs in 1990s Russia, only this time it’s in America, with the ultra-wealthy vying
+to consolidate power.&lt;/p&gt;
+
+&lt;p&gt;Some might try to dismiss this outcome with the assurance that it’s only four years, and
+people will see reason in time. Yet, America’s political landscape doesn’t work that way.
+The politically appointed Supreme Court is already stacked in the Republicans’ favour, and
+within the next four years, Trump could appoint additional justices. This would likely
+solidify a hard-right majority, capable of dismantling rights and protections long held
+dear by many Americans. Even if something were to happen to Trump, his influence would
+remain entrenched in the judiciary and the Senate for years, shaping policy far beyond
+his own tenure.&lt;/p&gt;
+
+&lt;p&gt;What’s particularly staggering is that this time, Trump might even have won the popular
+vote, a feat he didn’t achieve in his first election. It’s baffling to think that so many
+could support a figure who openly disregards democratic principles and exhibits disdain
+for so many groups within his own voter base—women, non-white citizens, and immigrants,
+to name a few. It’s enough to make Brexit seem like a minor hiccup in comparison.&lt;/p&gt;
+
+&lt;p&gt;While I still hold the belief that people are generally decent, albeit sometimes misled,
+today has sorely tested that faith. Watching the outcome of this election unfold, I find
+myself deeply concerned about what lies ahead. America’s leadership doesn’t only impact
+its own citizens but has a ripple effect on global issues—especially the climate crisis
+and conflicts in places like Ukraine.&lt;/p&gt;
+
+&lt;p&gt;In any case, here we are on November 6th, faced with an unpredictable and turbulent path
+ahead. Perhaps, when the dust settles, I’ll muster the energy to revisit the topic of the
+Tory leadership. But for now—well, let’s just brace ourselves.&lt;/p&gt;
+
+&lt;div class=&quot;substack-post-embed&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Trump by Dom Tristram&lt;/p&gt;&lt;p&gt;Americans choose hate over hope&lt;/p&gt;&lt;a data-post-link=&quot;&quot; href=&quot;https://domtristram.substack.com/p/trump&quot;&gt;Read on Substack&lt;/a&gt;&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://substack.com/embedjs/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;To receive my new politics posts directly by email or in the Substack app,
+please &lt;a href=&quot;https://domtristram.substack.com/&quot;&gt;subscribe&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2024/11/06/trump.html&quot;&gt;Trump&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on November 06, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[NHS Privatisation in Bath and NE Somerset]]></title>
+  <link rel="alternate" type="text/html" href="/2024/11/01/NHS-privatisation.html"/>
+  <id>/2024/11/01/NHS-privatisation</id>
+  <published>2024-11-01T00:00:00+00:00</published>
+  <updated>2024-11-01T00:00:00+00:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;A Letter to the Bath Chronicle printed in the paper on 24th October 2024&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../assets/img/2016/2016_junior_doctors_strike.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Throughout my time ‘in politics’ and as the Green Party candidate for Bath’s MP in
+multiple elections I have campaigned for a publicly owned and operated NHS, and against
+privatisation.&lt;/p&gt;
+
+&lt;p&gt;The Green Party is the only party with this policy. This is true despite what Labour
+candidates and activists have told me over the years, claiming to be the ‘party of the
+NHS’ and that they are also against privatisation, despite all evidence to the contrary.
+Unfortunately this seems to be also widely held by some voters, who believe that Labour is
+still a left-leaning party at heart.&lt;/p&gt;
+
+&lt;p&gt;I wonder how many of the voters who put Labour into second place in the last election will
+therefore be somewhat surprised that, under the new Labour government, community health
+services in BaNES, Swindon and Wiltshire have just been handed over to a profit-making
+company in a huge £1.3bn deal?&lt;/p&gt;
+
+&lt;p&gt;They will sometimes tell voters that this is somehow ‘not privatisation’. That is a lie.
+Services that could be run by the NHS (with any savings from efficiency improvements going
+back into improving other NHS services) will be run by a company with an incentive to spend
+as little as it can on care so that it can maximise profits. This is NHS money given to
+shareholders instead of being spent on patients.&lt;/p&gt;
+
+&lt;p&gt;This is just the beginning - under Wes Streeting, the private sector is set to take
+control of much more of our NHS to profit from.&lt;/p&gt;
+
+&lt;p&gt;The Green Party is the only party that will put NHS services back into public hands. For
+Greens, it is a fundamental principle that the NHS should be run for people, not profit.
+This is a view shared by the majority of the public.&lt;/p&gt;
+
+&lt;p&gt;Yours faithfully,&lt;/p&gt;
+
+&lt;p&gt;Dom Tristram,&lt;/p&gt;
+
+&lt;p&gt;2024 Green Party MP candidate for Bath&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To receive my new politics posts directly by email or in the Substack app,
+please &lt;a href=&quot;https://domtristram.substack.com/&quot;&gt;subscribe&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2024/11/01/NHS-privatisation.html&quot;&gt;NHS Privatisation in Bath and NE Somerset&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on November 01, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[By The End of Tomorrow You Will Know Who You Can Vote For. In Bath, One Of Them Will Definitely Be Me]]></title>
+  <link rel="alternate" type="text/html" href="/2024/06/06/close-of-nominations.html"/>
+  <id>/2024/06/06/close-of-nominations</id>
+  <published>2024-06-06T00:00:00+01:00</published>
+  <updated>2024-06-06T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;Even those with little interest in politics couldn’t help but notice the general election 
+campaign since the date was announced. The relatively short amount of time all of the
+parties have (although it might not feel that way to those on the receiving end) means
+that a lot of ‘stuff’ has to fit into six weeks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../assets/img/2024/edmund_dom.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This has pros and cons as a candidate. My immediate advantage over some of the others is
+that I was selected absolutely ages ago, back in 2022 I think, so my local party hasn’t
+had to scramble around with a rushed selection process.&lt;/p&gt;
+
+&lt;p&gt;The Green Party nationally has actually been much more ‘on the ball’ than most others in
+this regard. A few days after the election was announced we already had the second largest
+number of candidates selected - more than the Tories and Lib Dems.&lt;/p&gt;
+
+&lt;p&gt;The Tories being caught on the back foot by the announcement might come as a surprise to
+many people. “Surely they would have been briefed that an election was coming before the
+general public were?”, you might think. This very much appears not to be the case, and by
+all accounts there were many local Conservative ‘associations’ rather annoyed about not
+knowing the date in advance.&lt;/p&gt;
+
+&lt;p&gt;So here we are, one day away from the deadline for nominations and some candidates are
+probably not quite confirmed yet. This means that despite all of the media noise you might
+not actually get to vote for someone you expected to. They may also be some unexpected
+candidates on the ballot.&lt;/p&gt;
+
+&lt;p&gt;I am pleased to say that my papers are in and validated, and I will definitely be on the
+ballot for Bath. My Green colleague in the photo, Edmund Cannon, will also definitely be
+on the ballot for North East Somerset and Hanham (where Rees-Mogg is standing).&lt;/p&gt;
+
+&lt;p&gt;Labour, the Tories, the Lib Dems and Reform have also announced candidates for Bath, but
+until the council publishes the statement of persons nominated and notice of poll tomorrow
+we won’t know for sure who is definitely going to be an option for voters.&lt;/p&gt;
+
+&lt;p&gt;A great result for me, although admittedly unlikely, would be if everyone else is late or
+has messed-up their forms and I am the only candidate, thus winning by default. One can
+always hope! Assuming they aren’t that hopeless then we have an interesting few weeks
+coming.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To receive new posts directly by email or in the Substack app, please &lt;a href=&quot;https://domtristram.substack.com/&quot;&gt;subscribe&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2024/06/06/close-of-nominations.html&quot;&gt;By The End of Tomorrow You Will Know Who You Can Vote For. In Bath, One Of Them Will Definitely Be Me&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on June 06, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Sunak Calls General Election]]></title>
+  <link rel="alternate" type="text/html" href="/2024/05/22/sunak-calls-general-election.html"/>
+  <id>/2024/05/22/sunak-calls-general-election</id>
+  <published>2024-05-22T00:00:00+01:00</published>
+  <updated>2024-05-22T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;Today the Prime Minister Rishi Sunak &lt;a href=&quot;https://www.bbc.co.uk/news/av/uk-politics-69051032&quot;&gt;
+announced that the General Election will take place on the 4th of July&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This came as a surprise to many, including candidates such as myself. The assumption was that the government would hold an election in the autumn, and this was based on the almost universal prediction that they know they will lose and want to retain power for as long as possible. If nothing else they could have hoped that Labour would suffer some sort of disaster or appalling gaff and played for time.&lt;/p&gt;
+
+&lt;p&gt;However, here we are - in six weeks the nation will go to the polls.&lt;/p&gt;
+
+&lt;p&gt;It would take a brave commentator, even in the Tory press, to publicly state that the Tories will win. They almost certainly will not. The only real question is how badly they will lose and how large the Labour majority will be (if indeed they achieve a majority).&lt;/p&gt;
+
+&lt;p&gt;I’m not going to pretend that the Greens are going to form the next government, but I do think that the best possible outcome of the election is a Labour minority government that depends on the support of other progressive parties such as the Greens to stay in power. This isn’t just because I want power for the sake of it, but because while a Labour majority government will almost certainly be better than a Tory one, it is still a poor outcome for the country.&lt;/p&gt;
+
+&lt;p&gt;Over the coming weeks I will discuss why this is. I’ll also talk about national issues, policy, the situation in Bath where I am standing, and anything else that you might want to hear about! Please let me know if there’s any subject you want me to cover.&lt;/p&gt;
+
+&lt;p&gt;In the meantime I’d like to finish by saying that I very much look forward to giving the people of Bath the choice of a fairer, greener country and the chance to vote for real change. The campaign might feel long but it will feel short for us candidates!&lt;/p&gt;
+
+&lt;p&gt;Subscribe to my &lt;a href=&quot;https://domtristram.substack.com/&quot;&gt;newsletter on Substack&lt;/a&gt;, have a look at my &lt;a href=&quot;http://dom4bath.org&quot;&gt;campaign Web site&lt;/a&gt;, follow me on social media (I’m on pretty much all of it - you can find the links on my Web site). Even better, help in my campaign! I won’t lie to you - the Greens have much, much less money than the other parties. Every volunteer is very much appreciated.&lt;/p&gt;
+
+&lt;p&gt;I look forward to making the Green case in hustings and events. Let me know if you want me to come to yours! I hope to see many of you who are in and around Bath.&lt;/p&gt;
+
+&lt;p&gt;Real change is possible. We can do this. Together.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To receive new posts directly by email or in the Substack app, please &lt;a href=&quot;https://domtristram.substack.com/&quot;&gt;subscribe&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2024/05/22/sunak-calls-general-election.html&quot;&gt;Sunak Calls General Election&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on May 22, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Politicising Climate - Part of the 'Populist Playbook']]></title>
+  <link rel="alternate" type="text/html" href="/2023/09/21/politicising-climate.html"/>
+  <id>/2023/09/21/politicising-climate</id>
+  <published>2023-09-21T00:00:00+01:00</published>
+  <updated>2023-09-21T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;We need to talk about what the Tories are doing when it comes to the environment and how dangerous it is.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://vm.tiktok.com/ZGJ7DWnGt/&quot;&gt;[Watch on TikTok]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/_CS2G-nYSpg&quot;&gt;[Watch on YouTube]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fb.watch/nbNSicTZJa/&quot;&gt;[Watch on Facebook]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/Cxcrd2ooDMj/?utm_source=ig_web_copy_link&quot;&gt;[Watch on Instagram]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/gb/podcast/dom-tristrams-soapbox/id1377617516&quot;&gt;[Get the Podcast]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Generated transcript:&lt;/p&gt;
+
+&lt;p&gt;We need to talk about what the Tories are doing when it comes to the environment and how dangerous it is. Now of course the Tories have never really cared about the climate or the environment if it means spending money. I mean, that’s true, even though they have done some environmental things, and there are Tories who are greener than other Tories, and credit where it’s due, uh, people like Zach Goldsmith and even Boris Johnson have said some sensible things about climate and environment.&lt;/p&gt;
+
+&lt;p&gt;I’ll give them that. I mean, I don’t agree with them in many ways, but they have said at least one or two sensible things, like maybe we should care about the climate, and maybe we should do something about it, and maybe we should get people out of their cars a bit, and maybe we should invest in public transport, and bikes in London, all these things.&lt;/p&gt;
+
+&lt;p&gt;There are, and there have been, Tories in the past who have made some very small gestures towards , climate and responsibility of the environment. But now what’s happening? Now the Tories, having realised they’re going to lose the election because they’ve been appalling for the last 15 years or so, have decided that the environment is going to be something they weaponize, something they’re going to make, uh, aligned to left and right.&lt;/p&gt;
+
+&lt;p&gt;Like in America, where if you’re on the left, you care about the climate, and if you’re on the right, you hate the climate. This is what the Americans have managed to do, so everything becomes divisive, and anyone on either side who suggests anything to do with helping the environment gets labelled as some sort of lefty.&lt;/p&gt;
+
+&lt;p&gt;In this country, we’ve largely avoided that up until relatively recently. There was consensus that we needed to do something about net zero, and people argued about the speed we needed to do it, but it was generally accepted. For example, Boris Johnson, um, who I do not give much credit to, but he was fairly fundamental to expanding the, um, emissions zone in London, which now, um, Sadiq Khan’s getting all the grief about from Tory activists.&lt;/p&gt;
+
+&lt;p&gt;That was Boris Johnson that pushed it. So let’s not forget. that the Tories have not traditionally been entirely bad when it comes to climate. But now they’ve decided they’re going to make it a divisive issue. So we get this ridiculous sort of stuff coming out of our Prime Minister saying we’re going to stop these things that actually aren’t happening.&lt;/p&gt;
+
+&lt;p&gt;Because don’t get me wrong, these things here aren’t happening. at the moment. This tweet makes absolutely no sense at all. It’s entirely designed to anger people on the right, make them think that there is some sort of cabal of people who care about the climate who are somehow left wing and are making you do these things.&lt;/p&gt;
+
+&lt;p&gt;These things are not true, okay? We are stopping. No, they’re not stopping anything because these things… aren’t happening. Now, there is small taxes on flights, of course, but that’s, they’re not going to stop those. They’re talking about some sort of mythical thing, some mythical tax that’s going to discourage you from flying, not what’s actually happening now, because they’re not talking about getting rid of that.&lt;/p&gt;
+
+&lt;p&gt;So taxes on eating meat, you know, these are purely designed to be divisive. Now, of course, Let’s not forget the Tories are now talking about pushing back on our obligations to stop the sale of new diesel and petrol cars and gas boilers. And they’re pitching this as some sort of, oh, it’s unfair on the poor people who can’t afford new electric cars.&lt;/p&gt;
+
+&lt;p&gt;Right, let’s be very clear. The poor, or I should say people with less money, are not thinking about buying brand new cars, full stop. They’re not. I mean, it’s ridiculous. It’s a made up thing that’s meant to make us feel, oh, the Tories are on the side of the working man. The Tories have never, and will never, be on the side of the working man or people who aren’t rich.&lt;/p&gt;
+
+&lt;p&gt;They are not. The sale of new cars only affects… the wealthier people. You might want a cheaper new car, I don’t blame you, but if you are buying a new car, you’re not poor, okay? So let’s get away from this divisive politics. Let’s talk about the things that need to be talked about when it comes to the climate.&lt;/p&gt;
+
+&lt;p&gt;We do need to accelerate where we are, route to net zero. 2050 is too late, 2030s. Too late. Everything’s too late. Today is the time to do it and the, you know, the next best day is tomorrow. So we need to accelerate these things and we can do it in a way that doesn’t disadvantage the people with less money.&lt;/p&gt;
+
+&lt;p&gt;Let’s remember there’s more millionaires in this country than there’s ever been. They pay very little tax. Let’s get them to subsidize. Expensive insulation upgrades is on this list. What do you think that means? That means people living in rent and accommodation are going to have to pay more for energy.&lt;/p&gt;
+
+&lt;p&gt;They don’t care about people without much money who are cold. They’re caring there about landlords. You know, it’s the messaging is all, , we’re helping people with less money. No, you only care about the rich. You’ve only ever cared about the rich. Don’t try and weaponize the climate to try and get people who aren’t rich on your side.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2023/09/21/politicising-climate.html&quot;&gt;Politicising Climate - Part of the 'Populist Playbook'&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on September 21, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Dangerous Dogs]]></title>
+  <link rel="alternate" type="text/html" href="/2023/09/11/dangerous-dogs.html"/>
+  <id>/2023/09/11/dangerous-dogs</id>
+  <published>2023-09-11T00:00:00+01:00</published>
+  <updated>2023-09-11T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;As the media concentrates on yet another attack by a dog breed intended to be agressive, what can be done about the problem to tackle it permanently?&lt;/p&gt;
+
+&lt;!--&lt;blockquote class=&quot;tiktok-embed&quot; cite=&quot;https://www.tiktok.com/@dominictristram/video/7237410401359645979&quot; data-video-id=&quot;7237410401359645979&quot; style=&quot;max-width: 605px;min-width: 325px;&quot; &gt; &lt;section&gt; &lt;a target=&quot;_blank&quot; title=&quot;@dominictristram&quot; href=&quot;https://www.tiktok.com/@dominictristram?refer=embed&quot;&gt;@dominictristram&lt;/a&gt; &lt;p&gt;Record Migration Figures&lt;/p&gt; &lt;a target=&quot;_blank&quot; title=&quot;♬ original sound  - Dom Tristram&quot; href=&quot;https://www.tiktok.com/music/original-sound-Dom-Tristram-7237410319471364890?refer=embed&quot;&gt;♬ original sound  - Dom Tristram&lt;/a&gt; &lt;/section&gt; &lt;/blockquote&gt; &lt;script async src=&quot;https://www.tiktok.com/embed.js&quot;&gt;&lt;/script&gt;--&gt;
+
+&lt;blockquote class=&quot;tiktok-embed&quot; cite=&quot;https://www.tiktok.com/@dominictristram/video/7277546289246522657&quot; data-video-id=&quot;7277546289246522657&quot; style=&quot;max-width: 605px;min-width: 325px;&quot;&gt; &lt;section&gt; &lt;a target=&quot;_blank&quot; title=&quot;@dominictristram&quot; href=&quot;https://www.tiktok.com/@dominictristram?refer=embed&quot;&gt;@dominictristram&lt;/a&gt; Should we ban &lt;a title=&quot;bullyxl&quot; target=&quot;_blank&quot; href=&quot;https://www.tiktok.com/tag/bullyxl?refer=embed&quot;&gt;#bullyxl&lt;/a&gt; &lt;a title=&quot;dogs?&quot; target=&quot;_blank&quot; href=&quot;https://www.tiktok.com/tag/dogs%3F?refer=embed&quot;&gt;#dogs?&lt;/a&gt; Yes, almost certainly. But we need to go further than that. &lt;a title=&quot;dangerousdogs&quot; target=&quot;_blank&quot; href=&quot;https://www.tiktok.com/tag/dangerousdogs?refer=embed&quot;&gt;#dangerousdogs&lt;/a&gt; &lt;a target=&quot;_blank&quot; title=&quot;♬ original sound - Dom Tristram&quot; href=&quot;https://www.tiktok.com/music/original-sound-7277546324474825505?refer=embed&quot;&gt;♬ original sound - Dom Tristram&lt;/a&gt; &lt;/section&gt; &lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://www.tiktok.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/H9aLQRQMsUA?si=_hjoPT5qkxJGLoqo&quot;&gt;[Watch on YouTube]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fb.watch/n1srIzA0j8/&quot;&gt;[Watch on Facebook]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CxDYqhiIoSL/&quot;&gt;[Watch on Instagram]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/gb/podcast/dangerous-dogs/id1377617516?i=1000627477305&quot;&gt;[Get the Podcast]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Generated transcript:&lt;/p&gt;
+
+&lt;p&gt;Let’s talk about dangerous dogs. Now, there’s a very simple solution to a lot of the problem we have with dogs, in my mind: all dogs, literally every dog, should be licensed. Also if you have any kind of conviction for cruelty or irrresponsiblity keeping a dog, then you are banned from keeping any more dogs for life.&lt;/p&gt;
+
+&lt;p&gt;That’s it - end of. Minimum. After all, a pet is a responsibility, not a right. If you prove yourself cruel or irresponsible then why should you be allowed any more dogs? So that’s just off the bat - no dogs if you’re found cruel or irresponsible. Dog licensing was previously only used as a slight revenue generator in the past when we had dog licenses, but now with today’s technology we have a much better scope for using it to ensure that dogs are well treated and that owners are responsible.&lt;/p&gt;
+
+&lt;p&gt;Dogs are already microchipped, or should be. A licensing scheme can tie that microchip to the license. A vet could demand to see your license every time you take your dog in. If you buy or sell any dog, you should demand to see licenses. People might say “Oh, well, there’ll be a black market, people won’t bother with them.”&lt;/p&gt;
+
+&lt;p&gt;And sure enough, when we had dog licenses it is estimated that about half the people with dogs didn’t have one. But technology has moved on and that’s not a good argument for not doing it again.&lt;/p&gt;
+
+&lt;p&gt;In my mind, in a world where people are regularly bitten by dogs there’s no excuse for not trying to do something about it. You can’t just shrug, and you can’t say equally, “Oh, but my freedom! Why shouldn’t I be allowed an enormous fighting dog?” Because why should you have one?&lt;/p&gt;
+
+&lt;p&gt;We should just use statistics. Look at all breeds, and if more than a certain percentage of dog attacks are by this particular breed, put restrictions on it. Start with just making sure that they are muzzled (ie it’s a legal requirement to muzzle them in public). If that doesn’t work then look at stronger measures. But there’s no point just sort of shrugging our shoulders and going “what can we do?”&lt;/p&gt;
+
+&lt;p&gt;At the moment Suella Breverman’s looking at banning ‘bully XL’ dogs. We’ll see where that goes. But let’s say she does. There’ll be another dog. There’ll be another large fighting dog that the sort of people who buy these things go for, so the only solution is to look over all dog breeds and come up with some sort of automatic ‘if X many attacks happen, then this is considered a dangerous dog’ calculation. Muzzle them by default and then ban them if it goes beyond a sudden higher percentage than that.&lt;/p&gt;
+
+&lt;p&gt;I’ve got a dog. I love dogs. I love pets, but I’m not the sort of person who wants to buy a dog to look tough, a dog that looks dangerous. I think there is a certain psychology behind those people that we, as a country, shouldn’t really endorse or support. So sure, look dangerous if you want, but make sure that dog’s wearing a muzzle. And be ready to accept severe penalties if you willingly circumvent these attempts to keep your dog safe.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2023/09/11/dangerous-dogs.html&quot;&gt;Dangerous Dogs&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on September 11, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Record Migration Figures]]></title>
+  <link rel="alternate" type="text/html" href="/2023/05/26/record-migration-figures.html"/>
+  <id>/2023/05/26/record-migration-figures</id>
+  <published>2023-05-26T00:00:00+01:00</published>
+  <updated>2023-05-26T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;A number of peaceful protestors were arrested at the Coronation. Why should we be concerned?&lt;/p&gt;
+
+&lt;blockquote class=&quot;tiktok-embed&quot; cite=&quot;https://www.tiktok.com/@dominictristram/video/7237410401359645979&quot; data-video-id=&quot;7237410401359645979&quot; style=&quot;max-width: 605px;min-width: 325px;&quot;&gt; &lt;section&gt; &lt;a target=&quot;_blank&quot; title=&quot;@dominictristram&quot; href=&quot;https://www.tiktok.com/@dominictristram?refer=embed&quot;&gt;@dominictristram&lt;/a&gt; &lt;p&gt;Record Migration Figures&lt;/p&gt; &lt;a target=&quot;_blank&quot; title=&quot;♬ original sound  - Dom Tristram&quot; href=&quot;https://www.tiktok.com/music/original-sound-Dom-Tristram-7237410319471364890?refer=embed&quot;&gt;♬ original sound  - Dom Tristram&lt;/a&gt; &lt;/section&gt; &lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://www.tiktok.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/eRSPD5tOtSY&quot;&gt;[Watch on YouTube]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.facebook.com/reel/3754749211419273&quot;&gt;[Watch on Facebook]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/Css0X5DJ2QE/&quot;&gt;[Watch on Instagram]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/gb/podcast/dom-tristrams-soapbox/id1377617516?i=1000612358749&quot;&gt;[Get the Podcast]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Generated transcript:&lt;/p&gt;
+
+&lt;p&gt;I just wanted to say a quick thing on,  the UK net migration figures, which are a record breaking high up 20%, 606,000 people, I think, are the latest figures per year.  I think it’s worth just dwelling on the fact that many of the people who voted for Brexit did so because they didn’t like the idea of migration and how they must be feeling now because we’ve gone from lower numbers of people coming in and let’s face it, not liking migration is often, not always, but often due to racism, you know?&lt;/p&gt;
+
+&lt;p&gt;People who don’t come from here coming in. And so these brexiters, now these,  people who voted  sometimes with a racist motive against staying in EU because they didn’t like migration, now have far more immigrants. But,  those immigrants are now much less likely to be other white Europeans and much more likely to be people from other countries of different races. Now, how do you think they feel about that?&lt;/p&gt;
+
+&lt;p&gt;I think if there is a silver lining from Brexit, and I don’t think there is particularly, but if there was one, it might be just imagining how many extremely annoyed racists there are at the moment.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2023/05/26/record-migration-figures.html&quot;&gt;Record Migration Figures&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on May 26, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Coronation Protest Arrests]]></title>
+  <link rel="alternate" type="text/html" href="/2023/05/09/coronation-protest-arrests.html"/>
+  <id>/2023/05/09/coronation-protest-arrests</id>
+  <published>2023-05-09T00:00:00+01:00</published>
+  <updated>2023-05-09T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;A number of peaceful protestors were arrested at the Coronation. Why should we be concerned?&lt;/p&gt;
+
+&lt;blockquote class=&quot;tiktok-embed&quot; cite=&quot;https://www.tiktok.com/@dominictristram/video/7231195072316935451&quot; data-video-id=&quot;7231195072316935451&quot; style=&quot;max-width: 605px;min-width: 325px;&quot;&gt; &lt;section&gt; &lt;a target=&quot;_blank&quot; title=&quot;@dominictristram&quot; href=&quot;https://www.tiktok.com/@dominictristram?refer=embed&quot;&gt;@dominictristram&lt;/a&gt; &lt;p&gt;A number of peaceful #protestors were arrested at the #Coronation. Why should we be concerned?&lt;/p&gt; &lt;a target=&quot;_blank&quot; title=&quot;♬ original sound  - Dom Tristram&quot; href=&quot;https://www.tiktok.com/music/original-sound-Dom-Tristram-7231195110690753307?refer=embed&quot;&gt;♬ original sound  - Dom Tristram&lt;/a&gt; &lt;/section&gt; &lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://www.tiktok.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/U4Rt7N4e4NQ&quot;&gt;[Watch on YouTube]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fb.watch/kq6yXjAlXJ/&quot;&gt;[Watch on Facebook]&lt;/a&gt;&lt;/li&gt;
+&lt;!--&lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/Cr3HHlUrQbl/&quot;&gt;[Watch on Instagram]&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/gb/podcast/dom-tristrams-soapbox/id1377617516?i=1000612358749&quot;&gt;[Get the Podcast]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Generated transcript:&lt;/p&gt;
+
+&lt;p&gt;So the Coronation happened, and one thing you may have seen in the news is that a,  small number of pro Republican and I do mean Republican in the very literal sense of not wanting a monarchy. Some pro-republican protestors were arrested and moved on and they’ve all been released without charge.&lt;/p&gt;
+
+&lt;p&gt;But I think what this really shines a light on is just how insidious the anti protest legislation is that , this government’s bought in. Now, I’m fundamentally opposed to criminalizing any peaceful protest, but the excuse they gave, which did win some people over, was that there are too many disruptive people sitting in roads and locking themselves onto things and being difficult to remove, and that was a massive inconvenience. And that’s what they pitched as , the reason why they wanted to bring this legislation in. But of course, what’s happened, as always happens when you give the police these powers, is that they’ve used these to, , effectively stop people protesting the coronation.&lt;/p&gt;
+
+&lt;p&gt;Now they had placards, there was no evidence they wanted anything more disruptive than holding placards, . They’d actually asked the police for permission to have the protest and were given the permission and yet they were arrested and carted away. And people say, oh yeah, but it’s fine because they were released without charge. And you know what? They were but their right to protest was effectively removed because they were being held during that time and being arrested isn’t fun. But,  apart from anything else, t he government don’t even really need to criminalize the actual act of protest by charging people. If they can just arrest them and then release ‘em without charge - gets around some of the awkwardness of having to go to court to prove anything, doesn’t it? But because police can arrest people for these, I’m not going to say crimes, can arrest people for having disruptive protests, they do. Now, this is obviously being used to silence an inconvenient protest that doesn’t actually break any of the laws that the Tories have brought in, but somewhat more worryingly, even if you don’t agree with the republicans, it was used to arrest community volunteers handing out rape alarms.&lt;/p&gt;
+
+&lt;p&gt;Now these were community volunteers working with the local borough, handing out rape alarms, which, the police claimed, could have been used to startle the horses. Or something. Now they weren’t, obviously, and there’s no evidence that they were being planned to be used that way. So it doesn’t help those people who got arrested, people who are doing good work.&lt;/p&gt;
+
+&lt;p&gt;It’s just the slippery slope into authoritarianism. Everyone always denies it. “These Just Stop oil protests are disruptive. It’s only those we want to stop”. As soon as you give the police the powers to stop a protest, they will. They’ll stop pretty much any protest. And we see this repeatedly whenever more power is granted.&lt;/p&gt;
+
+&lt;p&gt;It’s always used to the fullest extent, even if that’s not actually even what the government wanted. But of course, the government did want this. It’s like the laws stopping single person protests in Parliament Square, which were literally brought in just to stop one man having his anti-Brexit protest. And of course, now the police have any power they like to stop any single person protests. If you are standing outside Parliament demanding action for, let’s say somebody who’s wrongfully deported and then was killed abroad or something awful, you wouldn’t be allowed to do that anymore because the government had some vindictive reason to bring that legislation in because it was inconvenient for them to be reminded how inept Brexit was.&lt;/p&gt;
+
+&lt;p&gt;Now we should all care because even if you don’t agree with a particular protest against this government, whether it’s because you agree with the government or because you disagree with the protest, if you then agree with legislation to ban protests one day, that power will inevitably be used against you in protest you agree with, because there will be a different government that’s doing things you don’t like.&lt;/p&gt;
+
+&lt;p&gt;Or it’ll be a protest against something that you want to protest. This was seen to some extent by the Countryside Alliance march. Now, I don’t agree with the pro-hunting position of the Countryside Alliance at all, but the people who were on that march getting bashed on the head by policemen were exactly the sort of people who would’ve supported those actions against most protestors. Largely. I’m generalizing, but a lot of those people on that march would’ve been exactly the sort of people who would typically approve of such measures, giving the police those powers.&lt;/p&gt;
+
+&lt;p&gt;So this is what happens. You support something because you disagree with the protestors. In that case, lo and behold, it’s used against you.  So always stand up for the civil liberties we have in this country traditionally, which are being eroded by this government.&lt;/p&gt;
+
+&lt;p&gt;Whether it’s the right to asylum, the right to protest, these things are fundamental and you have to stand up for them, even for people you disagree with.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2023/05/09/coronation-protest-arrests.html&quot;&gt;Coronation Protest Arrests&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on May 09, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Local Elections - The Votes Are In!]]></title>
+  <link rel="alternate" type="text/html" href="/2023/05/05/the-results-are-in.html"/>
+  <id>/2023/05/05/the-results-are-in</id>
+  <published>2023-05-05T00:00:00+01:00</published>
+  <updated>2023-05-05T00:00:00+01:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;The results are in, and the Greens and Tories have the same number of councillors in Bath and NE Somerset. That’s better news for one of us!&lt;/p&gt;
+
+&lt;blockquote class=&quot;tiktok-embed&quot; cite=&quot;https://www.tiktok.com/@dominictristram/video/7229669808101510426&quot; data-video-id=&quot;7229669808101510426&quot; style=&quot;max-width: 605px;min-width: 325px;&quot;&gt; &lt;section&gt; &lt;a target=&quot;_blank&quot; title=&quot;@dominictristram&quot; href=&quot;https://www.tiktok.com/@dominictristram?refer=embed&quot;&gt;@dominictristram&lt;/a&gt; &lt;p&gt;Local #Election Results in #Bath and NE #Somerset&lt;/p&gt; &lt;a target=&quot;_blank&quot; title=&quot;♬ original sound  - Dom Tristram&quot; href=&quot;https://www.tiktok.com/music/original-sound-Dom-Tristram-7229669835344120602?refer=embed&quot;&gt;♬ original sound  - Dom Tristram&lt;/a&gt; &lt;/section&gt; &lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://www.tiktok.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/DEF0lFurJfw&quot;&gt;[Watch on YouTube]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fb.watch/kkNP9OJkO9/&quot;&gt;[Watch on Facebook]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/Cr3HHlUrQbl/&quot;&gt;[Watch on Instagram]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/gb/podcast/dom-tristrams-soapbox/id1377617516?i=1000611887904&quot;&gt;[Get the Podcast]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Generated transcript:&lt;/p&gt;
+
+&lt;p&gt;So it’s the day after the local elections. I’m feeling pretty tired because I was at the count last night and, um, haven’t slept. But yeah, we’ve got three councillors in Bath and Northeast Sunset, which is brilliant. Thank you, everyone who voted. Three councillors is tripling what we had before. It gives us the same number of councillors as the conservatives.&lt;/p&gt;
+
+&lt;p&gt;And just to put that in some sort of perspective, the conservatives ran the council until 2019. Things can change very quickly. The conservative nationally have done appallingly, of course, but at a local level the Conservatives chose to make their entire campaign based around opposing efforts to reduce traffic.&lt;/p&gt;
+
+&lt;p&gt;Anti-anything, to promote active travel and safer streets. So they put all their eggs in one basket and it didn’t pay off because the trouble with the bubble that Tories seem to live in is that they hear a lot about how it’s really terrible that people are trying to make the city livable without using a car. And actually, as was proven in the last local elections when all of the parties, including the Tories, had dealing with traffic in their manifestos and this election where all the parties except the Tories had it in their manifestos again… and lo and behold, the Tories have lost seven seats.&lt;/p&gt;
+
+&lt;p&gt;So they’re down to the same as the Greens, though obviously the Greens are on their way up, Tories on the way down. So that’s kind of interesting. The Lib Dems obviously still have a huge majority and even more huge majority now. Labour are now the official opposition in the council, so interesting times. So yeah, always worth voting in local elections, . The Tories telling people all the way through that it’s them all the lib dems and actually hardly anyone voted Tory really compared to what they expected.&lt;/p&gt;
+
+&lt;p&gt;So a good thing.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2023/05/05/the-results-are-in.html&quot;&gt;Local Elections - The Votes Are In!&lt;/a&gt; was originally published by  at &lt;a href=&quot;&quot;&gt;Dom Tristram&lt;/a&gt; on May 05, 2023.&lt;/p&gt;</content>
+</entry>
+
 </feed>

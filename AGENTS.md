@@ -15,3 +15,8 @@ The site must work when `index.html` is opened directly from the local filesyste
 - Shared navigation requires JavaScript, as do the existing menu interactions. Keep article content and page metadata in HTML.
 
 - The site has no built-in search. Do not add search controls, indexes or supporting code.
+
+- Shared dependency versions and menu behaviour live in `assets/js/site.js`; all themed pages include it once with `defer`. Keep dependency execution ordered (jQuery, Popper, Bootstrap) while allowing parallel downloads.
+- Analytics setup lives in `assets/js/analytics.js` and skips `file://` previews.
+- Local theme and social-button styles are combined in `assets/css/beautifuljekyll.css`. Keep external CSS links directly in the head for reliable first rendering; do not insert stylesheets after the page loads.
+- Comments use `assets/js/comments.js` and load near the comments section. Keep their public canonical URL stable so all views use the same discussion.

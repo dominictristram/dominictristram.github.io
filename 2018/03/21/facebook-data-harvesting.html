@@ -1,321 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  
+    <title>Facebook Data Harvesting</title>
 
-  
+    <meta name="author" content="Dom Tristram" />
 
-  <title>Facebook Data Harvesting</title>
+    <meta
+      name="description"
+      content="There are a lot of people who seem surprised that the data they have given Facebook might have been used for purposes they didn’t know about. Its not surprising, and while the current news is about an example that breached Facebook’s rules, there’s a lot of other stuff that even..."
+    />
 
-  
-  <meta name="author" content="Dom Tristram">
-  
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Dom Tristram"
+      href="../../../feed.xml"
+    />
 
-  <meta name="description" content="There are a lot of people who seem surprised that the data they have given Facebook might have been used for purposes they didn’t know about. Its not surprising, and while the current news is about an example that breached Facebook’s rules, there’s a lot of other stuff that even...">
+    <script defer src="../../../assets/js/analytics.js"></script>
 
-  
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
-  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
 
-  
-  <link rel="alternate" type="application/rss+xml" title="Dom Tristram" href="../../../feed.xml">
-  
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+    />
 
-  
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    />
 
-  
+    <link rel="stylesheet" href="../../../assets/css/beautifuljekyll.css?v=4" />
 
-  
-<script defer src="../../../assets/js/analytics.js"></script>
+    <meta property="og:site_name" content="Dom Tristram" />
+    <meta property="og:title" content="Facebook Data Harvesting" />
+    <meta
+      property="og:description"
+      content="There are a lot of people who seem surprised that the data they have given Facebook might have been used for purposes they didn’t know about. Its not surprising, and while the current news is about an example that breached Facebook’s rules, there’s a lot of other stuff that even..."
+    />
 
+    <meta property="og:image" content="../../../assets/img/bio-photo.jpg" />
 
-  
+    <meta property="og:type" content="article" />
+    <meta property="og:article:author" content="Dom Tristram" />
+    <meta
+      property="og:article:published_time"
+      content="2018-03-21T00:00:00+00:00"
+    />
+    <meta
+      property="og:url"
+      content="../../../2018/03/21/facebook-data-harvesting.html"
+    />
+    <link
+      rel="canonical"
+      href="../../../2018/03/21/facebook-data-harvesting.html"
+    />
 
+    <meta name="twitter:card" content="summary" />
 
-  
-    
-      
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="twitter:site" content="@dominictristram" />
+    <meta name="twitter:creator" content="@dominictristram" />
 
+    <meta property="twitter:title" content="Facebook Data Harvesting" />
+    <meta
+      property="twitter:description"
+      content="There are a lot of people who seem surprised that the data they have given Facebook might have been used for purposes they didn’t know about. Its not surprising, and while the current news is about an example that breached Facebook’s rules, there’s a lot of other stuff that even..."
+    />
 
-    
-      
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <meta name="twitter:image" content="../../../assets/img/bio-photo.jpg" />
+  </head>
 
+  <body>
+    <script src="../../../assets/includes/nav.js?v=2"></script>
 
-    
-      
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <!-- TODO this file has become a mess, refactor it -->
 
+    <header class="header-section ">
+      <div class="intro-header no-img">
+        <div class="container-md">
+          <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+              <div class="post-heading">
+                <h1>Facebook Data Harvesting</h1>
 
-    
-      
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    
-      <link rel="stylesheet" href="../../../assets/css/beautifuljekyll.css?v=4">
-    
-  
+                <span class="post-meta">Posted on March 21, 2018</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  
+    <div class=" container-md ">
+      <div class="row">
+        <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+          <article role="main" class="blog-post">
+            <p>
+              There are a lot of people who seem surprised that the data they
+              have given Facebook might have been used for purposes they didn’t
+              know about. Its not surprising, and while the current news is
+              about an example that breached Facebook’s rules, there’s a lot of
+              other stuff that even though it doesn’t, many people would
+              probably still be upset about (and which they actually agreed to
+              at some point).
+            </p>
 
-  
-  
-  
+            <p>
+              I’ve worked on applications that use the Internet and analysis of
+              data gathered from Internet use and social media for over 25
+              years, in the private sector, the public sector and just for fun.
+              It has always been about capturing user data, to a greater or
+              lesser extent. Don’t think this will go away or change, and don’t
+              think it’s all necessarily bad. Just be aware of it.
+            </p>
 
-  
+            <p>
+              There is a simple rule on the Internet - if something is free to
+              you but someone is making money out of it, you (or more accurately
+              data about you) are the product. If you always remember that then
+              you can’t go too wrong.
+            </p>
 
-  
-  <meta property="og:site_name" content="Dom Tristram">
-  <meta property="og:title" content="Facebook Data Harvesting">
-  <meta property="og:description" content="There are a lot of people who seem surprised that the data they have given Facebook might have been used for purposes they didn’t know about. Its not surprising, and while the current news is about an example that breached Facebook’s rules, there’s a lot of other stuff that even...">
+            <p>
+              It’s not just basic Facebook functions that gather data - in fact
+              they aren’t the thing people have got upset about here - it’s the
+              apps and games people choose to play and which ask for additional
+              permissions (‘The application blah wants to access your data - is
+              this ok?’). It costs time and/or money for people to write those
+              ‘personality type’ quizzes. What do they get out of it? Your data.
+              What do they want to do with it? Who knows? And you might never
+              know - they could be anywhere in the world, so they could well be
+              somewhere where your data isn’t protected by law or what you agree
+              to anyway. If you don’t like any of this then don’t think Facebook
+              is your only problem. Almost everyone is tracking you and
+              gathering data these days, but the more ‘free’ services you use
+              from companies that make a profit the more exposed you will be. So
+              what can you do?
+            </p>
 
-  
-  <meta property="og:image" content="../../../assets/img/bio-photo.jpg">
-  
+            <p>
+              Only used paid or non-profit services and products, for
+              everything. Where there is no comparable paid service, use
+              anonymising tools. For example, setting your search engine to
+              DuckDuckGo will help. This is one of the default options on the
+              iPhone, and probably Android too.
+            </p>
 
-  
-  <meta property="og:type" content="article">
-  <meta property="og:article:author" content="Dom Tristram">
-  <meta property="og:article:published_time" content="2018-03-21T00:00:00+00:00">
-  <meta property="og:url" content="../../../2018/03/21/facebook-data-harvesting.html">
-  <link rel="canonical" href="../../../2018/03/21/facebook-data-harvesting.html">
-  
+            <p>
+              Speaking of phones, why do you think Google give Android away for
+              free? They sell your data. It’s the same with email, from anyone.
+              If it’s free then your email will be scanned and data harvested.
+              Start using an email service you have to pay for. You probably
+              already pay for at least one - the one from your ISP. There are
+              many to choose from.
+            </p>
 
-  
-  <meta name="twitter:card" content="summary">
-  
-  <meta name="twitter:site" content="@dominictristram">
-  <meta name="twitter:creator" content="@dominictristram">
+            <p>
+              You can also lessen your exposure and still use free services. Use
+              unique services like Facebook (which offer genuine utility) and
+              only enter data you don’t mind being harvested (and perhaps stop
+              doing suspect quizzes!). Stop using Facebook or Google to ‘log in’
+              to other services, etc - just create a new account on that site.
+              Or you could simply stop caring too much. The upshot of the
+              current kerfuffle is that companies are using personality
+              categories to target ads and newsfeed items to try to change your
+              mind. Even if you could somehow delete all of your data from the
+              Internet (which you can’t), people will always try to target ads
+              and news. Is it really any different to what newspaper editors do?
+              Or TV news editors? Think critically.
+            </p>
+          </article>
 
-  <meta property="twitter:title" content="Facebook Data Harvesting">
-  <meta property="twitter:description" content="There are a lot of people who seem surprised that the data they have given Facebook might have been used for purposes they didn’t know about. Its not surprising, and while the current news is about an example that breached Facebook’s rules, there’s a lot of other stuff that even...">
+          <div class="blog-tags">
+            <span>Tags:</span>
 
-  
-  <meta name="twitter:image" content="../../../assets/img/bio-photo.jpg">
-  
+            <a href="../../../tags/index.html#tech">tech</a>
 
-  
+            <a href="../../../tags/index.html#facebook">facebook</a>
 
+            <a href="../../../tags/index.html#internet">internet</a>
 
-  
+            <a href="../../../tags/index.html#privacy">privacy</a>
+          </div>
 
-  
+          <!-- Check if any share-links are active -->
 
-</head>
+          <section id="social-share-section">
+            <span class="sr-only">Share: </span>
 
+            <a
+              href="https://twitter.com/intent/tweet?text=Facebook+Data+Harvesting&url=%2F2018%2F03%2F21%2Ffacebook-data-harvesting.html"
+              class="btn btn-social-icon btn-twitter"
+              title="Share on Twitter"
+            >
+              <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+              <span class="sr-only">Twitter</span>
+            </a>
 
-<body>
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=%2F2018%2F03%2F21%2Ffacebook-data-harvesting.html"
+              class="btn btn-social-icon btn-facebook"
+              title="Share on Facebook"
+            >
+              <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+              <span class="sr-only">Facebook</span>
+            </a>
 
-  
+            <a
+              href="https://www.linkedin.com/shareArticle?mini=true&url=%2F2018%2F03%2F21%2Ffacebook-data-harvesting.html"
+              class="btn btn-social-icon btn-linkedin"
+              title="Share on LinkedIn"
+            >
+              <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </section>
 
+          <ul class="pagination blog-pager">
+            <li class="page-item previous">
+              <a
+                class="page-link"
+                href="../../02/22/ucu-picket.html"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="UCU Picket - University of Bath"
+                >&larr; Previous Post</a
+              >
+            </li>
 
-  <script src="../../../assets/includes/nav.js?v=2"></script>
+            <li class="page-item next">
+              <a
+                class="page-link"
+                href="../../04/09/whogivesacrap.html"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Ethical Toilet Paper... or not?"
+                >Next Post &rarr;</a
+              >
+            </li>
+          </ul>
 
-
-
-
-
-
-
-
-
-  <!-- TODO this file has become a mess, refactor it -->
-
-
-
-
-
-
-
-<header class="header-section ">
-
-<div class="intro-header no-img">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="post-heading">
-          <h1>Facebook Data Harvesting</h1>
-          
-
-          
-            <span class="post-meta">Posted on March 21, 2018</span>
-            
-            
-          
+          <div class="disqus-comments">
+            <div class="comments">
+              <div id="disqus_thread"></div>
+              <script defer src="../../../assets/js/comments.js"></script>
+              <noscript
+                >Please enable JavaScript to view the
+                <a href="https://disqus.com/?ref_noscript"
+                  >comments powered by Disqus.</a
+                ></noscript
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-</header>
 
+    <script src="../../../assets/includes/footer.js"></script>
 
-
-
-
-<div class=" container-md ">
-  <div class="row">
-    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-
-      
-
-      
-
-      <article role="main" class="blog-post">
-        <p>There are a lot of people who seem surprised that the data they have given Facebook might have been used for purposes they
-didn’t know about. Its not surprising, and while the current news is about an example that breached Facebook’s rules, there’s
-a lot of other stuff that even though it doesn’t, many people would probably still be upset about (and which they actually
-agreed to at some point).</p>
-
-<p>I’ve worked on applications that use the Internet and analysis of data gathered from Internet use and social media
-for over 25 years, in the private sector, the public sector and just for fun. It has always been about capturing user
-data, to a greater or lesser extent. Don’t think this will go away or change, and don’t think it’s all necessarily bad.
-Just be aware of it.</p>
-
-<p>There is a simple rule on the Internet - if something is free to you but someone is making money out of it, you (or more
-accurately data about you) are the product. If you always remember that then you can’t go too wrong.</p>
-
-<p>It’s not just basic Facebook functions that gather data - in fact they aren’t the thing people have got upset about here -
-it’s the apps and games people choose to play and which ask for additional permissions (‘The application blah wants to
-access your data - is this ok?’). It costs time and/or money for people to write those ‘personality type’ quizzes. What
-do they get out of it? Your data. What do they want to do with it? Who knows? And you might never know - they could be
-anywhere in the world, so they could well be somewhere where your data isn’t protected by law or what you agree to anyway.
-If you don’t like any of this then don’t think Facebook is your only problem. Almost everyone is tracking you and
-gathering data these days, but the more ‘free’ services you use from companies that make a profit the more exposed you
-will be. So what can you do?</p>
-
-<p>Only used paid or non-profit services and products, for everything. Where there is no comparable paid service, use
-anonymising tools. For example, setting your search engine to DuckDuckGo will help. This is one of the default options
-on the iPhone, and probably Android too.</p>
-
-<p>Speaking of phones, why do you think Google give Android away for free? They sell your data. It’s the same with email,
-from anyone. If it’s free then your email will be scanned and data harvested. Start using an email service you have
-to pay for. You probably already pay for at least one - the one from your ISP. There are many to choose from.</p>
-
-<p>You can also lessen your exposure and still use free services. Use unique services like Facebook (which offer
-genuine utility) and only enter data you don’t mind being harvested (and perhaps stop doing suspect quizzes!).
-Stop using Facebook or Google to ‘log in’ to other services, etc - just create a new account on that site.
-Or you could simply stop caring too much. The upshot of the current kerfuffle is that companies are using
-personality categories to target ads and newsfeed items to try to change your mind. Even if you could somehow
-delete all of your data from the Internet (which you can’t), people will always try to target ads and news. Is
-it really any different to what newspaper editors do? Or TV news editors? Think critically.</p>
-
-      </article>
-
-      
-        <div class="blog-tags">
-          <span>Tags:</span>
-          
-            <a href="../../../tags/index.html#tech">tech</a>
-          
-            <a href="../../../tags/index.html#facebook">facebook</a>
-          
-            <a href="../../../tags/index.html#internet">internet</a>
-          
-            <a href="../../../tags/index.html#privacy">privacy</a>
-          
-        </div>
-      
-
-      
-
-      
-        <!-- Check if any share-links are active -->
-
-
-
-
-<section id = "social-share-section">
-  <span class="sr-only">Share: </span>
-
-  
-    <a href="https://twitter.com/intent/tweet?text=Facebook+Data+Harvesting&url=%2F2018%2F03%2F21%2Ffacebook-data-harvesting.html"
-      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
-      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
-      <span class="sr-only">Twitter</span>
-    </a>
-  
-
-  
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2F2018%2F03%2F21%2Ffacebook-data-harvesting.html"
-      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
-      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
-      <span class="sr-only">Facebook</span>
-    </a>
-  
-
-  
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2F2018%2F03%2F21%2Ffacebook-data-harvesting.html"
-      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
-      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
-      <span class="sr-only">LinkedIn</span>
-    </a>
-  
-
-  
-
-  
-
-</section>
-
-
-
-      
-
-      <ul class="pagination blog-pager">
-        
-        <li class="page-item previous">
-          <a class="page-link" href="../../02/22/ucu-picket.html" data-toggle="tooltip" data-placement="top" title="UCU Picket - University of Bath">&larr; Previous Post</a>
-        </li>
-        
-        
-        <li class="page-item next">
-          <a class="page-link" href="../../04/09/whogivesacrap.html" data-toggle="tooltip" data-placement="top" title="Ethical Toilet Paper... or not?">Next Post &rarr;</a>
-        </li>
-        
-      </ul>
-      
-  <div class="disqus-comments">
-  <div class="comments">
-    <div id="disqus_thread"></div>
-    <script defer src="../../../assets/js/comments.js"></script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</div>
-  
-  
-
-  
-
-
-  
-
-  
-
-
-
-    </div>
-  </div>
-</div>
-
-
-  <script src="../../../assets/includes/footer.js"></script>
-    
-      <script defer src="../../../assets/js/site.js"></script>
-    
-  
-
-
-
-
-
-
-
-
-
-</body>
+    <script defer src="../../../assets/js/site.js"></script>
+  </body>
 </html>

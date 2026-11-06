@@ -1,291 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  
+    <title>Minimum Waiting Times, Deaths and Spin</title>
 
-  
+    <meta name="author" content="Dom Tristram" />
 
-  <title>Minimum Waiting Times, Deaths and Spin</title>
+    <meta
+      name="description"
+      content="h1. Minimum Waiting Times, Deaths and Spin p(meta). 29th July 2011 I was infuriated to hear the main story in the headlines of the Today programme this morning. You may have heard it as something like ‘patients are being made to wait 15 weeks for operations and some of them..."
+    />
 
-  
-  <meta name="author" content="Dom Tristram">
-  
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Dom Tristram"
+      href="../../../feed.xml"
+    />
 
-  <meta name="description" content="h1. Minimum Waiting Times, Deaths and Spin p(meta). 29th July 2011 I was infuriated to hear the main story in the headlines of the Today programme this morning. You may have heard it as something like ‘patients are being made to wait 15 weeks for operations and some of them...">
+    <script defer src="../../../assets/js/analytics.js"></script>
 
-  
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
-  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
 
-  
-  <link rel="alternate" type="application/rss+xml" title="Dom Tristram" href="../../../feed.xml">
-  
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+    />
 
-  
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    />
 
-  
+    <link rel="stylesheet" href="../../../assets/css/beautifuljekyll.css?v=4" />
 
-  
-<script defer src="../../../assets/js/analytics.js"></script>
+    <meta property="og:site_name" content="Dom Tristram" />
+    <meta
+      property="og:title"
+      content="Minimum Waiting Times, Deaths and Spin"
+    />
+    <meta
+      property="og:description"
+      content="h1. Minimum Waiting Times, Deaths and Spin p(meta). 29th July 2011 I was infuriated to hear the main story in the headlines of the Today programme this morning. You may have heard it as something like ‘patients are being made to wait 15 weeks for operations and some of them..."
+    />
 
+    <meta property="og:image" content="../../../assets/img/bio-photo.jpg" />
 
-  
+    <meta property="og:type" content="article" />
+    <meta property="og:article:author" content="Dom Tristram" />
+    <meta
+      property="og:article:published_time"
+      content="2011-07-29T00:00:00+01:00"
+    />
+    <meta
+      property="og:url"
+      content="../../../2011/07/29/dying-in-waiting-lists.html"
+    />
+    <link
+      rel="canonical"
+      href="../../../2011/07/29/dying-in-waiting-lists.html"
+    />
 
+    <meta name="twitter:card" content="summary" />
 
-  
-    
-      
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="twitter:site" content="@dominictristram" />
+    <meta name="twitter:creator" content="@dominictristram" />
 
+    <meta
+      property="twitter:title"
+      content="Minimum Waiting Times, Deaths and Spin"
+    />
+    <meta
+      property="twitter:description"
+      content="h1. Minimum Waiting Times, Deaths and Spin p(meta). 29th July 2011 I was infuriated to hear the main story in the headlines of the Today programme this morning. You may have heard it as something like ‘patients are being made to wait 15 weeks for operations and some of them..."
+    />
 
-    
-      
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <meta name="twitter:image" content="../../../assets/img/bio-photo.jpg" />
+  </head>
 
+  <body>
+    <script src="../../../assets/includes/nav.js?v=2"></script>
 
-    
-      
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <!-- TODO this file has become a mess, refactor it -->
 
+    <header class="header-section ">
+      <div class="intro-header no-img">
+        <div class="container-md">
+          <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+              <div class="post-heading">
+                <h1>Minimum Waiting Times, Deaths and Spin</h1>
 
-    
-      
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    
-      <link rel="stylesheet" href="../../../assets/css/beautifuljekyll.css?v=4">
-    
-  
+                <span class="post-meta">Posted on July 29, 2011</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  
+    <div class=" container-md ">
+      <div class="row">
+        <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+          <article role="main" class="blog-post">
+            <p>h1. Minimum Waiting Times, Deaths and Spin</p>
 
-  
-  
-  
+            <p>p(meta). 29th July 2011</p>
 
-  
+            <p>
+              I was infuriated to hear the main story in the headlines of the
+              Today programme this morning. You may have heard it as something
+              like ‘patients are being made to wait 15 weeks for operations and
+              some of them die first, or go to private hospitals’. The story is
+              <a href="http://www.bbc.co.uk/news/health-14337427"
+                >on the BBC news Web site here</a
+              >.
+            </p>
 
-  
-  <meta property="og:site_name" content="Dom Tristram">
-  <meta property="og:title" content="Minimum Waiting Times, Deaths and Spin">
-  <meta property="og:description" content="h1. Minimum Waiting Times, Deaths and Spin p(meta). 29th July 2011 I was infuriated to hear the main story in the headlines of the Today programme this morning. You may have heard it as something like ‘patients are being made to wait 15 weeks for operations and some of them...">
+            <p>
+              Now I have several problems with both the story and the way it has
+              been reported. Firstly, and let’s be very clear here, these waits
+              <em>have not killed anyone</em>. Only non-urgent surgery might be
+              delayed - anything urgent would never be delayed in this way.
+              Anyone who may have died on this waiting list (and again, there is
+              no evidence that this has actually happened) will almost certainly
+              have died of unrelated issues. The sort of surgery involved
+              (joints, hips, etc) is usually performed on the old, and when
+              dealing with such large numbers of people a small number are just
+              going to die on any given day anyway.
+            </p>
 
-  
-  <meta property="og:image" content="../../../assets/img/bio-photo.jpg">
-  
+            <p>
+              So have people been ‘forced to go private’? Well, maybe… but there
+              is no evidence of this, either. They may have done, they may not
+              have done. Many patients remove themselves from the list (the ROTT
+              rate) for a number of fairly everyday reasons, irrespective of
+              waiting list times. Everyone involved in healthcare knows this. Is
+              the ROTT rate significantly higher when people waiting for
+              non-urgent surgery have to wait a couple of extra weeks? There is
+              no evidence for this.
+            </p>
 
-  
-  <meta property="og:type" content="article">
-  <meta property="og:article:author" content="Dom Tristram">
-  <meta property="og:article:published_time" content="2011-07-29T00:00:00+01:00">
-  <meta property="og:url" content="../../../2011/07/29/dying-in-waiting-lists.html">
-  <link rel="canonical" href="../../../2011/07/29/dying-in-waiting-lists.html">
-  
+            <p>
+              Sometimes a wait can be exactly what the patient needs. For
+              example, patients who are waiting for something like a knee
+              replacement because of obesity may no longer need one if they lose
+              weight. If they are immediately given operations the NHS pays a
+              lot of money for unnecessary surgery. You may be surprised by how
+              many of these non-urgent operations are due to obesity and,
+              although you wouldn’t suspect it if you listened to Andrew
+              Lansley, NHS managers usually know what they’re doing.
+            </p>
 
-  
-  <meta name="twitter:card" content="summary">
-  
-  <meta name="twitter:site" content="@dominictristram">
-  <meta name="twitter:creator" content="@dominictristram">
+            <p>
+              So there’s nothing terribly wrong about a few minimum waits for
+              non-urgent treatment. In an ideal world we’d all be treated the
+              same day our GP refers us, but obviously that’s not going to
+              happen. We have to remember that with the NHS budget being
+              massively cut, NHS management are being forced to save money in
+              almost every way they can. This is one of the least harmful ways.
+            </p>
 
-  <meta property="twitter:title" content="Minimum Waiting Times, Deaths and Spin">
-  <meta property="twitter:description" content="h1. Minimum Waiting Times, Deaths and Spin p(meta). 29th July 2011 I was infuriated to hear the main story in the headlines of the Today programme this morning. You may have heard it as something like ‘patients are being made to wait 15 weeks for operations and some of them...">
+            <p>
+              And then we have Andrew Lansley and his comments. I quote “This is
+              exactly why we need to put patients’ interests first”. I want to
+              be quite clear here - Andrew Lansley has a list of priorities, and
+              ‘patients interests’ are very near the bottom. This news was a
+              clumsy attempt to somehow convince people that the NHS is broken
+              and needs his ‘reforms’. And how has he done this? He’s got some
+              whining from private healthcare companies that the NHS is trying
+              to ‘save money’ and ‘keep hospitals viable’. Well, Lansley, maybe
+              they wouldn’t need to do this if you weren’t trying to
+              systematically destroy the NHS? Of <em>course</em> they have to
+              save money - you have slashed their funding so much that they have
+              to make greater savings than any healthcare system has done in
+              history while <em>at the same time</em> you are adding three new
+              layers of bureaucracy, making thousands of people redundant,
+              cherry-picking any profitable bits for your friends in private
+              healthcare, and doing all this with no electoral mandate.
+            </p>
 
-  
-  <meta name="twitter:image" content="../../../assets/img/bio-photo.jpg">
-  
+            <p>
+              So yes, let’s blame the managers who are trying to run a
+              healthcare system with ever fewer resources while they’re
+              constantly being demonised by you and your ‘no top-down
+              reorganisation’ lying colleagues. This is the worst sort of spin,
+              but I don’t think you have anyone fooled - we can still remember
+              what the NHS was like when your party last ran it. How many people
+              died on your 18 month waiting lists? I think you can be certain
+              that people did, unlike anyone in this ‘story’.
+            </p>
 
-  
+            <p>–</p>
+          </article>
 
+          <!-- Check if any share-links are active -->
 
-  
+          <section id="social-share-section">
+            <span class="sr-only">Share: </span>
 
-  
+            <a
+              href="https://twitter.com/intent/tweet?text=Minimum+Waiting+Times%2C+Deaths+and+Spin&url=%2F2011%2F07%2F29%2Fdying-in-waiting-lists.html"
+              class="btn btn-social-icon btn-twitter"
+              title="Share on Twitter"
+            >
+              <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+              <span class="sr-only">Twitter</span>
+            </a>
 
-</head>
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=%2F2011%2F07%2F29%2Fdying-in-waiting-lists.html"
+              class="btn btn-social-icon btn-facebook"
+              title="Share on Facebook"
+            >
+              <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+              <span class="sr-only">Facebook</span>
+            </a>
 
+            <a
+              href="https://www.linkedin.com/shareArticle?mini=true&url=%2F2011%2F07%2F29%2Fdying-in-waiting-lists.html"
+              class="btn btn-social-icon btn-linkedin"
+              title="Share on LinkedIn"
+            >
+              <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </section>
 
-<body>
+          <ul class="pagination blog-pager">
+            <li class="page-item previous">
+              <a
+                class="page-link"
+                href="../../04/24/elections.html"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Election"
+                >&larr; Previous Post</a
+              >
+            </li>
 
-  
+            <li class="page-item next">
+              <a
+                class="page-link"
+                href="../../09/06/health-and-social-care-bill.html"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Open Letter To Don Foster MP About The Health and Social Care Bill"
+                >Next Post &rarr;</a
+              >
+            </li>
+          </ul>
 
-
-  <script src="../../../assets/includes/nav.js?v=2"></script>
-
-
-
-
-
-
-
-
-
-  <!-- TODO this file has become a mess, refactor it -->
-
-
-
-
-
-
-
-<header class="header-section ">
-
-<div class="intro-header no-img">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="post-heading">
-          <h1>Minimum Waiting Times, Deaths and Spin</h1>
-          
-
-          
-            <span class="post-meta">Posted on July 29, 2011</span>
-            
-            
-          
+          <div class="disqus-comments">
+            <div class="comments">
+              <div id="disqus_thread"></div>
+              <script defer src="../../../assets/js/comments.js"></script>
+              <noscript
+                >Please enable JavaScript to view the
+                <a href="https://disqus.com/?ref_noscript"
+                  >comments powered by Disqus.</a
+                ></noscript
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-</header>
 
+    <script src="../../../assets/includes/footer.js"></script>
 
-
-
-
-<div class=" container-md ">
-  <div class="row">
-    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-
-      
-
-      
-
-      <article role="main" class="blog-post">
-        <p>h1. Minimum Waiting Times, Deaths and Spin</p>
-
-<p>p(meta). 29th July 2011</p>
-
-<p>I was infuriated to hear the main story in the headlines of the Today programme this morning. You may have heard it as something like ‘patients are being made to wait 15 weeks for operations and some of them die first, or go to private hospitals’. The story is <a href="http://www.bbc.co.uk/news/health-14337427">on the BBC news Web site here</a>.</p>
-
-<p>Now I have several problems with both the story and the way it has been reported. Firstly, and let’s be very clear here, these waits <em>have not killed anyone</em>. Only non-urgent surgery might be delayed - anything urgent would never be delayed in this way. Anyone who may have died on this waiting list (and again, there is no evidence that this has actually happened) will almost certainly have died of unrelated issues. The sort of surgery involved (joints, hips, etc) is usually performed on the old, and when dealing with such large numbers of people a small number are just going to die on any given day anyway.</p>
-
-<p>So have people been ‘forced to go private’? Well, maybe… but there is no evidence of this, either. They may have done, they may not have done. Many patients remove themselves from the list (the ROTT rate) for a number of fairly everyday reasons, irrespective of waiting list times. Everyone involved in healthcare knows this. Is the ROTT rate significantly higher when people waiting for non-urgent surgery have to wait a couple of extra weeks? There is no evidence for this.</p>
-
-<p>Sometimes a wait can be exactly what the patient needs. For example, patients who are waiting for something like a knee replacement because of obesity may no longer need one if they lose weight. If they are immediately given operations the NHS pays a lot of money for unnecessary surgery. You may be surprised by how many of these non-urgent operations are due to obesity and, although you wouldn’t suspect it if you listened to Andrew Lansley, NHS managers usually know what they’re doing.</p>
-
-<p>So there’s nothing terribly wrong about a few minimum waits for non-urgent treatment. In an ideal world we’d all be treated the same day our GP refers us, but obviously that’s not going to happen. We have to remember that with the NHS budget being massively cut, NHS management are being forced to save money in almost every way they can. This is one of the least harmful ways.</p>
-
-<p>And then we have Andrew Lansley and his comments. I quote “This is exactly why we need to put patients’ interests first”. I want to be quite clear here - Andrew Lansley has a list of priorities, and ‘patients interests’ are very near the bottom. This news was a clumsy attempt to somehow convince people that the NHS is broken and needs his ‘reforms’. And how has he done this? He’s got some whining from private healthcare companies that the NHS is trying to ‘save money’ and ‘keep hospitals viable’. Well, Lansley, maybe they wouldn’t need to do this if you weren’t trying to systematically destroy the NHS? Of <em>course</em> they have to save money - you have slashed their funding so much that they have to make greater savings than any healthcare system has done in history while <em>at the same time</em> you are adding three new layers of bureaucracy, making thousands of people redundant, cherry-picking any profitable bits for your friends in private healthcare, and doing all this with no electoral mandate.</p>
-
-<p>So yes, let’s blame the managers who are trying to run a healthcare system with ever fewer resources while they’re constantly being demonised by you and your ‘no top-down reorganisation’ lying colleagues. This is the worst sort of spin, but I don’t think you have anyone fooled - we can still remember what the NHS was like when your party last ran it. How many people died on your 18 month waiting lists? I think you can be certain that people did, unlike anyone in this ‘story’.</p>
-
-<p>–</p>
-
-
-      </article>
-
-      
-
-      
-
-      
-        <!-- Check if any share-links are active -->
-
-
-
-
-<section id = "social-share-section">
-  <span class="sr-only">Share: </span>
-
-  
-    <a href="https://twitter.com/intent/tweet?text=Minimum+Waiting+Times%2C+Deaths+and+Spin&url=%2F2011%2F07%2F29%2Fdying-in-waiting-lists.html"
-      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
-      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
-      <span class="sr-only">Twitter</span>
-    </a>
-  
-
-  
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2F2011%2F07%2F29%2Fdying-in-waiting-lists.html"
-      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
-      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
-      <span class="sr-only">Facebook</span>
-    </a>
-  
-
-  
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2F2011%2F07%2F29%2Fdying-in-waiting-lists.html"
-      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
-      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
-      <span class="sr-only">LinkedIn</span>
-    </a>
-  
-
-  
-
-  
-
-</section>
-
-
-
-      
-
-      <ul class="pagination blog-pager">
-        
-        <li class="page-item previous">
-          <a class="page-link" href="../../04/24/elections.html" data-toggle="tooltip" data-placement="top" title="Election">&larr; Previous Post</a>
-        </li>
-        
-        
-        <li class="page-item next">
-          <a class="page-link" href="../../09/06/health-and-social-care-bill.html" data-toggle="tooltip" data-placement="top" title="Open Letter To Don Foster MP About The Health and Social Care Bill">Next Post &rarr;</a>
-        </li>
-        
-      </ul>
-      
-  <div class="disqus-comments">
-  <div class="comments">
-    <div id="disqus_thread"></div>
-    <script defer src="../../../assets/js/comments.js"></script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</div>
-  
-  
-
-  
-
-
-  
-
-  
-
-
-
-    </div>
-  </div>
-</div>
-
-
-  <script src="../../../assets/includes/footer.js"></script>
-    
-      <script defer src="../../../assets/js/site.js"></script>
-    
-  
-
-
-
-
-
-
-
-
-
-</body>
+    <script defer src="../../../assets/js/site.js"></script>
+  </body>
 </html>

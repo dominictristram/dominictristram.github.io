@@ -1,632 +1,2981 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  
+    <title>Articles</title>
 
-  
+    <meta name="author" content="Dom Tristram" />
 
-  <title>Articles</title>
+    <meta
+      name="description"
+      content='{% for post in site.posts %}
+  {{ post.title }} {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}'
+    />
 
-  
-  <meta name="author" content="Dom Tristram">
-  
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Dom Tristram"
+      href="../feed.xml"
+    />
 
-  <meta name="description" content="{% for post in site.posts %} 
-  {{ post.title }} {{ post.date | date: &quot;%B %d, %Y&quot; }}
-{% endfor %}">
+    <script defer src="../assets/js/analytics.js"></script>
 
-  
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
-  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
 
-  
-  <link rel="alternate" type="application/rss+xml" title="Dom Tristram" href="../feed.xml">
-  
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+    />
 
-  
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    />
 
-  
+    <link rel="stylesheet" href="../assets/css/beautifuljekyll.css?v=4" />
 
-  
-<script defer src="../assets/js/analytics.js"></script>
+    <meta property="og:site_name" content="Dom Tristram" />
+    <meta property="og:title" content="Articles" />
+    <meta
+      property="og:description"
+      content='{% for post in site.posts %}
+  {{ post.title }} {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}'
+    />
 
+    <meta property="og:image" content="../assets/img/bio-photo.jpg" />
 
-  
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="../articles/" />
+    <link rel="canonical" href="../articles/" />
 
+    <meta name="twitter:card" content="summary" />
 
-  
-    
-      
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="twitter:site" content="@dominictristram" />
+    <meta name="twitter:creator" content="@dominictristram" />
 
+    <meta property="twitter:title" content="Articles" />
+    <meta
+      property="twitter:description"
+      content='{% for post in site.posts %}
+  {{ post.title }} {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}'
+    />
 
-    
-      
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <meta name="twitter:image" content="../assets/img/bio-photo.jpg" />
+  </head>
 
+  <body>
+    <script src="../assets/includes/nav.js?v=2"></script>
 
-    
-      
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <!-- TODO this file has become a mess, refactor it -->
 
+    <header class="header-section ">
+      <div class="intro-header no-img">
+        <div class="container-md">
+          <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+              <div class="page-heading">
+                <h1>Articles</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    
-      
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    
-      <link rel="stylesheet" href="../assets/css/beautifuljekyll.css?v=4">
-    
-  
+    <div class=" container-md " role="main">
+      <div class="row">
+        <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+          <ul class="post-list">
+            <li>
+              <article>
+                <a href="../2026/01/13/nature.html"
+                  >Britain’s Nature Targets Are Slipping
+                  <span class="entry-date"
+                    ><time datetime="2026-01-13T00:00:00+00:00"
+                      >January 13, 2026</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
+            <li>
+              <article>
+                <a href="../2026/01/06/social-housing.html"
+                  >The Problem of Britain’s Shrinking Social Housing Stock
+                  <span class="entry-date"
+                    ><time datetime="2026-01-06T00:00:00+00:00"
+                      >January 06, 2026</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
-  
-  
+            <li>
+              <article>
+                <a href="../2026/01/02/pubs.html"
+                  >What 2025’s Loss of Local Pubs Tells Us About Policy,
+                  Community and a Shifting Economy
+                  <span class="entry-date"
+                    ><time datetime="2026-01-02T00:00:00+00:00"
+                      >January 02, 2026</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
+            <li>
+              <article>
+                <a href="../2025/12/26/donations-cap.html"
+                  >Capping Political Donations Matters for UK Democracy
+                  <span class="entry-date"
+                    ><time datetime="2025-12-26T00:00:00+00:00"
+                      >December 26, 2025</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
-  <meta property="og:site_name" content="Dom Tristram">
-  <meta property="og:title" content="Articles">
-  <meta property="og:description" content="{% for post in site.posts %} 
-  {{ post.title }} {{ post.date | date: &quot;%B %d, %Y&quot; }}
-{% endfor %}">
+            <li>
+              <article>
+                <a href="../2025/12/24/echr.html"
+                  >Why Leaving the ECHR Would Hurt Us All
+                  <span class="entry-date"
+                    ><time datetime="2025-12-24T00:00:00+00:00"
+                      >December 24, 2025</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
-  <meta property="og:image" content="../assets/img/bio-photo.jpg">
-  
+            <li>
+              <article>
+                <a href="../2025/12/23/warm-spaces.html"
+                  >Warm Spaces - A Symptom of Deep Social Inequality
+                  <span class="entry-date"
+                    ><time datetime="2025-12-23T00:00:00+00:00"
+                      >December 23, 2025</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="../articles/">
-  <link rel="canonical" href="../articles/">
-  
+            <li>
+              <article>
+                <a href="../2025/11/03/why-the-two-child-benefit-cap.html"
+                  >Why the two‑child benefit cap is a policy fault‑line in the
+                  UK’s fight against child poverty
+                  <span class="entry-date"
+                    ><time datetime="2025-11-03T00:00:00+00:00"
+                      >November 03, 2025</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
-  <meta name="twitter:card" content="summary">
-  
-  <meta name="twitter:site" content="@dominictristram">
-  <meta name="twitter:creator" content="@dominictristram">
+            <li>
+              <article>
+                <a href="../2025/07/17/energy-bills-and-net-zero.html"
+                  >Energy Bills And Net Zero
+                  <span class="entry-date"
+                    ><time datetime="2025-07-17T00:00:00+01:00"
+                      >July 17, 2025</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  <meta property="twitter:title" content="Articles">
-  <meta property="twitter:description" content="{% for post in site.posts %} 
-  {{ post.title }} {{ post.date | date: &quot;%B %d, %Y&quot; }}
-{% endfor %}">
+            <li>
+              <article>
+                <a href="../2025/01/07/labour-nhs-privatisation.html"
+                  >Labour Government Paves the Way for Large Scale NHS
+                  Privatisation
+                  <span class="entry-date"
+                    ><time datetime="2025-01-07T00:00:00+00:00"
+                      >January 07, 2025</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
-  <meta name="twitter:image" content="../assets/img/bio-photo.jpg">
-  
+            <li>
+              <article>
+                <a href="../2024/12/11/health-ceo.html"
+                  >The Tragic Consequences of Profit in Healthcare - More
+                  Lessons from the U.S.
+                  <span class="entry-date"
+                    ><time datetime="2024-12-11T00:00:00+00:00"
+                      >December 11, 2024</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
+            <li>
+              <article>
+                <a href="../2024/12/10/spotify-wrapped.html"
+                  >Spotify Wrapped
+                  <span class="entry-date"
+                    ><time datetime="2024-12-10T00:00:00+00:00"
+                      >December 10, 2024</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2024/11/06/trump.html"
+                  >Trump
+                  <span class="entry-date"
+                    ><time datetime="2024-11-06T00:00:00+00:00"
+                      >November 06, 2024</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
+            <li>
+              <article>
+                <a href="../2024/11/01/NHS-privatisation.html"
+                  >NHS Privatisation in Bath and NE Somerset
+                  <span class="entry-date"
+                    ><time datetime="2024-11-01T00:00:00+00:00"
+                      >November 01, 2024</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
+            <li>
+              <article>
+                <a href="../2024/06/06/close-of-nominations.html"
+                  >By The End of Tomorrow You Will Know Who You Can Vote For. In
+                  Bath, One Of Them Will Definitely Be Me
+                  <span class="entry-date"
+                    ><time datetime="2024-06-06T00:00:00+01:00"
+                      >June 06, 2024</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-</head>
+            <li>
+              <article>
+                <a href="../2024/05/22/sunak-calls-general-election.html"
+                  >Sunak Calls General Election
+                  <span class="entry-date"
+                    ><time datetime="2024-05-22T00:00:00+01:00"
+                      >May 22, 2024</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2023/09/21/politicising-climate.html"
+                  >Politicising Climate - Part of the 'Populist Playbook'
+                  <span class="entry-date"
+                    ><time datetime="2023-09-21T00:00:00+01:00"
+                      >September 21, 2023</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-<body>
+            <li>
+              <article>
+                <a href="../2023/09/11/dangerous-dogs.html"
+                  >Dangerous Dogs
+                  <span class="entry-date"
+                    ><time datetime="2023-09-11T00:00:00+01:00"
+                      >September 11, 2023</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  
+            <li>
+              <article>
+                <a href="../2023/05/26/record-migration-figures.html"
+                  >Record Migration Figures
+                  <span class="entry-date"
+                    ><time datetime="2023-05-26T00:00:00+01:00"
+                      >May 26, 2023</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2023/05/09/coronation-protest-arrests.html"
+                  >Coronation Protest Arrests
+                  <span class="entry-date"
+                    ><time datetime="2023-05-09T00:00:00+01:00"
+                      >May 09, 2023</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  <script src="../assets/includes/nav.js?v=2"></script>
+            <li>
+              <article>
+                <a href="../2023/05/05/the-results-are-in.html"
+                  >Local Elections - The Votes Are In!
+                  <span class="entry-date"
+                    ><time datetime="2023-05-05T00:00:00+01:00"
+                      >May 05, 2023</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2023/05/04/vote-today.html"
+                  >Local Elections - Vote Today!
+                  <span class="entry-date"
+                    ><time datetime="2023-05-04T00:00:00+01:00"
+                      >May 04, 2023</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2023/02/23/15-minute-cities.html"
+                  >15 Minute Cities and Conspiracy Theories
+                  <span class="entry-date"
+                    ><time datetime="2023-02-23T00:00:00+00:00"
+                      >February 23, 2023</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2022/12/15/asylum-seeker-drownings.html"
+                  >Asylum Seeker Drownings And Who Is To Blame
+                  <span class="entry-date"
+                    ><time datetime="2022-12-15T00:00:00+00:00"
+                      >December 15, 2022</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2022/11/21/cop27-bath-time.html"
+                  >Interview With 'Bath Time' Magazine on COP27
+                  <span class="entry-date"
+                    ><time datetime="2022-11-21T00:00:00+00:00"
+                      >November 21, 2022</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2022/10/31/kent-attack.html"
+                  >Far Right Terrorist Attack on Kent Refugee Detention Centre
+                  <span class="entry-date"
+                    ><time datetime="2022-10-31T00:00:00+00:00"
+                      >October 31, 2022</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2022/10/11/despising-tories.html"
+                  >On Despising What Tories Stand For
+                  <span class="entry-date"
+                    ><time datetime="2022-10-11T00:00:00+01:00"
+                      >October 11, 2022</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2022/10/10/solar-farms.html"
+                  >Ban On Solar On Agricultural Land
+                  <span class="entry-date"
+                    ><time datetime="2022-10-10T00:00:00+01:00"
+                      >October 10, 2022</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2022/10/03/spending-cuts.html"
+                  >£18bn Spending Cut Announced
+                  <span class="entry-date"
+                    ><time datetime="2022-10-03T00:00:00+01:00"
+                      >October 03, 2022</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-  <!-- TODO this file has become a mess, refactor it -->
+            <li>
+              <article>
+                <a href="../2022/08/23/site-update.html"
+                  >Web site update
+                  <span class="entry-date"
+                    ><time datetime="2022-08-23T00:00:00+01:00"
+                      >August 23, 2022</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2019/12/11/voting-guide.html"
+                  >Impartial Voting Guide, 2019 Edition
+                  <span class="entry-date"
+                    ><time datetime="2019-12-11T00:00:00+00:00"
+                      >December 11, 2019</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a
+                  href="../2019/09/24/dangerous-school-crossing-bath-chronicle.html"
+                  >Dangerous School Crossing - Bath Chronicle
+                  <span class="entry-date"
+                    ><time datetime="2019-09-24T00:00:00+01:00"
+                      >September 24, 2019</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2019/09/20/youth-strike-for-climate.html"
+                  >Youth Strike For Climate
+                  <span class="entry-date"
+                    ><time datetime="2019-09-20T00:00:00+01:00"
+                      >September 20, 2019</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2018/10/22/bath-studio-school.html"
+                  >Bath Studio School Closure Announced
+                  <span class="entry-date"
+                    ><time datetime="2018-10-22T00:00:00+01:00"
+                      >October 22, 2018</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2018/06/04/clean-air-in-banes-bbc-report.html"
+                  >Clean Air in BaNES - Working Together to solve the problem
+                  (BBC TV)
+                  <span class="entry-date"
+                    ><time datetime="2018-06-04T00:00:00+01:00"
+                      >June 04, 2018</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
+            <li>
+              <article>
+                <a href="../2018/04/09/whogivesacrap.html"
+                  >Ethical Toilet Paper... or not?
+                  <span class="entry-date"
+                    ><time datetime="2018-04-09T00:00:00+01:00"
+                      >April 09, 2018</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-<header class="header-section ">
+            <li>
+              <article>
+                <a href="../2018/03/21/facebook-data-harvesting.html"
+                  >Facebook Data Harvesting
+                  <span class="entry-date"
+                    ><time datetime="2018-03-21T00:00:00+00:00"
+                      >March 21, 2018</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-<div class="intro-header no-img">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="page-heading">
-          <h1>Articles</h1>
-          
+            <li>
+              <article>
+                <a href="../2018/02/22/ucu-picket.html"
+                  >UCU Picket - University of Bath
+                  <span class="entry-date"
+                    ><time datetime="2018-02-22T00:00:00+00:00"
+                      >February 22, 2018</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
 
-          
+            <li>
+              <article>
+                <a
+                  href="../2018/02/21/bath-tories-slammed-over-food-poverty-views.html"
+                  >Bath Tories Slammed Over Food Poverty Views
+                  <span class="entry-date"
+                    ><time datetime="2018-02-21T00:00:00+00:00"
+                      >February 21, 2018</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2018/02/10/labour-tactical-voting.html"
+                  >Disappointing Spin From Labour
+                  <span class="entry-date"
+                    ><time datetime="2018-02-10T00:00:00+00:00"
+                      >February 10, 2018</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/12/13/labour-and-the-single-market.html"
+                  >Labour And The Single Market
+                  <span class="entry-date"
+                    ><time datetime="2017-12-13T00:00:00+00:00"
+                      >December 13, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/12/06/ppc-selection.html"
+                  >PPC Selection
+                  <span class="entry-date"
+                    ><time datetime="2017-12-06T00:00:00+00:00"
+                      >December 06, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/10/19/future-city.html"
+                  >Festival of the Future City
+                  <span class="entry-date"
+                    ><time datetime="2017-10-19T00:00:00+01:00"
+                      >October 19, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/07/19/bbc-pay.html"
+                  >BBC Pay
+                  <span class="entry-date"
+                    ><time datetime="2017-07-19T00:00:00+01:00"
+                      >July 19, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/07/14/nhs-vacancies.html"
+                  >NHS Vacancies
+                  <span class="entry-date"
+                    ><time datetime="2017-07-14T00:00:00+01:00"
+                      >July 14, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/06/07/ge-2017.html"
+                  >General Election 2017
+                  <span class="entry-date"
+                    ><time datetime="2017-06-07T00:00:00+01:00"
+                      >June 07, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/05/10/electoral-fraud.html"
+                  >Money Buys UK Elections
+                  <span class="entry-date"
+                    ><time datetime="2017-05-10T00:00:00+01:00"
+                      >May 10, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/05/09/hospitalparking.html"
+                  >Free Hospital Parking
+                  <span class="entry-date"
+                    ><time datetime="2017-05-09T00:00:00+01:00"
+                      >May 09, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/03/29/article-50.html"
+                  >Triggering Article 50
+                  <span class="entry-date"
+                    ><time datetime="2017-03-29T00:00:00+01:00"
+                      >March 29, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/03/12/tourist-tax.html"
+                  >Bath Tourist Tax
+                  <span class="entry-date"
+                    ><time datetime="2017-03-12T00:00:00+00:00"
+                      >March 12, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2017/01/27/may-trump.html"
+                  >May and Trump
+                  <span class="entry-date"
+                    ><time datetime="2017-01-27T00:00:00+00:00"
+                      >January 27, 2017</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/12/18/metro-mayor.html"
+                  >Metro Mayor Nomination
+                  <span class="entry-date"
+                    ><time datetime="2016-12-18T00:00:00+00:00"
+                      >December 18, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/11/21/bca-letter.html"
+                  >Letter - Bath Community Academy Closure
+                  <span class="entry-date"
+                    ><time datetime="2016-11-21T00:00:00+00:00"
+                      >November 21, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/11/15/keep-abbey-green.html"
+                  >Keep Abbey Green
+                  <span class="entry-date"
+                    ><time datetime="2016-11-15T00:00:00+00:00"
+                      >November 15, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/11/12/virgin-care.html"
+                  >Virgin Care Awarded BaNES Community Health Contract
+                  <span class="entry-date"
+                    ><time datetime="2016-11-12T00:00:00+00:00"
+                      >November 12, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/08/18/banes-community-health.html"
+                  >Virgin Care and BaNES Community Health
+                  <span class="entry-date"
+                    ><time datetime="2016-08-18T00:00:00+01:00"
+                      >August 18, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/07/18/representation-of-the-people-bill.html"
+                  >Open Letter to Ben Howlett MP - Support the Representation of
+                  the People Bill
+                  <span class="entry-date"
+                    ><time datetime="2016-07-18T00:00:00+01:00"
+                      >July 18, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/06/24/eu-result.html"
+                  >Leaving the EU
+                  <span class="entry-date"
+                    ><time datetime="2016-06-24T00:00:00+01:00"
+                      >June 24, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/06/19/eu-referendum.html"
+                  >EU Referendum
+                  <span class="entry-date"
+                    ><time datetime="2016-06-19T00:00:00+01:00"
+                      >June 19, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/05/04/pcc-elections.html"
+                  >Why You Should Vote in The PCC Election
+                  <span class="entry-date"
+                    ><time datetime="2016-05-04T00:00:00+01:00"
+                      >May 04, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/03/20/schools-privatisation.html"
+                  >Forced School Privatisation
+                  <span class="entry-date"
+                    ><time datetime="2016-03-20T00:00:00+00:00"
+                      >March 20, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/03/11/nhs-reinstatement-bill.html"
+                  >NHS Reinstatement Bill
+                  <span class="entry-date"
+                    ><time datetime="2016-03-11T00:00:00+00:00"
+                      >March 11, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/01/19/contempt-for-democracy.html"
+                  >Tory Contempt for Democracy
+                  <span class="entry-date"
+                    ><time datetime="2016-01-19T00:00:00+00:00"
+                      >January 19, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/01/15/kier-dispute.html"
+                  >Kier Recycling Dispute
+                  <span class="entry-date"
+                    ><time datetime="2016-01-15T00:00:00+00:00"
+                      >January 15, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/01/13/housing.html"
+                  >Housing Bill
+                  <span class="entry-date"
+                    ><time datetime="2016-01-13T00:00:00+00:00"
+                      >January 13, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2016/01/09/fracking-permission.html"
+                  >Fracking Planning Permission Relaxation
+                  <span class="entry-date"
+                    ><time datetime="2016-01-09T00:00:00+00:00"
+                      >January 09, 2016</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/12/28/new-year-message.html"
+                  >New Year Message
+                  <span class="entry-date"
+                    ><time datetime="2015-12-28T00:00:00+00:00"
+                      >December 28, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/12/17/fracking-vote-letter.html"
+                  >Letter - Fracking vote
+                  <span class="entry-date"
+                    ><time datetime="2015-12-17T00:00:00+00:00"
+                      >December 17, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/12/09/hayesfield-politics.html"
+                  >Hayesfield A-Level Politics Talk
+                  <span class="entry-date"
+                    ><time datetime="2015-12-09T00:00:00+00:00"
+                      >December 09, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/11/30/syria-airstrikes.html"
+                  >Syria Air Strikes Vote
+                  <span class="entry-date"
+                    ><time datetime="2015-11-30T00:00:00+00:00"
+                      >November 30, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/11/09/rip-bill-letter.html"
+                  >Letter - Regulation of Investigatory Powers Bill
+                  <span class="entry-date"
+                    ><time datetime="2015-11-09T00:00:00+00:00"
+                      >November 09, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/09/22/corbyn.html"
+                  >Corbyn
+                  <span class="entry-date"
+                    ><time datetime="2015-09-22T00:00:00+01:00"
+                      >September 22, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/09/14/trade-union-bill.html"
+                  >Trade Union Bill
+                  <span class="entry-date"
+                    ><time datetime="2015-09-14T00:00:00+01:00"
+                      >September 14, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/07/09/budget.html"
+                  >July 2015 Budget Response
+                  <span class="entry-date"
+                    ><time datetime="2015-07-09T00:00:00+01:00"
+                      >July 09, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/07/01/nhs-reinstatement-bill.html"
+                  >NHS Reinstatement Bill Letter
+                  <span class="entry-date"
+                    ><time datetime="2015-07-01T00:00:00+01:00"
+                      >July 01, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/05/10/election-analysis.html"
+                  >Election Result and Analysis
+                  <span class="entry-date"
+                    ><time datetime="2015-05-10T00:00:00+01:00"
+                      >May 10, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/05/05/vote-for-hope.html"
+                  >Vote for hope on Thursday
+                  <span class="entry-date"
+                    ><time datetime="2015-05-05T00:00:00+01:00"
+                      >May 05, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/05/04/cameron-in-bath.html"
+                  >Cameron in Bath
+                  <span class="entry-date"
+                    ><time datetime="2015-05-04T00:00:00+01:00"
+                      >May 04, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/04/30/somer-valley-hustings.html"
+                  >Somer Valley FM hustings
+                  <span class="entry-date"
+                    ><time datetime="2015-04-30T00:00:00+01:00"
+                      >April 30, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/04/29/bbc-points-west-debate.html"
+                  >BBC Points West Debate
+                  <span class="entry-date"
+                    ><time datetime="2015-04-29T00:00:00+01:00"
+                      >April 29, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/04/27/bath-spa-uni-hustings.html"
+                  >Bath Spa University hustings
+                  <span class="entry-date"
+                    ><time datetime="2015-04-27T00:00:00+01:00"
+                      >April 27, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/04/24/copyright.html"
+                  >A Note on Copyright
+                  <span class="entry-date"
+                    ><time datetime="2015-04-24T00:00:00+01:00"
+                      >April 24, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/04/22/hayesfield-hustings.html"
+                  >Hayesfield School hustings
+                  <span class="entry-date"
+                    ><time datetime="2015-04-22T00:00:00+01:00"
+                      >April 22, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/04/14/manifesto-launch.html"
+                  >Manifesto Launch
+                  <span class="entry-date"
+                    ><time datetime="2015-04-14T00:00:00+01:00"
+                      >April 14, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/04/01/final-sprint.html"
+                  >The Final Sprint
+                  <span class="entry-date"
+                    ><time datetime="2015-04-01T00:00:00+01:00"
+                      >April 01, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/03/28/bath-university.html"
+                  >Bath and Beyond at Bath University
+                  <span class="entry-date"
+                    ><time datetime="2015-03-28T00:00:00+00:00"
+                      >March 28, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/03/27/st-andrews-school.html"
+                  >St Andrew's Primary School Mock Election
+                  <span class="entry-date"
+                    ><time datetime="2015-03-27T00:00:00+00:00"
+                      >March 27, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/03/25/carers-centre.html"
+                  >Carers Centre Hustings
+                  <span class="entry-date"
+                    ><time datetime="2015-03-25T00:00:00+00:00"
+                      >March 25, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/03/24/bath-college-hustings.html"
+                  >Bath College Hustings
+                  <span class="entry-date"
+                    ><time datetime="2015-03-24T00:00:00+00:00"
+                      >March 24, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2015/01/01/new-year-message.html"
+                  >New Year Message
+                  <span class="entry-date"
+                    ><time datetime="2015-01-01T00:00:00+00:00"
+                      >January 01, 2015</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/12/06/demo-for-free-education.html"
+                  >Free Education Demo
+                  <span class="entry-date"
+                    ><time datetime="2014-12-06T00:00:00+00:00"
+                      >December 06, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/12/05/small-business-saturday.html"
+                  >Small Business Saturday
+                  <span class="entry-date"
+                    ><time datetime="2014-12-05T00:00:00+00:00"
+                      >December 05, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/11/05/wealth-tax.html"
+                  >Letter - Wealth Tax
+                  <span class="entry-date"
+                    ><time datetime="2014-11-05T00:00:00+00:00"
+                      >November 05, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/11/01/bath-poverty.html"
+                  >Letter - Child Poverty in Bath
+                  <span class="entry-date"
+                    ><time datetime="2014-11-01T00:00:00+00:00"
+                      >November 01, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/10/13/nhs-strike.html"
+                  >NHS Strikes
+                  <span class="entry-date"
+                    ><time datetime="2014-10-13T00:00:00+01:00"
+                      >October 13, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/09/28/iraq-bombing.html"
+                  >Iraq Bombing Vote letter
+                  <span class="entry-date"
+                    ><time datetime="2014-09-28T00:00:00+01:00"
+                      >September 28, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/09/15/scottish-referendum.html"
+                  >Scottish Referendum
+                  <span class="entry-date"
+                    ><time datetime="2014-09-15T00:00:00+01:00"
+                      >September 15, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/08/02/gaza.html"
+                  >Gaza
+                  <span class="entry-date"
+                    ><time datetime="2014-08-02T00:00:00+01:00"
+                      >August 02, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/07/19/drip-bill.html"
+                  >Data Regulation and Investigatory Powers Bill
+                  <span class="entry-date"
+                    ><time datetime="2014-07-19T00:00:00+01:00"
+                      >July 19, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/07/10/strikes.html"
+                  >Public Sector Strikes
+                  <span class="entry-date"
+                    ><time datetime="2014-07-10T00:00:00+01:00"
+                      >July 10, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/07/09/glastonbury-roundup.html"
+                  >Glastonbury 2014 Roundup
+                  <span class="entry-date"
+                    ><time datetime="2014-07-09T00:00:00+01:00"
+                      >July 09, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/06/19/euro-vote-result.html"
+                  >Thoughts On The European Election and What It Means For Bath
+                  <span class="entry-date"
+                    ><time datetime="2014-06-19T00:00:00+01:00"
+                      >June 19, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/05/26/euro-vote-result-letter.html"
+                  >Letter on Election of First Green MEP in the SW, Molly Scott
+                  Cato
+                  <span class="entry-date"
+                    ><time datetime="2014-05-26T00:00:00+01:00"
+                      >May 26, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/05/21/european-election.html"
+                  >European Election
+                  <span class="entry-date"
+                    ><time datetime="2014-05-21T00:00:00+01:00"
+                      >May 21, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/03/28/new-look.html"
+                  >New Look
+                  <span class="entry-date"
+                    ><time datetime="2014-03-28T00:00:00+00:00"
+                      >March 28, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/03/13/selection.html"
+                  >PPC Selection
+                  <span class="entry-date"
+                    ><time datetime="2014-03-13T00:00:00+00:00"
+                      >March 13, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2014/01/22/gagging-law.html"
+                  >Gagging Law
+                  <span class="entry-date"
+                    ><time datetime="2014-01-22T00:00:00+00:00"
+                      >January 22, 2014</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2013/07/22/internet-censorship.html"
+                  >Internet Censorship
+                  <span class="entry-date"
+                    ><time datetime="2013-07-22T00:00:00+01:00"
+                      >July 22, 2013</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2013/07/10/royal-mail-privatisation.html"
+                  >Royal Mail Privatisation
+                  <span class="entry-date"
+                    ><time datetime="2013-07-10T00:00:00+01:00"
+                      >July 10, 2013</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2013/07/04/nhs-charges-for-visitors.html"
+                  >NHS Charges for Foreign Visitors
+                  <span class="entry-date"
+                    ><time datetime="2013-07-04T00:00:00+01:00"
+                      >July 04, 2013</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2013/03/20/budget.html"
+                  >The Budget
+                  <span class="entry-date"
+                    ><time datetime="2013-03-20T00:00:00+00:00"
+                      >March 20, 2013</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2013/03/11/the-true-face-of-ukip.html"
+                  >The Truth Behind UKIP
+                  <span class="entry-date"
+                    ><time datetime="2013-03-11T00:00:00+00:00"
+                      >March 11, 2013</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2013/02/06/gay-marriage.html"
+                  >Gay Marriage
+                  <span class="entry-date"
+                    ><time datetime="2013-02-06T00:00:00+00:00"
+                      >February 06, 2013</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2013/01/06/privatised-nhs-deaths.html"
+                  >NHS Privatisation - More Deaths
+                  <span class="entry-date"
+                    ><time datetime="2013-01-06T00:00:00+00:00"
+                      >January 06, 2013</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2012/11/03/police-crime-commissioners.html"
+                  >Police Commissioners - To Vote or Not to Vote?
+                  <span class="entry-date"
+                    ><time datetime="2012-11-03T00:00:00+00:00"
+                      >November 03, 2012</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2012/10/26/gary-mckinnon.html"
+                  >The Troubling Case of Gary McKinnon
+                  <span class="entry-date"
+                    ><time datetime="2012-10-26T00:00:00+01:00"
+                      >October 26, 2012</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2012/09/16/nhs-vultures.html"
+                  >NHS Vultures
+                  <span class="entry-date"
+                    ><time datetime="2012-09-16T00:00:00+01:00"
+                      >September 16, 2012</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2012/04/02/big-brother.html"
+                  >Big Brother
+                  <span class="entry-date"
+                    ><time datetime="2012-04-02T00:00:00+01:00"
+                      >April 02, 2012</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2012/03/01/ignored-epetitions.html"
+                  >Cameron's 'Big Society', and how he ignores it
+                  <span class="entry-date"
+                    ><time datetime="2012-03-01T00:00:00+00:00"
+                      >March 01, 2012</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2012/01/05/rail-fare-increase.html"
+                  >New Year Rail Fare Increases
+                  <span class="entry-date"
+                    ><time datetime="2012-01-05T00:00:00+00:00"
+                      >January 05, 2012</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/12/08/cameron-in-europe.html"
+                  >Cameron in Europe
+                  <span class="entry-date"
+                    ><time datetime="2011-12-08T00:00:00+00:00"
+                      >December 08, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/12/07/private-maternity.html"
+                  >Privatisation of NHS Maternity Services
+                  <span class="entry-date"
+                    ><time datetime="2011-12-07T00:00:00+00:00"
+                      >December 07, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/11/24/nhs-oecd-report.html"
+                  >Government Document Admits to NHS Privatisation
+                  <span class="entry-date"
+                    ><time datetime="2011-11-24T00:00:00+00:00"
+                      >November 24, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/11/21/letter-to-paper-about-circle.html"
+                  >Letter To The Bath Chronicle About the NHS Changes and Circle
+                  <span class="entry-date"
+                    ><time datetime="2011-11-21T00:00:00+00:00"
+                      >November 21, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/11/15/circle-nhs-takeover.html"
+                  >Circle's NHS Takeover
+                  <span class="entry-date"
+                    ><time datetime="2011-11-15T00:00:00+00:00"
+                      >November 15, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/11/09/nhs-efficiency.html"
+                  >NHS Efficiency
+                  <span class="entry-date"
+                    ><time datetime="2011-11-09T00:00:00+00:00"
+                      >November 09, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/10/06/rip-steve-jobs.html"
+                  >RIP Steve Jobs
+                  <span class="entry-date"
+                    ><time datetime="2011-10-06T00:00:00+01:00"
+                      >October 06, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/10/04/planning-laws.html"
+                  >Planning Laws
+                  <span class="entry-date"
+                    ><time datetime="2011-10-04T00:00:00+01:00"
+                      >October 04, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/10/03/motorway-speed-limits.html"
+                  >Motorway Speed Limits
+                  <span class="entry-date"
+                    ><time datetime="2011-10-03T00:00:00+01:00"
+                      >October 03, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/09/15/health-and-social-care-bill-reply.html"
+                  >Reply To Letter About Health Bill From Don Foster MP
+                  <span class="entry-date"
+                    ><time datetime="2011-09-15T00:00:00+01:00"
+                      >September 15, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/09/06/health-and-social-care-bill.html"
+                  >Open Letter To Don Foster MP About The Health and Social Care
+                  Bill
+                  <span class="entry-date"
+                    ><time datetime="2011-09-06T00:00:00+01:00"
+                      >September 06, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/07/29/dying-in-waiting-lists.html"
+                  >Minimum Waiting Times, Deaths and Spin
+                  <span class="entry-date"
+                    ><time datetime="2011-07-29T00:00:00+01:00"
+                      >July 29, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/04/24/elections.html"
+                  >Election
+                  <span class="entry-date"
+                    ><time datetime="2011-04-24T00:00:00+01:00"
+                      >April 24, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/04/14/bin-collection-fines-stopped.html"
+                  >Bin Charges and the Big Society
+                  <span class="entry-date"
+                    ><time datetime="2011-04-14T00:00:00+01:00"
+                      >April 14, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2011/03/12/blog-moved-to-jekyll.html"
+                  >Blog moved to Jekyll
+                  <span class="entry-date"
+                    ><time datetime="2011-03-12T00:00:00+00:00"
+                      >March 12, 2011</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2010/06/08/recycling-and-charging.html"
+                  >Recycling and Charging
+                  <span class="entry-date"
+                    ><time datetime="2010-06-08T00:00:00+01:00"
+                      >June 08, 2010</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2008/07/09/glasto-2008.html"
+                  >Glastonbury 2008 Roundup
+                  <span class="entry-date"
+                    ><time datetime="2008-07-09T00:00:00+01:00"
+                      >July 09, 2008</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2008/04/14/gm-crops.html"
+                  >GM crops
+                  <span class="entry-date"
+                    ><time datetime="2008-04-14T00:00:00+01:00"
+                      >April 14, 2008</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2008/04/08/glasto.html"
+                  >Glasto
+                  <span class="entry-date"
+                    ><time datetime="2008-04-08T00:00:00+01:00"
+                      >April 08, 2008</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2008/03/31/2008.html"
+                  >2008
+                  <span class="entry-date"
+                    ><time datetime="2008-03-31T00:00:00+01:00"
+                      >March 31, 2008</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/12/16/festive-food.html"
+                  >Festive Food
+                  <span class="entry-date"
+                    ><time datetime="2007-12-16T00:00:00+00:00"
+                      >December 16, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/12/04/green-christmas.html"
+                  >Green Christmas
+                  <span class="entry-date"
+                    ><time datetime="2007-12-04T00:00:00+00:00"
+                      >December 04, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/11/30/the-future-of-genomics.html"
+                  >The Future of Genomics
+                  <span class="entry-date"
+                    ><time datetime="2007-11-30T00:00:00+00:00"
+                      >November 30, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/11/14/sql-server-argh.html"
+                  >SQL Server - argh!
+                  <span class="entry-date"
+                    ><time datetime="2007-11-14T00:00:00+00:00"
+                      >November 14, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/11/04/routemasters-and-shibboleth.html"
+                  >Routemasters and Shibboleth
+                  <span class="entry-date"
+                    ><time datetime="2007-11-04T00:00:00+00:00"
+                      >November 04, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/11/01/bath-film-festival.html"
+                  >Bath Film Festival
+                  <span class="entry-date"
+                    ><time datetime="2007-11-01T00:00:00+00:00"
+                      >November 01, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/10/29/running-madness.html"
+                  >Running madness
+                  <span class="entry-date"
+                    ><time datetime="2007-10-29T00:00:00+00:00"
+                      >October 29, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/10/10/inheritance-tax.html"
+                  >Inheritance Tax
+                  <span class="entry-date"
+                    ><time datetime="2007-10-10T00:00:00+01:00"
+                      >October 10, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/09/28/bibcursed-bug-fixes.html"
+                  >Bibcursed bug fixes
+                  <span class="entry-date"
+                    ><time datetime="2007-09-28T00:00:00+01:00"
+                      >September 28, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/09/03/green-taxes-making-billions-or-not.html"
+                  >Green Taxes 'Making Billions'. Or not.
+                  <span class="entry-date"
+                    ><time datetime="2007-09-03T00:00:00+01:00"
+                      >September 03, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/08/15/festivals-ahoy.html"
+                  >Festivals Ahoy
+                  <span class="entry-date"
+                    ><time datetime="2007-08-15T00:00:00+01:00"
+                      >August 15, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/08/13/less-privacy-more-work.html"
+                  >Less privacy, more work
+                  <span class="entry-date"
+                    ><time datetime="2007-08-13T00:00:00+01:00"
+                      >August 13, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/07/24/trains-transport-and-money.html"
+                  >Trains, transport and money
+                  <span class="entry-date"
+                    ><time datetime="2007-07-24T00:00:00+01:00"
+                      >July 24, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/07/03/convicted-traitor-no-jail-for-you.html"
+                  >Convicted Traitor? No jail for you!
+                  <span class="entry-date"
+                    ><time datetime="2007-07-03T00:00:00+01:00"
+                      >July 03, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/07/01/religious-exemptions.html"
+                  >Religious Exemptions
+                  <span class="entry-date"
+                    ><time datetime="2007-07-01T00:00:00+01:00"
+                      >July 01, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/06/25/glastonbury-roundup.html"
+                  >Glastonbury 2007 Roundup
+                  <span class="entry-date"
+                    ><time datetime="2007-06-25T00:00:00+01:00"
+                      >June 25, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/06/19/honours-and-dodgy-peers.html"
+                  >Honours and Dodgy Peers
+                  <span class="entry-date"
+                    ><time datetime="2007-06-19T00:00:00+01:00"
+                      >June 19, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/06/15/embracing-facebook.html"
+                  >Embracing Facebook
+                  <span class="entry-date"
+                    ><time datetime="2007-06-15T00:00:00+01:00"
+                      >June 15, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/06/11/hot-vegans-almost.html"
+                  >Hot Vegans, Almost
+                  <span class="entry-date"
+                    ><time datetime="2007-06-11T00:00:00+01:00"
+                      >June 11, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/06/06/girls-geeks-google.html"
+                  >Girls, Geeks, Google
+                  <span class="entry-date"
+                    ><time datetime="2007-06-06T00:00:00+01:00"
+                      >June 06, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/06/05/developers-developers-developers.html"
+                  >Developers Developers Developers!
+                  <span class="entry-date"
+                    ><time datetime="2007-06-05T00:00:00+01:00"
+                      >June 05, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/05/31/isn-t-the-internet-brilliant.html"
+                  >Isn't The Internet Brilliant?
+                  <span class="entry-date"
+                    ><time datetime="2007-05-31T00:00:00+01:00"
+                      >May 31, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/05/17/spiderman-goya-and-leaves-of-glass.html"
+                  >Spiderman, Goya and Leaves of Glass
+                  <span class="entry-date"
+                    ><time datetime="2007-05-17T00:00:00+01:00"
+                      >May 17, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/04/29/slackademic.html"
+                  >Slackademic
+                  <span class="entry-date"
+                    ><time datetime="2007-04-29T00:00:00+01:00"
+                      >April 29, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/04/29/geeking-out.html"
+                  >Geeking Out
+                  <span class="entry-date"
+                    ><time datetime="2007-04-29T00:00:00+01:00"
+                      >April 29, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/04/18/new-job.html"
+                  >New Job
+                  <span class="entry-date"
+                    ><time datetime="2007-04-18T00:00:00+01:00"
+                      >April 18, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/04/10/eyejot.html"
+                  >Eyejot
+                  <span class="entry-date"
+                    ><time datetime="2007-04-10T00:00:00+01:00"
+                      >April 10, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/04/04/lunch-with-simon-hughes.html"
+                  >Lunch With Simon Hughes
+                  <span class="entry-date"
+                    ><time datetime="2007-04-04T00:00:00+01:00"
+                      >April 04, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/04/02/the-death-of-drm-and-wma.html"
+                  >The death of DRM.. and WMA?
+                  <span class="entry-date"
+                    ><time datetime="2007-04-02T00:00:00+01:00"
+                      >April 02, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/03/22/budget.html"
+                  >Budget
+                  <span class="entry-date"
+                    ><time datetime="2007-03-22T00:00:00+00:00"
+                      >March 22, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/03/20/crowded-house.html"
+                  >Crowded House, Thekla, Bristol
+                  <span class="entry-date"
+                    ><time datetime="2007-03-20T00:00:00+00:00"
+                      >March 20, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/03/14/back.html"
+                  >Back
+                  <span class="entry-date"
+                    ><time datetime="2007-03-14T00:00:00+00:00"
+                      >March 14, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a
+                  href="../2007/03/06/it-is-considered-disgusting-to-blow-your-nose-in-public.html"
+                  >It Is Considered Disgusting To Blow Your Nose In Public
+                  <span class="entry-date"
+                    ><time datetime="2007-03-06T00:00:00+00:00"
+                      >March 06, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/03/02/woo-another-weekend.html"
+                  >Woo - another weekend!
+                  <span class="entry-date"
+                    ><time datetime="2007-03-02T00:00:00+00:00"
+                      >March 02, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/02/25/first-weekend-in-tokyo.html"
+                  >First Weekend in Tokyo
+                  <span class="entry-date"
+                    ><time datetime="2007-02-25T00:00:00+00:00"
+                      >February 25, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/02/21/big-in-japan.html"
+                  >Big In Japan
+                  <span class="entry-date"
+                    ><time datetime="2007-02-21T00:00:00+00:00"
+                      >February 21, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a
+                  href="../2007/02/13/wind-farms-don-t-kill-many-birds-fact.html"
+                  >Wind Farms Don't Kill (many) Birds. Fact.
+                  <span class="entry-date"
+                    ><time datetime="2007-02-13T00:00:00+00:00"
+                      >February 13, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/02/13/the-bnp-lie-there-s-a-surprise.html"
+                  >The BNP lie - there's a surprise.
+                  <span class="entry-date"
+                    ><time datetime="2007-02-13T00:00:00+00:00"
+                      >February 13, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/02/13/billie-is-a-treat.html"
+                  >Billie is a Treat
+                  <span class="entry-date"
+                    ><time datetime="2007-02-13T00:00:00+00:00"
+                      >February 13, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/02/06/hot-fuzz.html"
+                  >Hot Fuzz
+                  <span class="entry-date"
+                    ><time datetime="2007-02-06T00:00:00+00:00"
+                      >February 06, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/02/02/the-most-fantastic-alarm-clock-ever.html"
+                  >The Most Fantastic Alarm Clock Ever
+                  <span class="entry-date"
+                    ><time datetime="2007-02-02T00:00:00+00:00"
+                      >February 02, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a
+                  href="../2007/01/31/vista-will-steal-your-rights-then-destroy-the-world.html"
+                  >Vista Will Steal Your Rights, Then Destroy The World
+                  <span class="entry-date"
+                    ><time datetime="2007-01-31T00:00:00+00:00"
+                      >January 31, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/30/ha-nice-one-bill.html"
+                  >Ha! Nice One, Bill...
+                  <span class="entry-date"
+                    ><time datetime="2007-01-30T00:00:00+00:00"
+                      >January 30, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/25/labyrinthine-pleasures.html"
+                  >Labyrinthine Pleasures
+                  <span class="entry-date"
+                    ><time datetime="2007-01-25T00:00:00+00:00"
+                      >January 25, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a
+                  href="../2007/01/23/who-would-tell-us-what-to-hate-if-it-wasn-t-for-the-daily-mail.html"
+                  >Who would tell us what to hate if it wasn't for the Daily
+                  Mail?
+                  <span class="entry-date"
+                    ><time datetime="2007-01-23T00:00:00+00:00"
+                      >January 23, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/23/bbc-on-demand.html"
+                  >BBC On Demand
+                  <span class="entry-date"
+                    ><time datetime="2007-01-23T00:00:00+00:00"
+                      >January 23, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/22/vista-and-drm.html"
+                  >Vista and DRM
+                  <span class="entry-date"
+                    ><time datetime="2007-01-22T00:00:00+00:00"
+                      >January 22, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/22/pfi-deals-and-the-nhs.html"
+                  >PFI Deals and the NHS
+                  <span class="entry-date"
+                    ><time datetime="2007-01-22T00:00:00+00:00"
+                      >January 22, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a
+                  href="../2007/01/15/the-joys-of-heathrow-and-the-lack-of-them-in-uganda.html"
+                  >The Joys of Heathrow, and the lack of them in Uganda
+                  <span class="entry-date"
+                    ><time datetime="2007-01-15T00:00:00+00:00"
+                      >January 15, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/12/slingbox.html"
+                  >Slingbox
+                  <span class="entry-date"
+                    ><time datetime="2007-01-12T00:00:00+00:00"
+                      >January 12, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/09/macworld.html"
+                  >Macworld
+                  <span class="entry-date"
+                    ><time datetime="2007-01-09T00:00:00+00:00"
+                      >January 09, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/07/on-osx-and-vista.html"
+                  >On OSX and Vista
+                  <span class="entry-date"
+                    ><time datetime="2007-01-07T00:00:00+00:00"
+                      >January 07, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/05/wind-farms.html"
+                  >Wind farms
+                  <span class="entry-date"
+                    ><time datetime="2007-01-05T00:00:00+00:00"
+                      >January 05, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/05/win.html"
+                  >Win
+                  <span class="entry-date"
+                    ><time datetime="2007-01-05T00:00:00+00:00"
+                      >January 05, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/04/water.html"
+                  >Water
+                  <span class="entry-date"
+                    ><time datetime="2007-01-04T00:00:00+00:00"
+                      >January 04, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/03/this-life.html"
+                  >This Life
+                  <span class="entry-date"
+                    ><time datetime="2007-01-03T00:00:00+00:00"
+                      >January 03, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2007/01/02/2007-tech-predictions.html"
+                  >2007 Tech Predictions
+                  <span class="entry-date"
+                    ><time datetime="2007-01-02T00:00:00+00:00"
+                      >January 02, 2007</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/12/31/saddam-hussein.html"
+                  >Saddam Hussein
+                  <span class="entry-date"
+                    ><time datetime="2006-12-31T00:00:00+00:00"
+                      >December 31, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/12/25/christmas.html"
+                  >Christmas
+                  <span class="entry-date"
+                    ><time datetime="2006-12-25T00:00:00+00:00"
+                      >December 25, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/12/23/wii-greatness.html"
+                  >Wii Greatness
+                  <span class="entry-date"
+                    ><time datetime="2006-12-23T00:00:00+00:00"
+                      >December 23, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/12/23/church-and-state.html"
+                  >Church and State
+                  <span class="entry-date"
+                    ><time datetime="2006-12-23T00:00:00+00:00"
+                      >December 23, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/10/16/walnut-walnut.html"
+                  >Walnut Walnut
+                  <span class="entry-date"
+                    ><time datetime="2006-10-16T00:00:00+01:00"
+                      >October 16, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/10/07/national-blog.html"
+                  >National Blog
+                  <span class="entry-date"
+                    ><time datetime="2006-10-07T00:00:00+01:00"
+                      >October 07, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/10/05/google-great-again.html"
+                  >Google great - again!
+                  <span class="entry-date"
+                    ><time datetime="2006-10-05T00:00:00+01:00"
+                      >October 05, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/09/27/nabaztag.html"
+                  >Nabaztag
+                  <span class="entry-date"
+                    ><time datetime="2006-09-27T00:00:00+01:00"
+                      >September 27, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/09/27/lost.html"
+                  >Lost?
+                  <span class="entry-date"
+                    ><time datetime="2006-09-27T00:00:00+01:00"
+                      >September 27, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/09/22/america.html"
+                  >America
+                  <span class="entry-date"
+                    ><time datetime="2006-09-22T00:00:00+01:00"
+                      >September 22, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/08/25/we-re-all-going-on-a-summer-holiday.html"
+                  >We're all going on a summer holiday
+                  <span class="entry-date"
+                    ><time datetime="2006-08-25T00:00:00+01:00"
+                      >August 25, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/08/08/summer-school.html"
+                  >Summer school
+                  <span class="entry-date"
+                    ><time datetime="2006-08-08T00:00:00+01:00"
+                      >August 08, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/07/20/hot.html"
+                  >Hot
+                  <span class="entry-date"
+                    ><time datetime="2006-07-20T00:00:00+01:00"
+                      >July 20, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/07/01/random-elephants.html"
+                  >Random Elephants
+                  <span class="entry-date"
+                    ><time datetime="2006-07-01T00:00:00+01:00"
+                      >July 01, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/06/28/moscow-again.html"
+                  >Moscow again
+                  <span class="entry-date"
+                    ><time datetime="2006-06-28T00:00:00+01:00"
+                      >June 28, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/06/15/moscow-observations.html"
+                  >Moscow observations
+                  <span class="entry-date"
+                    ><time datetime="2006-06-15T00:00:00+01:00"
+                      >June 15, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/06/14/moscow.html"
+                  >Moscow
+                  <span class="entry-date"
+                    ><time datetime="2006-06-14T00:00:00+01:00"
+                      >June 14, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/06/13/from-russia-with-love.html"
+                  >From Russia, With Love
+                  <span class="entry-date"
+                    ><time datetime="2006-06-13T00:00:00+01:00"
+                      >June 13, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/06/06/more-googliness.html"
+                  >More Googliness
+                  <span class="entry-date"
+                    ><time datetime="2006-06-06T00:00:00+01:00"
+                      >June 06, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/05/30/another-night-of-music-theory.html"
+                  >Another night of music theory
+                  <span class="entry-date"
+                    ><time datetime="2006-05-30T00:00:00+01:00"
+                      >May 30, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/05/16/project-red.html"
+                  >Project Red
+                  <span class="entry-date"
+                    ><time datetime="2006-05-16T00:00:00+01:00"
+                      >May 16, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/05/03/china-and-hong-kong.html"
+                  >China and Hong Kong
+                  <span class="entry-date"
+                    ><time datetime="2006-05-03T00:00:00+01:00"
+                      >May 03, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+
+            <li>
+              <article>
+                <a href="../2006/04/23/trips-away.html"
+                  >Trips away
+                  <span class="entry-date"
+                    ><time datetime="2006-04-23T00:00:00+01:00"
+                      >April 23, 2006</time
+                    ></span
+                  ></a
+                >
+              </article>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-</div>
-</header>
 
+    <script src="../assets/includes/footer.js"></script>
 
-
-
-
-<div class=" container-md " role="main">
-  <div class="row">
-    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-      
-
-      <ul class="post-list">
- 
-  <li><article><a href="../2026/01/13/nature.html">Britain’s Nature Targets Are Slipping <span class="entry-date"><time datetime="2026-01-13T00:00:00+00:00">January 13, 2026</time></span></a></article></li>
- 
-  <li><article><a href="../2026/01/06/social-housing.html">The Problem of Britain’s Shrinking Social Housing Stock <span class="entry-date"><time datetime="2026-01-06T00:00:00+00:00">January 06, 2026</time></span></a></article></li>
- 
-  <li><article><a href="../2026/01/02/pubs.html">What 2025’s Loss of Local Pubs Tells Us About Policy, Community and a Shifting Economy <span class="entry-date"><time datetime="2026-01-02T00:00:00+00:00">January 02, 2026</time></span></a></article></li>
- 
-  <li><article><a href="../2025/12/26/donations-cap.html">Capping Political Donations Matters for UK Democracy <span class="entry-date"><time datetime="2025-12-26T00:00:00+00:00">December 26, 2025</time></span></a></article></li>
- 
-  <li><article><a href="../2025/12/24/echr.html">Why Leaving the ECHR Would Hurt Us All <span class="entry-date"><time datetime="2025-12-24T00:00:00+00:00">December 24, 2025</time></span></a></article></li>
- 
-  <li><article><a href="../2025/12/23/warm-spaces.html">Warm Spaces - A Symptom of Deep Social Inequality <span class="entry-date"><time datetime="2025-12-23T00:00:00+00:00">December 23, 2025</time></span></a></article></li>
- 
-  <li><article><a href="../2025/11/03/why-the-two-child-benefit-cap.html">Why the two‑child benefit cap is a policy fault‑line in the UK’s fight against child poverty <span class="entry-date"><time datetime="2025-11-03T00:00:00+00:00">November 03, 2025</time></span></a></article></li>
- 
-  <li><article><a href="../2025/07/17/energy-bills-and-net-zero.html">Energy Bills And Net Zero <span class="entry-date"><time datetime="2025-07-17T00:00:00+01:00">July 17, 2025</time></span></a></article></li>
- 
-  <li><article><a href="../2025/01/07/labour-nhs-privatisation.html">Labour Government Paves the Way for Large Scale NHS Privatisation <span class="entry-date"><time datetime="2025-01-07T00:00:00+00:00">January 07, 2025</time></span></a></article></li>
- 
-  <li><article><a href="../2024/12/11/health-ceo.html">The Tragic Consequences of Profit in Healthcare - More Lessons from the U.S. <span class="entry-date"><time datetime="2024-12-11T00:00:00+00:00">December 11, 2024</time></span></a></article></li>
- 
-  <li><article><a href="../2024/12/10/spotify-wrapped.html">Spotify Wrapped <span class="entry-date"><time datetime="2024-12-10T00:00:00+00:00">December 10, 2024</time></span></a></article></li>
- 
-  <li><article><a href="../2024/11/06/trump.html">Trump <span class="entry-date"><time datetime="2024-11-06T00:00:00+00:00">November 06, 2024</time></span></a></article></li>
- 
-  <li><article><a href="../2024/11/01/NHS-privatisation.html">NHS Privatisation in Bath and NE Somerset <span class="entry-date"><time datetime="2024-11-01T00:00:00+00:00">November 01, 2024</time></span></a></article></li>
- 
-  <li><article><a href="../2024/06/06/close-of-nominations.html">By The End of Tomorrow You Will Know Who You Can Vote For. In Bath, One Of Them Will Definitely Be Me <span class="entry-date"><time datetime="2024-06-06T00:00:00+01:00">June 06, 2024</time></span></a></article></li>
- 
-  <li><article><a href="../2024/05/22/sunak-calls-general-election.html">Sunak Calls General Election <span class="entry-date"><time datetime="2024-05-22T00:00:00+01:00">May 22, 2024</time></span></a></article></li>
- 
-  <li><article><a href="../2023/09/21/politicising-climate.html">Politicising Climate - Part of the 'Populist Playbook' <span class="entry-date"><time datetime="2023-09-21T00:00:00+01:00">September 21, 2023</time></span></a></article></li>
- 
-  <li><article><a href="../2023/09/11/dangerous-dogs.html">Dangerous Dogs <span class="entry-date"><time datetime="2023-09-11T00:00:00+01:00">September 11, 2023</time></span></a></article></li>
- 
-  <li><article><a href="../2023/05/26/record-migration-figures.html">Record Migration Figures <span class="entry-date"><time datetime="2023-05-26T00:00:00+01:00">May 26, 2023</time></span></a></article></li>
- 
-  <li><article><a href="../2023/05/09/coronation-protest-arrests.html">Coronation Protest Arrests <span class="entry-date"><time datetime="2023-05-09T00:00:00+01:00">May 09, 2023</time></span></a></article></li>
- 
-  <li><article><a href="../2023/05/05/the-results-are-in.html">Local Elections - The Votes Are In! <span class="entry-date"><time datetime="2023-05-05T00:00:00+01:00">May 05, 2023</time></span></a></article></li>
- 
-  <li><article><a href="../2023/05/04/vote-today.html">Local Elections - Vote Today! <span class="entry-date"><time datetime="2023-05-04T00:00:00+01:00">May 04, 2023</time></span></a></article></li>
- 
-  <li><article><a href="../2023/02/23/15-minute-cities.html">15 Minute Cities and Conspiracy Theories <span class="entry-date"><time datetime="2023-02-23T00:00:00+00:00">February 23, 2023</time></span></a></article></li>
- 
-  <li><article><a href="../2022/12/15/asylum-seeker-drownings.html">Asylum Seeker Drownings And Who Is To Blame <span class="entry-date"><time datetime="2022-12-15T00:00:00+00:00">December 15, 2022</time></span></a></article></li>
- 
-  <li><article><a href="../2022/11/21/cop27-bath-time.html">Interview With 'Bath Time' Magazine on COP27 <span class="entry-date"><time datetime="2022-11-21T00:00:00+00:00">November 21, 2022</time></span></a></article></li>
- 
-  <li><article><a href="../2022/10/31/kent-attack.html">Far Right Terrorist Attack on Kent Refugee Detention Centre <span class="entry-date"><time datetime="2022-10-31T00:00:00+00:00">October 31, 2022</time></span></a></article></li>
- 
-  <li><article><a href="../2022/10/11/despising-tories.html">On Despising What Tories Stand For <span class="entry-date"><time datetime="2022-10-11T00:00:00+01:00">October 11, 2022</time></span></a></article></li>
- 
-  <li><article><a href="../2022/10/10/solar-farms.html">Ban On Solar On Agricultural Land <span class="entry-date"><time datetime="2022-10-10T00:00:00+01:00">October 10, 2022</time></span></a></article></li>
- 
-  <li><article><a href="../2022/10/03/spending-cuts.html">£18bn Spending Cut Announced <span class="entry-date"><time datetime="2022-10-03T00:00:00+01:00">October 03, 2022</time></span></a></article></li>
- 
-  <li><article><a href="../2022/08/23/site-update.html">Web site update <span class="entry-date"><time datetime="2022-08-23T00:00:00+01:00">August 23, 2022</time></span></a></article></li>
- 
-  <li><article><a href="../2019/12/11/voting-guide.html">Impartial Voting Guide, 2019 Edition <span class="entry-date"><time datetime="2019-12-11T00:00:00+00:00">December 11, 2019</time></span></a></article></li>
- 
-  <li><article><a href="../2019/09/24/dangerous-school-crossing-bath-chronicle.html">Dangerous School Crossing - Bath Chronicle <span class="entry-date"><time datetime="2019-09-24T00:00:00+01:00">September 24, 2019</time></span></a></article></li>
- 
-  <li><article><a href="../2019/09/20/youth-strike-for-climate.html">Youth Strike For Climate <span class="entry-date"><time datetime="2019-09-20T00:00:00+01:00">September 20, 2019</time></span></a></article></li>
- 
-  <li><article><a href="../2018/10/22/bath-studio-school.html">Bath Studio School Closure Announced <span class="entry-date"><time datetime="2018-10-22T00:00:00+01:00">October 22, 2018</time></span></a></article></li>
- 
-  <li><article><a href="../2018/06/04/clean-air-in-banes-bbc-report.html">Clean Air in BaNES - Working Together to solve the problem (BBC TV) <span class="entry-date"><time datetime="2018-06-04T00:00:00+01:00">June 04, 2018</time></span></a></article></li>
- 
-  <li><article><a href="../2018/04/09/whogivesacrap.html">Ethical Toilet Paper... or not? <span class="entry-date"><time datetime="2018-04-09T00:00:00+01:00">April 09, 2018</time></span></a></article></li>
- 
-  <li><article><a href="../2018/03/21/facebook-data-harvesting.html">Facebook Data Harvesting <span class="entry-date"><time datetime="2018-03-21T00:00:00+00:00">March 21, 2018</time></span></a></article></li>
- 
-  <li><article><a href="../2018/02/22/ucu-picket.html">UCU Picket - University of Bath <span class="entry-date"><time datetime="2018-02-22T00:00:00+00:00">February 22, 2018</time></span></a></article></li>
- 
-  <li><article><a href="../2018/02/21/bath-tories-slammed-over-food-poverty-views.html">Bath Tories Slammed Over Food Poverty Views <span class="entry-date"><time datetime="2018-02-21T00:00:00+00:00">February 21, 2018</time></span></a></article></li>
- 
-  <li><article><a href="../2018/02/10/labour-tactical-voting.html">Disappointing Spin From Labour <span class="entry-date"><time datetime="2018-02-10T00:00:00+00:00">February 10, 2018</time></span></a></article></li>
- 
-  <li><article><a href="../2017/12/13/labour-and-the-single-market.html">Labour And The Single Market <span class="entry-date"><time datetime="2017-12-13T00:00:00+00:00">December 13, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/12/06/ppc-selection.html">PPC Selection <span class="entry-date"><time datetime="2017-12-06T00:00:00+00:00">December 06, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/10/19/future-city.html">Festival of the Future City <span class="entry-date"><time datetime="2017-10-19T00:00:00+01:00">October 19, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/07/19/bbc-pay.html">BBC Pay <span class="entry-date"><time datetime="2017-07-19T00:00:00+01:00">July 19, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/07/14/nhs-vacancies.html">NHS Vacancies <span class="entry-date"><time datetime="2017-07-14T00:00:00+01:00">July 14, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/06/07/ge-2017.html">General Election 2017 <span class="entry-date"><time datetime="2017-06-07T00:00:00+01:00">June 07, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/05/10/electoral-fraud.html">Money Buys UK Elections <span class="entry-date"><time datetime="2017-05-10T00:00:00+01:00">May 10, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/05/09/hospitalparking.html">Free Hospital Parking <span class="entry-date"><time datetime="2017-05-09T00:00:00+01:00">May 09, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/03/29/article-50.html">Triggering Article 50 <span class="entry-date"><time datetime="2017-03-29T00:00:00+01:00">March 29, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/03/12/tourist-tax.html">Bath Tourist Tax <span class="entry-date"><time datetime="2017-03-12T00:00:00+00:00">March 12, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2017/01/27/may-trump.html">May and Trump <span class="entry-date"><time datetime="2017-01-27T00:00:00+00:00">January 27, 2017</time></span></a></article></li>
- 
-  <li><article><a href="../2016/12/18/metro-mayor.html">Metro Mayor Nomination <span class="entry-date"><time datetime="2016-12-18T00:00:00+00:00">December 18, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/11/21/bca-letter.html">Letter - Bath Community Academy Closure <span class="entry-date"><time datetime="2016-11-21T00:00:00+00:00">November 21, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/11/15/keep-abbey-green.html">Keep Abbey Green <span class="entry-date"><time datetime="2016-11-15T00:00:00+00:00">November 15, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/11/12/virgin-care.html">Virgin Care Awarded BaNES Community Health Contract <span class="entry-date"><time datetime="2016-11-12T00:00:00+00:00">November 12, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/08/18/banes-community-health.html">Virgin Care and BaNES Community Health <span class="entry-date"><time datetime="2016-08-18T00:00:00+01:00">August 18, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/07/18/representation-of-the-people-bill.html">Open Letter to Ben Howlett MP - Support the Representation of the People Bill <span class="entry-date"><time datetime="2016-07-18T00:00:00+01:00">July 18, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/06/24/eu-result.html">Leaving the EU <span class="entry-date"><time datetime="2016-06-24T00:00:00+01:00">June 24, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/06/19/eu-referendum.html">EU Referendum <span class="entry-date"><time datetime="2016-06-19T00:00:00+01:00">June 19, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/05/04/pcc-elections.html">Why You Should Vote in The PCC Election <span class="entry-date"><time datetime="2016-05-04T00:00:00+01:00">May 04, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/03/20/schools-privatisation.html">Forced School Privatisation <span class="entry-date"><time datetime="2016-03-20T00:00:00+00:00">March 20, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/03/11/nhs-reinstatement-bill.html">NHS Reinstatement Bill <span class="entry-date"><time datetime="2016-03-11T00:00:00+00:00">March 11, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/01/19/contempt-for-democracy.html">Tory Contempt for Democracy <span class="entry-date"><time datetime="2016-01-19T00:00:00+00:00">January 19, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/01/15/kier-dispute.html">Kier Recycling Dispute <span class="entry-date"><time datetime="2016-01-15T00:00:00+00:00">January 15, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/01/13/housing.html">Housing Bill <span class="entry-date"><time datetime="2016-01-13T00:00:00+00:00">January 13, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2016/01/09/fracking-permission.html">Fracking Planning Permission Relaxation <span class="entry-date"><time datetime="2016-01-09T00:00:00+00:00">January 09, 2016</time></span></a></article></li>
- 
-  <li><article><a href="../2015/12/28/new-year-message.html">New Year Message <span class="entry-date"><time datetime="2015-12-28T00:00:00+00:00">December 28, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/12/17/fracking-vote-letter.html">Letter - Fracking vote <span class="entry-date"><time datetime="2015-12-17T00:00:00+00:00">December 17, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/12/09/hayesfield-politics.html">Hayesfield A-Level Politics Talk <span class="entry-date"><time datetime="2015-12-09T00:00:00+00:00">December 09, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/11/30/syria-airstrikes.html">Syria Air Strikes Vote <span class="entry-date"><time datetime="2015-11-30T00:00:00+00:00">November 30, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/11/09/rip-bill-letter.html">Letter - Regulation of Investigatory Powers Bill <span class="entry-date"><time datetime="2015-11-09T00:00:00+00:00">November 09, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/09/22/corbyn.html">Corbyn <span class="entry-date"><time datetime="2015-09-22T00:00:00+01:00">September 22, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/09/14/trade-union-bill.html">Trade Union Bill <span class="entry-date"><time datetime="2015-09-14T00:00:00+01:00">September 14, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/07/09/budget.html">July 2015 Budget Response <span class="entry-date"><time datetime="2015-07-09T00:00:00+01:00">July 09, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/07/01/nhs-reinstatement-bill.html">NHS Reinstatement Bill Letter <span class="entry-date"><time datetime="2015-07-01T00:00:00+01:00">July 01, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/05/10/election-analysis.html">Election Result and Analysis <span class="entry-date"><time datetime="2015-05-10T00:00:00+01:00">May 10, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/05/05/vote-for-hope.html">Vote for hope on Thursday <span class="entry-date"><time datetime="2015-05-05T00:00:00+01:00">May 05, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/05/04/cameron-in-bath.html">Cameron in Bath <span class="entry-date"><time datetime="2015-05-04T00:00:00+01:00">May 04, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/04/30/somer-valley-hustings.html">Somer Valley FM hustings <span class="entry-date"><time datetime="2015-04-30T00:00:00+01:00">April 30, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/04/29/bbc-points-west-debate.html">BBC Points West Debate <span class="entry-date"><time datetime="2015-04-29T00:00:00+01:00">April 29, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/04/27/bath-spa-uni-hustings.html">Bath Spa University hustings <span class="entry-date"><time datetime="2015-04-27T00:00:00+01:00">April 27, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/04/24/copyright.html">A Note on Copyright <span class="entry-date"><time datetime="2015-04-24T00:00:00+01:00">April 24, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/04/22/hayesfield-hustings.html">Hayesfield School hustings <span class="entry-date"><time datetime="2015-04-22T00:00:00+01:00">April 22, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/04/14/manifesto-launch.html">Manifesto Launch <span class="entry-date"><time datetime="2015-04-14T00:00:00+01:00">April 14, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/04/01/final-sprint.html">The Final Sprint <span class="entry-date"><time datetime="2015-04-01T00:00:00+01:00">April 01, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/03/28/bath-university.html">Bath and Beyond at Bath University <span class="entry-date"><time datetime="2015-03-28T00:00:00+00:00">March 28, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/03/27/st-andrews-school.html">St Andrew's Primary School Mock Election <span class="entry-date"><time datetime="2015-03-27T00:00:00+00:00">March 27, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/03/25/carers-centre.html">Carers Centre Hustings <span class="entry-date"><time datetime="2015-03-25T00:00:00+00:00">March 25, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/03/24/bath-college-hustings.html">Bath College Hustings <span class="entry-date"><time datetime="2015-03-24T00:00:00+00:00">March 24, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2015/01/01/new-year-message.html">New Year Message <span class="entry-date"><time datetime="2015-01-01T00:00:00+00:00">January 01, 2015</time></span></a></article></li>
- 
-  <li><article><a href="../2014/12/06/demo-for-free-education.html">Free Education Demo <span class="entry-date"><time datetime="2014-12-06T00:00:00+00:00">December 06, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/12/05/small-business-saturday.html">Small Business Saturday <span class="entry-date"><time datetime="2014-12-05T00:00:00+00:00">December 05, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/11/05/wealth-tax.html">Letter - Wealth Tax <span class="entry-date"><time datetime="2014-11-05T00:00:00+00:00">November 05, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/11/01/bath-poverty.html">Letter - Child Poverty in Bath <span class="entry-date"><time datetime="2014-11-01T00:00:00+00:00">November 01, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/10/13/nhs-strike.html">NHS Strikes <span class="entry-date"><time datetime="2014-10-13T00:00:00+01:00">October 13, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/09/28/iraq-bombing.html">Iraq Bombing Vote letter <span class="entry-date"><time datetime="2014-09-28T00:00:00+01:00">September 28, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/09/15/scottish-referendum.html">Scottish Referendum <span class="entry-date"><time datetime="2014-09-15T00:00:00+01:00">September 15, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/08/02/gaza.html">Gaza <span class="entry-date"><time datetime="2014-08-02T00:00:00+01:00">August 02, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/07/19/drip-bill.html">Data Regulation and Investigatory Powers Bill <span class="entry-date"><time datetime="2014-07-19T00:00:00+01:00">July 19, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/07/10/strikes.html">Public Sector Strikes <span class="entry-date"><time datetime="2014-07-10T00:00:00+01:00">July 10, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/07/09/glastonbury-roundup.html">Glastonbury 2014 Roundup <span class="entry-date"><time datetime="2014-07-09T00:00:00+01:00">July 09, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/06/19/euro-vote-result.html">Thoughts On The European Election and What It Means For Bath <span class="entry-date"><time datetime="2014-06-19T00:00:00+01:00">June 19, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/05/26/euro-vote-result-letter.html">Letter on Election of First Green MEP in the SW, Molly Scott Cato <span class="entry-date"><time datetime="2014-05-26T00:00:00+01:00">May 26, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/05/21/european-election.html">European Election <span class="entry-date"><time datetime="2014-05-21T00:00:00+01:00">May 21, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/03/28/new-look.html">New Look <span class="entry-date"><time datetime="2014-03-28T00:00:00+00:00">March 28, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/03/13/selection.html">PPC Selection <span class="entry-date"><time datetime="2014-03-13T00:00:00+00:00">March 13, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2014/01/22/gagging-law.html">Gagging Law <span class="entry-date"><time datetime="2014-01-22T00:00:00+00:00">January 22, 2014</time></span></a></article></li>
- 
-  <li><article><a href="../2013/07/22/internet-censorship.html">Internet Censorship <span class="entry-date"><time datetime="2013-07-22T00:00:00+01:00">July 22, 2013</time></span></a></article></li>
- 
-  <li><article><a href="../2013/07/10/royal-mail-privatisation.html">Royal Mail Privatisation <span class="entry-date"><time datetime="2013-07-10T00:00:00+01:00">July 10, 2013</time></span></a></article></li>
- 
-  <li><article><a href="../2013/07/04/nhs-charges-for-visitors.html">NHS Charges for Foreign Visitors <span class="entry-date"><time datetime="2013-07-04T00:00:00+01:00">July 04, 2013</time></span></a></article></li>
- 
-  <li><article><a href="../2013/03/20/budget.html">The Budget <span class="entry-date"><time datetime="2013-03-20T00:00:00+00:00">March 20, 2013</time></span></a></article></li>
- 
-  <li><article><a href="../2013/03/11/the-true-face-of-ukip.html">The Truth Behind UKIP <span class="entry-date"><time datetime="2013-03-11T00:00:00+00:00">March 11, 2013</time></span></a></article></li>
- 
-  <li><article><a href="../2013/02/06/gay-marriage.html">Gay Marriage <span class="entry-date"><time datetime="2013-02-06T00:00:00+00:00">February 06, 2013</time></span></a></article></li>
- 
-  <li><article><a href="../2013/01/06/privatised-nhs-deaths.html">NHS Privatisation - More Deaths <span class="entry-date"><time datetime="2013-01-06T00:00:00+00:00">January 06, 2013</time></span></a></article></li>
- 
-  <li><article><a href="../2012/11/03/police-crime-commissioners.html">Police Commissioners - To Vote or Not to Vote? <span class="entry-date"><time datetime="2012-11-03T00:00:00+00:00">November 03, 2012</time></span></a></article></li>
- 
-  <li><article><a href="../2012/10/26/gary-mckinnon.html">The Troubling Case of Gary McKinnon <span class="entry-date"><time datetime="2012-10-26T00:00:00+01:00">October 26, 2012</time></span></a></article></li>
- 
-  <li><article><a href="../2012/09/16/nhs-vultures.html">NHS Vultures <span class="entry-date"><time datetime="2012-09-16T00:00:00+01:00">September 16, 2012</time></span></a></article></li>
- 
-  <li><article><a href="../2012/04/02/big-brother.html">Big Brother <span class="entry-date"><time datetime="2012-04-02T00:00:00+01:00">April 02, 2012</time></span></a></article></li>
- 
-  <li><article><a href="../2012/03/01/ignored-epetitions.html">Cameron's 'Big Society', and how he ignores it <span class="entry-date"><time datetime="2012-03-01T00:00:00+00:00">March 01, 2012</time></span></a></article></li>
- 
-  <li><article><a href="../2012/01/05/rail-fare-increase.html">New Year Rail Fare Increases <span class="entry-date"><time datetime="2012-01-05T00:00:00+00:00">January 05, 2012</time></span></a></article></li>
- 
-  <li><article><a href="../2011/12/08/cameron-in-europe.html">Cameron in Europe <span class="entry-date"><time datetime="2011-12-08T00:00:00+00:00">December 08, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/12/07/private-maternity.html">Privatisation of NHS Maternity Services <span class="entry-date"><time datetime="2011-12-07T00:00:00+00:00">December 07, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/11/24/nhs-oecd-report.html">Government Document Admits to NHS Privatisation <span class="entry-date"><time datetime="2011-11-24T00:00:00+00:00">November 24, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/11/21/letter-to-paper-about-circle.html">Letter To The Bath Chronicle About the NHS Changes and Circle <span class="entry-date"><time datetime="2011-11-21T00:00:00+00:00">November 21, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/11/15/circle-nhs-takeover.html">Circle's NHS Takeover <span class="entry-date"><time datetime="2011-11-15T00:00:00+00:00">November 15, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/11/09/nhs-efficiency.html">NHS Efficiency <span class="entry-date"><time datetime="2011-11-09T00:00:00+00:00">November 09, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/10/06/rip-steve-jobs.html">RIP Steve Jobs <span class="entry-date"><time datetime="2011-10-06T00:00:00+01:00">October 06, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/10/04/planning-laws.html">Planning Laws <span class="entry-date"><time datetime="2011-10-04T00:00:00+01:00">October 04, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/10/03/motorway-speed-limits.html">Motorway Speed Limits <span class="entry-date"><time datetime="2011-10-03T00:00:00+01:00">October 03, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/09/15/health-and-social-care-bill-reply.html">Reply To Letter About Health Bill From Don Foster MP <span class="entry-date"><time datetime="2011-09-15T00:00:00+01:00">September 15, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/09/06/health-and-social-care-bill.html">Open Letter To Don Foster MP About The Health and Social Care Bill <span class="entry-date"><time datetime="2011-09-06T00:00:00+01:00">September 06, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/07/29/dying-in-waiting-lists.html">Minimum Waiting Times, Deaths and Spin <span class="entry-date"><time datetime="2011-07-29T00:00:00+01:00">July 29, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/04/24/elections.html">Election <span class="entry-date"><time datetime="2011-04-24T00:00:00+01:00">April 24, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/04/14/bin-collection-fines-stopped.html">Bin Charges and the Big Society <span class="entry-date"><time datetime="2011-04-14T00:00:00+01:00">April 14, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2011/03/12/blog-moved-to-jekyll.html">Blog moved to Jekyll <span class="entry-date"><time datetime="2011-03-12T00:00:00+00:00">March 12, 2011</time></span></a></article></li>
- 
-  <li><article><a href="../2010/06/08/recycling-and-charging.html">Recycling and Charging <span class="entry-date"><time datetime="2010-06-08T00:00:00+01:00">June 08, 2010</time></span></a></article></li>
- 
-  <li><article><a href="../2008/07/09/glasto-2008.html">Glastonbury 2008 Roundup <span class="entry-date"><time datetime="2008-07-09T00:00:00+01:00">July 09, 2008</time></span></a></article></li>
- 
-  <li><article><a href="../2008/04/14/gm-crops.html">GM crops <span class="entry-date"><time datetime="2008-04-14T00:00:00+01:00">April 14, 2008</time></span></a></article></li>
- 
-  <li><article><a href="../2008/04/08/glasto.html">Glasto <span class="entry-date"><time datetime="2008-04-08T00:00:00+01:00">April 08, 2008</time></span></a></article></li>
- 
-  <li><article><a href="../2008/03/31/2008.html">2008 <span class="entry-date"><time datetime="2008-03-31T00:00:00+01:00">March 31, 2008</time></span></a></article></li>
- 
-  <li><article><a href="../2007/12/16/festive-food.html">Festive Food <span class="entry-date"><time datetime="2007-12-16T00:00:00+00:00">December 16, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/12/04/green-christmas.html">Green Christmas <span class="entry-date"><time datetime="2007-12-04T00:00:00+00:00">December 04, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/11/30/the-future-of-genomics.html">The Future of Genomics <span class="entry-date"><time datetime="2007-11-30T00:00:00+00:00">November 30, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/11/14/sql-server-argh.html">SQL Server - argh! <span class="entry-date"><time datetime="2007-11-14T00:00:00+00:00">November 14, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/11/04/routemasters-and-shibboleth.html">Routemasters and Shibboleth <span class="entry-date"><time datetime="2007-11-04T00:00:00+00:00">November 04, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/11/01/bath-film-festival.html">Bath Film Festival <span class="entry-date"><time datetime="2007-11-01T00:00:00+00:00">November 01, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/10/29/running-madness.html">Running madness <span class="entry-date"><time datetime="2007-10-29T00:00:00+00:00">October 29, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/10/10/inheritance-tax.html">Inheritance Tax <span class="entry-date"><time datetime="2007-10-10T00:00:00+01:00">October 10, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/09/28/bibcursed-bug-fixes.html">Bibcursed bug fixes <span class="entry-date"><time datetime="2007-09-28T00:00:00+01:00">September 28, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/09/03/green-taxes-making-billions-or-not.html">Green Taxes 'Making Billions'. Or not. <span class="entry-date"><time datetime="2007-09-03T00:00:00+01:00">September 03, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/08/15/festivals-ahoy.html">Festivals Ahoy <span class="entry-date"><time datetime="2007-08-15T00:00:00+01:00">August 15, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/08/13/less-privacy-more-work.html">Less privacy, more work <span class="entry-date"><time datetime="2007-08-13T00:00:00+01:00">August 13, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/07/24/trains-transport-and-money.html">Trains, transport and money <span class="entry-date"><time datetime="2007-07-24T00:00:00+01:00">July 24, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/07/03/convicted-traitor-no-jail-for-you.html">Convicted Traitor? No jail for you! <span class="entry-date"><time datetime="2007-07-03T00:00:00+01:00">July 03, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/07/01/religious-exemptions.html">Religious Exemptions <span class="entry-date"><time datetime="2007-07-01T00:00:00+01:00">July 01, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/06/25/glastonbury-roundup.html">Glastonbury 2007 Roundup <span class="entry-date"><time datetime="2007-06-25T00:00:00+01:00">June 25, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/06/19/honours-and-dodgy-peers.html">Honours and Dodgy Peers <span class="entry-date"><time datetime="2007-06-19T00:00:00+01:00">June 19, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/06/15/embracing-facebook.html">Embracing Facebook <span class="entry-date"><time datetime="2007-06-15T00:00:00+01:00">June 15, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/06/11/hot-vegans-almost.html">Hot Vegans, Almost <span class="entry-date"><time datetime="2007-06-11T00:00:00+01:00">June 11, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/06/06/girls-geeks-google.html">Girls, Geeks, Google <span class="entry-date"><time datetime="2007-06-06T00:00:00+01:00">June 06, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/06/05/developers-developers-developers.html">Developers Developers Developers! <span class="entry-date"><time datetime="2007-06-05T00:00:00+01:00">June 05, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/05/31/isn-t-the-internet-brilliant.html">Isn't The Internet Brilliant? <span class="entry-date"><time datetime="2007-05-31T00:00:00+01:00">May 31, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/05/17/spiderman-goya-and-leaves-of-glass.html">Spiderman, Goya and Leaves of Glass <span class="entry-date"><time datetime="2007-05-17T00:00:00+01:00">May 17, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/04/29/slackademic.html">Slackademic <span class="entry-date"><time datetime="2007-04-29T00:00:00+01:00">April 29, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/04/29/geeking-out.html">Geeking Out <span class="entry-date"><time datetime="2007-04-29T00:00:00+01:00">April 29, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/04/18/new-job.html">New Job <span class="entry-date"><time datetime="2007-04-18T00:00:00+01:00">April 18, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/04/10/eyejot.html">Eyejot <span class="entry-date"><time datetime="2007-04-10T00:00:00+01:00">April 10, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/04/04/lunch-with-simon-hughes.html">Lunch With Simon Hughes <span class="entry-date"><time datetime="2007-04-04T00:00:00+01:00">April 04, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/04/02/the-death-of-drm-and-wma.html">The death of DRM.. and WMA? <span class="entry-date"><time datetime="2007-04-02T00:00:00+01:00">April 02, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/03/22/budget.html">Budget <span class="entry-date"><time datetime="2007-03-22T00:00:00+00:00">March 22, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/03/20/crowded-house.html">Crowded House, Thekla, Bristol <span class="entry-date"><time datetime="2007-03-20T00:00:00+00:00">March 20, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/03/14/back.html">Back <span class="entry-date"><time datetime="2007-03-14T00:00:00+00:00">March 14, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/03/06/it-is-considered-disgusting-to-blow-your-nose-in-public.html">It Is Considered Disgusting To Blow Your Nose In Public <span class="entry-date"><time datetime="2007-03-06T00:00:00+00:00">March 06, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/03/02/woo-another-weekend.html">Woo - another weekend! <span class="entry-date"><time datetime="2007-03-02T00:00:00+00:00">March 02, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/02/25/first-weekend-in-tokyo.html">First Weekend in Tokyo <span class="entry-date"><time datetime="2007-02-25T00:00:00+00:00">February 25, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/02/21/big-in-japan.html">Big In Japan <span class="entry-date"><time datetime="2007-02-21T00:00:00+00:00">February 21, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/02/13/wind-farms-don-t-kill-many-birds-fact.html">Wind Farms Don't Kill (many) Birds. Fact. <span class="entry-date"><time datetime="2007-02-13T00:00:00+00:00">February 13, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/02/13/the-bnp-lie-there-s-a-surprise.html">The BNP lie - there's a surprise. <span class="entry-date"><time datetime="2007-02-13T00:00:00+00:00">February 13, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/02/13/billie-is-a-treat.html">Billie is a Treat <span class="entry-date"><time datetime="2007-02-13T00:00:00+00:00">February 13, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/02/06/hot-fuzz.html">Hot Fuzz <span class="entry-date"><time datetime="2007-02-06T00:00:00+00:00">February 06, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/02/02/the-most-fantastic-alarm-clock-ever.html">The Most Fantastic Alarm Clock Ever <span class="entry-date"><time datetime="2007-02-02T00:00:00+00:00">February 02, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/31/vista-will-steal-your-rights-then-destroy-the-world.html">Vista Will Steal Your Rights, Then Destroy The World <span class="entry-date"><time datetime="2007-01-31T00:00:00+00:00">January 31, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/30/ha-nice-one-bill.html">Ha! Nice One, Bill... <span class="entry-date"><time datetime="2007-01-30T00:00:00+00:00">January 30, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/25/labyrinthine-pleasures.html">Labyrinthine Pleasures <span class="entry-date"><time datetime="2007-01-25T00:00:00+00:00">January 25, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/23/who-would-tell-us-what-to-hate-if-it-wasn-t-for-the-daily-mail.html">Who would tell us what to hate if it wasn't for the Daily Mail? <span class="entry-date"><time datetime="2007-01-23T00:00:00+00:00">January 23, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/23/bbc-on-demand.html">BBC On Demand <span class="entry-date"><time datetime="2007-01-23T00:00:00+00:00">January 23, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/22/vista-and-drm.html">Vista and DRM <span class="entry-date"><time datetime="2007-01-22T00:00:00+00:00">January 22, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/22/pfi-deals-and-the-nhs.html">PFI Deals and the NHS <span class="entry-date"><time datetime="2007-01-22T00:00:00+00:00">January 22, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/15/the-joys-of-heathrow-and-the-lack-of-them-in-uganda.html">The Joys of Heathrow, and the lack of them in Uganda <span class="entry-date"><time datetime="2007-01-15T00:00:00+00:00">January 15, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/12/slingbox.html">Slingbox <span class="entry-date"><time datetime="2007-01-12T00:00:00+00:00">January 12, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/09/macworld.html">Macworld <span class="entry-date"><time datetime="2007-01-09T00:00:00+00:00">January 09, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/07/on-osx-and-vista.html">On OSX and Vista <span class="entry-date"><time datetime="2007-01-07T00:00:00+00:00">January 07, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/05/wind-farms.html">Wind farms <span class="entry-date"><time datetime="2007-01-05T00:00:00+00:00">January 05, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/05/win.html">Win <span class="entry-date"><time datetime="2007-01-05T00:00:00+00:00">January 05, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/04/water.html">Water <span class="entry-date"><time datetime="2007-01-04T00:00:00+00:00">January 04, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/03/this-life.html">This Life <span class="entry-date"><time datetime="2007-01-03T00:00:00+00:00">January 03, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2007/01/02/2007-tech-predictions.html">2007 Tech Predictions <span class="entry-date"><time datetime="2007-01-02T00:00:00+00:00">January 02, 2007</time></span></a></article></li>
- 
-  <li><article><a href="../2006/12/31/saddam-hussein.html">Saddam Hussein <span class="entry-date"><time datetime="2006-12-31T00:00:00+00:00">December 31, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/12/25/christmas.html">Christmas <span class="entry-date"><time datetime="2006-12-25T00:00:00+00:00">December 25, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/12/23/wii-greatness.html">Wii Greatness <span class="entry-date"><time datetime="2006-12-23T00:00:00+00:00">December 23, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/12/23/church-and-state.html">Church and State <span class="entry-date"><time datetime="2006-12-23T00:00:00+00:00">December 23, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/10/16/walnut-walnut.html">Walnut Walnut <span class="entry-date"><time datetime="2006-10-16T00:00:00+01:00">October 16, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/10/07/national-blog.html">National Blog <span class="entry-date"><time datetime="2006-10-07T00:00:00+01:00">October 07, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/10/05/google-great-again.html">Google great - again! <span class="entry-date"><time datetime="2006-10-05T00:00:00+01:00">October 05, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/09/27/nabaztag.html">Nabaztag <span class="entry-date"><time datetime="2006-09-27T00:00:00+01:00">September 27, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/09/27/lost.html">Lost? <span class="entry-date"><time datetime="2006-09-27T00:00:00+01:00">September 27, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/09/22/america.html">America <span class="entry-date"><time datetime="2006-09-22T00:00:00+01:00">September 22, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/08/25/we-re-all-going-on-a-summer-holiday.html">We're all going on a summer holiday <span class="entry-date"><time datetime="2006-08-25T00:00:00+01:00">August 25, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/08/08/summer-school.html">Summer school <span class="entry-date"><time datetime="2006-08-08T00:00:00+01:00">August 08, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/07/20/hot.html">Hot <span class="entry-date"><time datetime="2006-07-20T00:00:00+01:00">July 20, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/07/01/random-elephants.html">Random Elephants <span class="entry-date"><time datetime="2006-07-01T00:00:00+01:00">July 01, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/06/28/moscow-again.html">Moscow again <span class="entry-date"><time datetime="2006-06-28T00:00:00+01:00">June 28, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/06/15/moscow-observations.html">Moscow observations <span class="entry-date"><time datetime="2006-06-15T00:00:00+01:00">June 15, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/06/14/moscow.html">Moscow <span class="entry-date"><time datetime="2006-06-14T00:00:00+01:00">June 14, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/06/13/from-russia-with-love.html">From Russia, With Love <span class="entry-date"><time datetime="2006-06-13T00:00:00+01:00">June 13, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/06/06/more-googliness.html">More Googliness <span class="entry-date"><time datetime="2006-06-06T00:00:00+01:00">June 06, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/05/30/another-night-of-music-theory.html">Another night of music theory <span class="entry-date"><time datetime="2006-05-30T00:00:00+01:00">May 30, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/05/16/project-red.html">Project Red <span class="entry-date"><time datetime="2006-05-16T00:00:00+01:00">May 16, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/05/03/china-and-hong-kong.html">China and Hong Kong <span class="entry-date"><time datetime="2006-05-03T00:00:00+01:00">May 03, 2006</time></span></a></article></li>
- 
-  <li><article><a href="../2006/04/23/trips-away.html">Trips away <span class="entry-date"><time datetime="2006-04-23T00:00:00+01:00">April 23, 2006</time></span></a></article></li>
-
-</ul>
-
-
-      
-
-      
-
-    </div>
-  </div>
-</div>
-
-
-  <script src="../assets/includes/footer.js"></script>
-    
-      <script defer src="../assets/js/site.js"></script>
-    
-  
-
-
-
-
-
-
-
-
-
-</body>
+    <script defer src="../assets/js/site.js"></script>
+  </body>
 </html>
